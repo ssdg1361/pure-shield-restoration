@@ -1,0 +1,237 @@
+{{ define "head" }}{{ partial "schema-home.html" . }}{{ end }}
+{{ define "main" }}
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <span class="eyebrow"><span class="pulse"></span> Boca Raton · Palm Beach · Broward · Miami-Dade</span>
+      <h1>Water, mold, or fire damage?<br><em>We're on it — 24/7.</em></h1>
+      <p class="lede">Certified, licensed restoration techs across South Florida. Fast response, honest pricing, and we handle the insurance paperwork. We restore your home like nothing ever happened.</p>
+      <div class="hero-cta">
+        <a href="tel:{{ .Site.Params.phoneRaw }}" class="btn btn-emergency">
+          <span class="dot"></span> Call {{ .Site.Params.phone }}
+        </a>
+        <a href="#contact" class="btn btn-ghost">Request a free inspection</a>
+      </div>
+      <ul class="hero-trust">
+        <li>✓ 24/7 emergency response</li>
+        <li>✓ Licensed &amp; insured</li>
+        <li>✓ Insurance claims welcome</li>
+      </ul>
+    </div>
+    <div class="hero-card">
+      <div class="hero-card-head">
+        <span class="pulse"></span> Emergency? Don't wait.
+      </div>
+      <p>Water spreads in minutes and mold can start within 24–48 hours. The faster we get there, the less it costs you.</p>
+      <a href="tel:{{ .Site.Params.phoneRaw }}" class="hero-card-call">{{ .Site.Params.phone }}</a>
+      <span class="hero-card-note">Live response, day or night.</span>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <span>Boca Raton</span><span>Delray Beach</span><span>Deerfield Beach</span><span>Boynton Beach</span><span>Pompano Beach</span><span>Fort Lauderdale</span><span>West Palm Beach</span><span>Coral Springs</span><span>Boca Raton</span><span>Delray Beach</span><span>Deerfield Beach</span><span>Boynton Beach</span><span>Pompano Beach</span><span>Fort Lauderdale</span><span>West Palm Beach</span><span>Coral Springs</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section id="services" class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">[ What we do ]</span>
+      <h2>Full-service damage restoration</h2>
+      <p>One certified team for every step — from the first emergency call to the final walkthrough.</p>
+    </div>
+    <div class="services-grid">
+      <article class="service-card">
+        <div class="svc-num">01</div>
+        <h3>Water Damage Restoration</h3>
+        <p>Burst pipes, leaks, storm flooding. We extract water, dry the structure with industrial equipment, and stop damage before it spreads.</p>
+      </article>
+      <article class="service-card">
+        <div class="svc-num">02</div>
+        <h3>Mold Remediation</h3>
+        <p>We find the source, contain it, and remove mold safely with HEPA filtration and negative-air containment — then keep it from coming back.</p>
+      </article>
+      <article class="service-card">
+        <div class="svc-num">03</div>
+        <h3>Fire &amp; Smoke Damage</h3>
+        <p>Soot, char, and smoke odor removal plus structural cleanup, so your home is safe, clean, and livable again.</p>
+      </article>
+      <article class="service-card">
+        <div class="svc-num">04</div>
+        <h3>Leak Detection &amp; Repair</h3>
+        <p>Advanced tools locate hidden leaks fast — before they turn into a much bigger, much more expensive problem.</p>
+      </article>
+      <article class="service-card">
+        <div class="svc-num">05</div>
+        <h3>Odor Removal</h3>
+        <p>High-efficiency ozone and antimicrobial treatments eliminate odors from mold, smoke, and water at the source — not just a cover-up.</p>
+      </article>
+      <article class="service-card svc-emergency">
+        <div class="svc-num">24/7</div>
+        <h3>Emergency Drying &amp; Board-Up</h3>
+        <p>Live response any hour. We tarp, board up, and start drying immediately to protect your property the moment disaster strikes.</p>
+        <a href="tel:{{ .Site.Params.phoneRaw }}" class="svc-call">Call now →</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section id="why" class="section section-dark">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">[ Why Pure Shield ]</span>
+      <h2>Why homeowners across South Florida trust us</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item">
+        <h3>Certified &amp; experienced</h3>
+        <p>Trained, licensed, and insured technicians who handle every restoration challenge safely and to standard.</p>
+      </div>
+      <div class="why-item">
+        <h3>Fast response times</h3>
+        <p>Emergencies can't wait. We move quickly to stop the damage and start restoring right away.</p>
+      </div>
+      <div class="why-item">
+        <h3>We handle insurance</h3>
+        <p>We document everything and work directly with your insurance company so the claim is one less thing on you.</p>
+      </div>
+      <div class="why-item">
+        <h3>Honest, transparent pricing</h3>
+        <p>No hidden costs or confusing terms — just clear communication and results you can count on.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section id="process" class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">[ How it works ]</span>
+      <h2>From disaster to done in four steps</h2>
+    </div>
+    <ol class="process">
+      <li><span class="step">1</span><h3>Call us</h3><p>Reach a real person 24/7. We dispatch fast.</p></li>
+      <li><span class="step">2</span><h3>Inspect &amp; contain</h3><p>We assess the damage, stop the spread, and document everything for insurance.</p></li>
+      <li><span class="step">3</span><h3>Restore</h3><p>Dry, clean, remediate, and rebuild with professional-grade equipment.</p></li>
+      <li><span class="step">4</span><h3>Peace of mind</h3><p>A final walkthrough — your home, restored like nothing happened.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- AREAS -->
+<section id="areas" class="section section-band">
+  <div class="container areas-inner">
+    <div>
+      <span class="kicker">[ Service area ]</span>
+      <h2>Serving all of South Florida</h2>
+      <p>Based in Boca Raton, covering Palm Beach, Broward, and Miami-Dade counties.</p>
+      <a href="tel:{{ .Site.Params.phoneRaw }}" class="btn btn-emergency"><span class="dot"></span> Call {{ .Site.Params.phone }}</a>
+    </div>
+    <ul class="areas-list">
+      <li>Boca Raton</li><li>Delray Beach</li><li>Deerfield Beach</li><li>Boynton Beach</li>
+      <li>Pompano Beach</li><li>Fort Lauderdale</li><li>West Palm Beach</li><li>Coral Springs</li>
+      <li>Parkland</li><li>Wellington</li><li>Jupiter</li><li>Miami-Dade</li>
+    </ul>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section id="reviews" class="section">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">[ Reviews ]</span>
+      <h2>Don't just take our word for it</h2>
+    </div>
+    <div class="reviews-grid">
+      <blockquote class="review">
+        <div class="stars">★★★★★</div>
+        <p>"From the first call to the final walkthrough, the team was professional, punctual, and thorough. My home feels safe and clean again — highly recommend."</p>
+        <cite>Sarah M. · Homeowner</cite>
+      </blockquote>
+      <blockquote class="review">
+        <div class="stars">★★★★★</div>
+        <p>"They responded to my emergency fast, explained every step, and made sure the property was fully restored. The attention to detail was top-notch."</p>
+        <cite>James T. · Property Manager</cite>
+      </blockquote>
+      <blockquote class="review">
+        <div class="stars">★★★★★</div>
+        <p>"Honest, fair, and they handled the insurance side for me. Made a stressful situation a whole lot easier."</p>
+        <cite>Boca Raton Homeowner</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section section-dark">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">[ FAQ ]</span>
+      <h2>Questions, answered</h2>
+    </div>
+    <div class="faq">
+      <details>
+        <summary>How fast can you respond to an emergency?</summary>
+        <p>We offer 24/7 emergency response across South Florida and aim to be on-site as fast as possible — because with water and mold, every hour counts.</p>
+      </details>
+      <details>
+        <summary>Do you work with insurance companies?</summary>
+        <p>Yes. We document the damage thoroughly and work directly with your insurance provider to make the claims process as smooth as possible.</p>
+      </details>
+      <details>
+        <summary>Are you licensed and insured?</summary>
+        <p>Absolutely. Pure Shield Restoration is fully licensed and insured, and our technicians are trained and certified.</p>
+      </details>
+      <details>
+        <summary>Do you offer free inspections?</summary>
+        <p>Yes — we provide free inspections and honest, upfront estimates with no hidden costs.</p>
+      </details>
+      <details>
+        <summary>What areas do you serve?</summary>
+        <p>We're based in Boca Raton and serve Palm Beach, Broward, and Miami-Dade counties, including Delray Beach, Deerfield Beach, Boynton Beach, Fort Lauderdale, and surrounding communities.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section section-cta">
+  <div class="container cta-inner">
+    <div class="cta-copy">
+      <span class="kicker">[ Get help now ]</span>
+      <h2>Request a free inspection</h2>
+      <p>Tell us what's going on and we'll get right back to you. For active emergencies, call — we answer 24/7.</p>
+      <a href="tel:{{ .Site.Params.phoneRaw }}" class="cta-phone">{{ .Site.Params.phone }}</a>
+    </div>
+    <!-- TODO: set the Formspree endpoint below (formspree.io) or wire to your form handler -->
+    <form class="lead-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <label>Name<input type="text" name="name" required></label>
+      <label>Phone<input type="tel" name="phone" required></label>
+      <label>Email<input type="email" name="email"></label>
+      <label>What's going on?
+        <select name="service">
+          <option>Water damage</option>
+          <option>Mold</option>
+          <option>Fire / smoke</option>
+          <option>Leak detection</option>
+          <option>Odor removal</option>
+          <option>Other / not sure</option>
+        </select>
+      </label>
+      <label class="full">Details<textarea name="details" rows="3"></textarea></label>
+      <button type="submit" class="btn btn-emergency full">Request inspection</button>
+      <p class="form-note">Prefer to talk? Call {{ .Site.Params.phone }} — live, 24/7.</p>
+    </form>
+  </div>
+</section>
+
+{{ end }}

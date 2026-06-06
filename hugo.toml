@@ -1,0 +1,28 @@
+baseURL = "https://ssdg1361.github.io/pure-shield-restoration/"
+languageCode = "en-us"
+title = "Pure Shield Restoration | Water, Mold & Fire Damage Restoration | Boca Raton & South Florida"
+
+[params]
+  description = "Pure Shield Restoration — 24/7 water, mold, and fire damage restoration in Boca Raton, Delray Beach, Deerfield Beach and across Palm Beach, Broward & Miami-Dade. Certified technicians, fast response, insurance claims welcome. Call (561) 583-6375."
+  phone = "(561) 583-6375"
+  phoneRaw = "5615836375"
+  location = "Boca Raton, FL"
+  serviceArea = "Palm Beach, Broward & Miami-Dade"
+
+[menu]
+  [[menu.main]]
+    name = "Services"
+    url = "/#services"
+    weight = 1
+  [[menu.main]]
+    name = "Why Us"
+    url = "/#why"
+    weight = 2
+  [[menu.main]]
+    name = "Areas"
+    url = "/#areas"
+    weight = 3
+  [[menu.main]]
+    name = "FAQ"
+    url = "/#faq"
+    weight = 4

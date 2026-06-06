@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | Pure Shield Restoration{{ end }}</title>
+  <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="theme-color" content="#0a1622">
+  <link rel="canonical" href="{{ .Permalink }}">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | Pure Shield Restoration{{ end }}">
+  <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+  {{ block "head" . }}{{ end }}
+</head>
+<body>
+
+  <div class="emergency-bar">
+    <div class="container">
+      <span class="pulse"></span>
+      <strong>24/7 Emergency Response</strong>
+      <span class="sep">·</span>
+      Water · Mold · Fire
+      <a href="tel:{{ .Site.Params.phoneRaw }}" class="ebar-call">Call now: {{ .Site.Params.phone }}</a>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="{{ "/" | relURL }}" class="logo" aria-label="Pure Shield Restoration home">
+        <svg class="shield" viewBox="0 0 32 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M16 1.5 30 6.5v10c0 9.2-6 15.4-14 18.5C8 31.9 2 25.7 2 16.5v-10L16 1.5Z" stroke="currentColor" stroke-width="2" fill="rgba(54,168,224,0.12)"/>
+          <path d="M10.5 17.5l4 4 7.5-8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="lockup">
+          <b>PURE SHIELD</b>
+          <span>Restoration · South FL</span>
+        </span>
+      </a>
+      <nav>
+        {{ range .Site.Menus.main }}
+        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+        {{ end }}
+      </nav>
+      <a href="tel:{{ .Site.Params.phoneRaw }}" class="header-call">
+        <span class="dot"></span> {{ .Site.Params.phone }}
+      </a>
+    </div>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-mark">PURE <span>SHIELD</span></div>
+          <p class="footer-tag">Restoring your home — and your peace of mind.</p>
+          <div class="footer-badges">
+            <span>Licensed &amp; Insured</span>
+            <span>24/7 Response</span>
+            <span>Insurance Claims Welcome</span>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <a href="{{ "/" | relURL }}#services">Water Damage Restoration</a>
+          <a href="{{ "/" | relURL }}#services">Mold Remediation</a>
+          <a href="{{ "/" | relURL }}#services">Fire &amp; Smoke Damage</a>
+          <a href="{{ "/" | relURL }}#services">Leak Detection</a>
+          <a href="{{ "/" | relURL }}#services">Odor Removal</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <a href="tel:{{ .Site.Params.phoneRaw }}" class="footer-phone">{{ .Site.Params.phone }}</a>
+          <p>Serving {{ .Site.Params.serviceArea }}</p>
+          <p>Based in {{ .Site.Params.location }}</p>
+          <a href="{{ "/" | relURL }}#contact" class="footer-cta">Request a Free Inspection →</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© {{ now.Year }} Pure Shield Restoration</span>
+        <span>Palm Beach · Broward · Miami-Dade</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

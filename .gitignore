@@ -2,3 +2,9 @@ public/
 resources/
 .hugo_build.lock
 .DS_Store
+
+# Internal client docs — never commit/push to the public repo
+Proposals & Docs/
+
+# Raw client photo dump — keep local, optimized copies live in static/images
+Images of work/

@@ -1,4 +1,4 @@
 ---
 title: "Pure Shield Restoration"
-description: "Pure Shield Restoration — 24/7 water, mold, and fire damage restoration in Boca Raton, Delray Beach, Deerfield Beach and across Palm Beach, Broward & Miami-Dade. Certified technicians, fast response, insurance claims welcome. Call (561) 583-6375."
+description: "Owner-operated mold and water damage restoration in Boca Raton and across Palm Beach & Broward. 24/7 response, honest pricing, insurance claims welcome. Call (954) 778-0925."
 ---

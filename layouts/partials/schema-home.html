@@ -1,59 +1,30 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "Pure Shield Restoration",
-  "description": "24/7 water, mold, and fire damage restoration serving Boca Raton and across Palm Beach, Broward, and Miami-Dade counties. Certified, licensed, and insured. Insurance claims welcome.",
-  "telephone": "(561) 583-6375",
-  "url": "{{ .Permalink }}",
-  "areaServed": [
-    {"@type": "City", "name": "Boca Raton, FL"},
-    {"@type": "City", "name": "Delray Beach, FL"},
-    {"@type": "City", "name": "Deerfield Beach, FL"},
-    {"@type": "City", "name": "Boynton Beach, FL"},
-    {"@type": "City", "name": "Pompano Beach, FL"},
-    {"@type": "City", "name": "Fort Lauderdale, FL"},
-    {"@type": "City", "name": "West Palm Beach, FL"},
-    {"@type": "AdministrativeArea", "name": "Palm Beach County"},
-    {"@type": "AdministrativeArea", "name": "Broward County"},
-    {"@type": "AdministrativeArea", "name": "Miami-Dade County"}
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "Boca Raton",
-    "addressRegion": "FL",
-    "addressCountry": "US"
-  },
-  "openingHoursSpecification": {
-    "@type": "OpeningHoursSpecification",
-    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-    "opens": "00:00",
-    "closes": "23:59"
-  },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Restoration Services",
-    "itemListElement": [
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Water Damage Restoration"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Mold Remediation"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Fire and Smoke Damage Restoration"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Leak Detection and Repair"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Odor Removal"}},
-      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "24/7 Emergency Drying and Board-Up"}}
-    ]
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {"@type": "Question", "name": "How fast can you respond to an emergency?", "acceptedAnswer": {"@type": "Answer", "text": "We offer 24/7 emergency response across South Florida and aim to be on-site as fast as possible, because with water and mold every hour counts."}},
-    {"@type": "Question", "name": "Do you work with insurance companies?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. We document the damage thoroughly and work directly with your insurance provider to make the claims process as smooth as possible."}},
-    {"@type": "Question", "name": "Are you licensed and insured?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Pure Shield Restoration is fully licensed and insured, and our technicians are trained and certified."}},
-    {"@type": "Question", "name": "Do you offer free inspections?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we provide free inspections and honest, upfront estimates with no hidden costs."}},
-    {"@type": "Question", "name": "What areas do you serve?", "acceptedAnswer": {"@type": "Answer", "text": "We are based in Boca Raton and serve Palm Beach, Broward, and Miami-Dade counties, including Delray Beach, Deerfield Beach, Boynton Beach, Fort Lauderdale, and surrounding communities."}}
+  "@graph": [
+    {
+      "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+      "@id": "https://pureshieldrestoration.com/#business",
+      "name": "Pure Shield Restoration",
+      "url": "https://pureshieldrestoration.com/",
+      "image": "https://pureshieldrestoration.com/images/hero-1.jpg",
+      "telephone": "+19547780925",
+      "description": "Owner-operated mold and water damage restoration in Boca Raton and across Palm Beach and Broward. 24/7 response, honest pricing, insurance claims welcome.",
+      "address": { "@type": "PostalAddress", "addressLocality": "Boca Raton", "addressRegion": "FL", "addressCountry": "US" },
+      "areaServed": ["Boca Raton","Delray Beach","Boynton Beach","Highland Beach","Deerfield Beach","Pompano Beach","Lighthouse Point","Coral Springs","Coconut Creek","Palm Beach County","Broward County"],
+      "openingHoursSpecification": { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        { "@type": "Question", "name": "How fast can you respond?", "acceptedAnswer": { "@type": "Answer", "text": "We offer 24/7 emergency response across Palm Beach and Broward and aim to be on-site fast, because with water and mold every hour counts." } },
+        { "@type": "Question", "name": "Do you work with insurance?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. We document the damage thoroughly and work directly with your insurer to make the claim smoother." } },
+        { "@type": "Question", "name": "Are you licensed and insured?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, fully licensed and insured, and you work directly with the owners." } },
+        { "@type": "Question", "name": "How do I know if I have hidden mold?", "acceptedAnswer": { "@type": "Answer", "text": "A musty smell, recent water damage, discoloration, or worse allergies indoors are common signs. We can inspect and moisture-map to confirm." } },
+        { "@type": "Question", "name": "What does it cost?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the size and source of the damage. We give honest, upfront estimates and only recommend what is actually needed." } },
+        { "@type": "Question", "name": "What areas do you serve?", "acceptedAnswer": { "@type": "Answer", "text": "Boca Raton and across Palm Beach and Broward, including Delray, Deerfield, Boynton, Pompano, Coral Springs, and surrounding communities." } }
+      ]
+    }
   ]
 }
 </script>

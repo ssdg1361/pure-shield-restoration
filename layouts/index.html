@@ -1,237 +1,260 @@
-{{ define "head" }}{{ partial "schema-home.html" . }}{{ end }}
 {{ define "main" }}
-
-<!-- HERO -->
+<!-- hero -->
 <section class="hero">
   <div class="hero-glow" aria-hidden="true"></div>
-  <div class="container hero-inner">
+  <div class="hero-glow2" aria-hidden="true"></div>
+  <svg class="contour" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 90 C 240 56,480 124,720 90 S 1200 56,1440 96"/>
+    <path d="M0 180 C 240 146,480 214,720 180 S 1200 146,1440 186"/>
+    <path d="M0 270 C 240 236,480 304,720 270 S 1200 236,1440 276"/>
+    <path d="M0 360 C 240 326,480 394,720 360 S 1200 326,1440 366"/>
+    <path d="M0 450 C 240 416,480 484,720 450 S 1200 416,1440 456"/>
+    <path d="M0 540 C 240 506,480 574,720 540 S 1200 506,1440 546"/>
+  </svg>
+  <div class="container">
     <div class="hero-copy">
-      <span class="eyebrow"><span class="pulse"></span> Boca Raton · Palm Beach · Broward · Miami-Dade</span>
-      <h1>Water, mold, or fire damage?<br><em>We're on it — 24/7.</em></h1>
-      <p class="lede">Certified, licensed restoration techs across South Florida. Fast response, honest pricing, and we handle the insurance paperwork. We restore your home like nothing ever happened.</p>
-      <div class="hero-cta">
-        <a href="tel:{{ .Site.Params.phoneRaw }}" class="btn btn-emergency">
-          <span class="dot"></span> Call {{ .Site.Params.phone }}
-        </a>
-        <a href="#contact" class="btn btn-ghost">Request a free inspection</a>
+      <span class="eyebrow" data-an>Owner-operated · Boca Raton &amp; South Florida</span>
+      <h1 data-an>Water or mold damage?<br><em>We're on it.</em></h1>
+      <p class="lede" data-an>Mold and water damage restoration across Palm Beach and Broward. You work directly with the owners, get honest pricing, and we handle the insurance paperwork. Fast, careful, and done right.</p>
+      <div class="hero-cta" data-an>
+        <a href="tel:9547780925" class="btn btn-primary"><span class="live"></span> Call (954) 778-0925</a>
+        <a href="#contact" class="btn btn-ghost">Get a free inspection</a>
       </div>
-      <ul class="hero-trust">
-        <li>✓ 24/7 emergency response</li>
-        <li>✓ Licensed &amp; insured</li>
-        <li>✓ Insurance claims welcome</li>
+      <ul class="hero-trust" data-an>
+        <li><span class="chk">✓</span> Licensed &amp; insured</li>
+        <li><span class="chk">✓</span> 24/7 response</li>
+        <li><span class="chk">✓</span> Insurance claims welcome</li>
       </ul>
     </div>
-    <div class="hero-card">
-      <div class="hero-card-head">
-        <span class="pulse"></span> Emergency? Don't wait.
+    <div class="hero-visual">
+      <div class="hero-photo">
+        <img src="/images/hero-1.jpg" class="is-active" alt="Heavy mold growth on a wall before remediation">
+        <img src="/images/hero-2.jpg" alt="Pure Shield technician remediating an affected wall">
+        <img src="/images/hero-3.jpg" alt="Mold spread across a wall near cabinetry">
+        <img src="/images/hero-4.jpg" alt="Technician removing water-damaged drywall">
+        <img src="/images/hero-5.jpg" alt="Thermal imaging camera detecting hidden moisture">
+        <img src="/images/hero-6.jpg" alt="Technician treating a crawlspace in full protective gear">
       </div>
-      <p>Water spreads in minutes and mold can start within 24–48 hours. The faster we get there, the less it costs you.</p>
-      <a href="tel:{{ .Site.Params.phoneRaw }}" class="hero-card-call">{{ .Site.Params.phone }}</a>
-      <span class="hero-card-note">Live response, day or night.</span>
+      <div class="badge-top"><span class="dotg"></span> Live response, day or night</div>
+      <div class="badge-float">
+        <div><div class="stars">★★★★★</div></div>
+        <div><b>5.0 on Google</b><span>Owner-operated team</span></div>
+      </div>
     </div>
   </div>
 </section>
+<svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 28c180 28 360 28 540 14s360-42 540-28 200 30 360 26v20H0z"/></svg>
 
-<!-- TICKER -->
-<div class="ticker" aria-hidden="true">
-  <div class="ticker-track">
-    <span>Boca Raton</span><span>Delray Beach</span><span>Deerfield Beach</span><span>Boynton Beach</span><span>Pompano Beach</span><span>Fort Lauderdale</span><span>West Palm Beach</span><span>Coral Springs</span><span>Boca Raton</span><span>Delray Beach</span><span>Deerfield Beach</span><span>Boynton Beach</span><span>Pompano Beach</span><span>Fort Lauderdale</span><span>West Palm Beach</span><span>Coral Springs</span>
+<!-- authority bar -->
+<div class="authbar">
+  <div class="container">
+    <div class="auth-stats">
+      <div class="astat"><b>5.0</b><span><span class="ministars">★★★★★</span> Google rating</span></div>
+      <div class="astat"><b>10+ yrs</b><span>Serving South Florida</span></div>
+      <div class="astat"><b>500+</b><span>Jobs completed</span></div>
+      <div class="astat"><b>24/7</b><span>Emergency response</span></div>
+    </div>
+    <div class="auth-creds">
+      <span class="cred"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 8 10 8 10s8-5 8-10V6l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg> Licensed &amp; Insured</span>
+      <span class="cred"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 8 10 8 10s8-5 8-10V6l-8-4Z"/></svg> FL Lic #__________</span>
+      <span class="cred"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m4 13 5 5L20 6"/></svg> IICRC Certified</span>
+      <span class="cred"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m4 13 5 5L20 6"/></svg> Insurance Claims Welcome</span>
+    </div>
   </div>
 </div>
 
-<!-- SERVICES -->
-<section id="services" class="section">
+<!-- services -->
+<section class="section services" id="services">
   <div class="container">
     <div class="section-head">
-      <span class="kicker">[ What we do ]</span>
+      <span class="eyebrow">What we do</span>
       <h2>Full-service damage restoration</h2>
-      <p>One certified team for every step — from the first emergency call to the final walkthrough.</p>
+      <p>One certified, owner-led team for every step, from the first emergency call to the final clearance.</p>
     </div>
-    <div class="services-grid">
-      <article class="service-card">
-        <div class="svc-num">01</div>
-        <h3>Water Damage Restoration</h3>
-        <p>Burst pipes, leaks, storm flooding. We extract water, dry the structure with industrial equipment, and stop damage before it spreads.</p>
-      </article>
-      <article class="service-card">
-        <div class="svc-num">02</div>
+    <div class="svc-grid">
+      <article class="svc">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/></svg></div>
         <h3>Mold Remediation</h3>
-        <p>We find the source, contain it, and remove mold safely with HEPA filtration and negative-air containment — then keep it from coming back.</p>
+        <p>We find the moisture source, contain the area, remove affected materials, and treat the space so mold does not come back.</p>
       </article>
-      <article class="service-card">
-        <div class="svc-num">03</div>
-        <h3>Fire &amp; Smoke Damage</h3>
-        <p>Soot, char, and smoke odor removal plus structural cleanup, so your home is safe, clean, and livable again.</p>
+      <article class="svc">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 14a8 8 0 0 0 16 0c0-5-8-11-8-11S4 9 4 14Z"/><path d="M9 14a3 3 0 0 0 3 3"/></svg></div>
+        <h3>Water Damage Restoration</h3>
+        <p>Leaks, storms, and floods. We extract the water, dry the structure, and restore your property, documenting everything for insurance.</p>
       </article>
-      <article class="service-card">
-        <div class="svc-num">04</div>
-        <h3>Leak Detection &amp; Repair</h3>
-        <p>Advanced tools locate hidden leaks fast — before they turn into a much bigger, much more expensive problem.</p>
+      <article class="svc">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 17h18M6 17V9m4 8V6m4 11v-7m4 7V8"/></svg></div>
+        <h3>Structural Drying</h3>
+        <p>Commercial air movers and dehumidifiers, with daily moisture monitoring until the structure is verified dry. No warping, no hidden mold.</p>
       </article>
-      <article class="service-card">
-        <div class="svc-num">05</div>
-        <h3>Odor Removal</h3>
-        <p>High-efficiency ozone and antimicrobial treatments eliminate odors from mold, smoke, and water at the source — not just a cover-up.</p>
+      <article class="svc">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2v4m0 0 3 3m-3-3L9 9"/><circle cx="12" cy="15" r="6"/></svg></div>
+        <h3>Emergency Water Extraction</h3>
+        <p>Standing water spreads damage fast. We respond quickly to pump and extract, then move straight into drying to limit the loss.</p>
       </article>
-      <article class="service-card svc-emergency">
-        <div class="svc-num">24/7</div>
-        <h3>Emergency Drying &amp; Board-Up</h3>
-        <p>Live response any hour. We tarp, board up, and start drying immediately to protect your property the moment disaster strikes.</p>
-        <a href="tel:{{ .Site.Params.phoneRaw }}" class="svc-call">Call now →</a>
+      <article class="svc">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></div>
+        <h3>Leak &amp; Moisture Mapping</h3>
+        <p>Moisture meters and thermal tools trace hidden leaks behind walls and under floors, so repairs target the real source.</p>
+      </article>
+      <article class="svc feature">
+        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2 4 6v6c0 5 8 10 8 10s8-5 8-10V6l-8-4Z"/></svg></div>
+        <h3>Containment &amp; Final Clean</h3>
+        <p>HEPA filtration and negative-air containment during the job, plus the detailed post-remediation clean that makes a space safe and move-in ready.</p>
+        <a href="tel:9547780925" class="svc-call">Call now →</a>
       </article>
     </div>
   </div>
 </section>
 
-<!-- WHY -->
-<section id="why" class="section section-dark">
+<!-- why -->
+<section class="section why" id="why">
+  <div class="container">
+    <div class="why-photo"><img src="/images/why.jpg" alt="Containment and drying setup on a Pure Shield restoration job"></div>
+    <div class="why-copy">
+      <span class="eyebrow">Why Pure Shield</span>
+      <h2>You work directly with the owners</h2>
+      <p>Pure Shield is a small, owner-operated team. When you call, you get Ryan and Jon, not a call center. That means quick response, honest assessments, and work we treat like it is our own home.</p>
+      <div class="why-list">
+        <div class="why-li"><span class="chk">✓</span><div><b>Hands-on owners</b><p>The people who quote the job are the people who do the work.</p></div></div>
+        <div class="why-li"><span class="chk">✓</span><div><b>Honest, upfront pricing</b><p>Clear estimates and only what actually needs doing. No surprises.</p></div></div>
+        <div class="why-li"><span class="chk">✓</span><div><b>We handle insurance</b><p>We document the damage thoroughly and work directly with your insurer.</p></div></div>
+        <div class="why-li"><span class="chk">✓</span><div><b>Fast 24/7 response</b><p>With water and mold every hour counts, so we move quickly.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- process -->
+<section class="section process">
   <div class="container">
     <div class="section-head">
-      <span class="kicker">[ Why Pure Shield ]</span>
-      <h2>Why homeowners across South Florida trust us</h2>
+      <span class="eyebrow">How it works</span>
+      <h2>From first call to clearance</h2>
     </div>
-    <div class="why-grid">
-      <div class="why-item">
-        <h3>Certified &amp; experienced</h3>
-        <p>Trained, licensed, and insured technicians who handle every restoration challenge safely and to standard.</p>
-      </div>
-      <div class="why-item">
-        <h3>Fast response times</h3>
-        <p>Emergencies can't wait. We move quickly to stop the damage and start restoring right away.</p>
-      </div>
-      <div class="why-item">
-        <h3>We handle insurance</h3>
-        <p>We document everything and work directly with your insurance company so the claim is one less thing on you.</p>
-      </div>
-      <div class="why-item">
-        <h3>Honest, transparent pricing</h3>
-        <p>No hidden costs or confusing terms — just clear communication and results you can count on.</p>
-      </div>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h3>Call us</h3><p>Reach a real person 24/7. We dispatch fast.</p></div>
+      <div class="step"><div class="num">2</div><h3>Inspect &amp; contain</h3><p>We assess the damage, stop the spread, and document it for insurance.</p></div>
+      <div class="step"><div class="num">3</div><h3>Dry &amp; remediate</h3><p>Extract, dry, remove, and treat with professional-grade equipment.</p></div>
+      <div class="step"><div class="num">4</div><h3>Clearance</h3><p>A final clean and walkthrough. Your home, restored and verified.</p></div>
     </div>
   </div>
 </section>
 
-<!-- PROCESS -->
-<section id="process" class="section">
+<!-- our work -->
+<section class="section work" id="work">
   <div class="container">
     <div class="section-head">
-      <span class="kicker">[ How it works ]</span>
-      <h2>From disaster to done in four steps</h2>
+      <span class="eyebrow">Our work</span>
+      <h2>Real jobs, start to finish</h2>
+      <p>Every job runs the same way: find the moisture, contain the area, remove what's damaged, dry it out, and restore the space.</p>
     </div>
-    <ol class="process">
-      <li><span class="step">1</span><h3>Call us</h3><p>Reach a real person 24/7. We dispatch fast.</p></li>
-      <li><span class="step">2</span><h3>Inspect &amp; contain</h3><p>We assess the damage, stop the spread, and document everything for insurance.</p></li>
-      <li><span class="step">3</span><h3>Restore</h3><p>Dry, clean, remediate, and rebuild with professional-grade equipment.</p></li>
-      <li><span class="step">4</span><h3>Peace of mind</h3><p>A final walkthrough — your home, restored like nothing happened.</p></li>
-    </ol>
+    <div class="work-grid">
+      <figure class="work-item"><img src="/images/work-detect.jpg" alt="Thermal imaging camera locating hidden moisture"><figcaption><b>1. Detect</b>Thermal and moisture mapping finds water you can't see.</figcaption></figure>
+      <figure class="work-item"><img src="/images/work-contain.jpg" alt="Negative-air containment set up in a home"><figcaption><b>2. Contain</b>We seal off the area so spores don't spread.</figcaption></figure>
+      <figure class="work-item"><img src="/images/work-mold.jpg" alt="Mold-damaged trim removed from a home"><figcaption><b>3. Remove</b>Damaged materials come out at the source.</figcaption></figure>
+      <figure class="work-item"><img src="/images/work-moisture.jpg" alt="Moisture meter verifying a wall is dry"><figcaption><b>4. Dry</b>Commercial drying, monitored until verified dry.</figcaption></figure>
+      <figure class="work-item"><img src="/images/work-restore.jpg" alt="Clean restored room after the job"><figcaption><b>5. Restore</b>Cleaned, dried, and back to normal.</figcaption></figure>
+    </div>
   </div>
 </section>
 
-<!-- AREAS -->
-<section id="areas" class="section section-band">
-  <div class="container areas-inner">
+<!-- areas -->
+<section class="section areas" id="areas">
+  <svg class="shield-wm" viewBox="0 0 32 36" fill="currentColor" aria-hidden="true"><path d="M16 1.5 30 6.5v10c0 9.2-6 15.4-14 18.5C8 31.9 2 25.7 2 16.5v-10L16 1.5Z"/></svg>
+  <div class="container">
     <div>
-      <span class="kicker">[ Service area ]</span>
-      <h2>Serving all of South Florida</h2>
-      <p>Based in Boca Raton, covering Palm Beach, Broward, and Miami-Dade counties.</p>
-      <a href="tel:{{ .Site.Params.phoneRaw }}" class="btn btn-emergency"><span class="dot"></span> Call {{ .Site.Params.phone }}</a>
+      <span class="eyebrow">Service area</span>
+      <h2>Serving Palm Beach &amp; Broward</h2>
+      <p>Based in Boca Raton and covering homeowners across both counties, 24/7.</p>
+      <a href="tel:9547780925" class="btn btn-primary"><span class="live" style="background:var(--navy)"></span> Call (954) 778-0925</a>
     </div>
-    <ul class="areas-list">
-      <li>Boca Raton</li><li>Delray Beach</li><li>Deerfield Beach</li><li>Boynton Beach</li>
-      <li>Pompano Beach</li><li>Fort Lauderdale</li><li>West Palm Beach</li><li>Coral Springs</li>
-      <li>Parkland</li><li>Wellington</li><li>Jupiter</li><li>Miami-Dade</li>
-    </ul>
-  </div>
-</section>
-
-<!-- REVIEWS -->
-<section id="reviews" class="section">
-  <div class="container">
-    <div class="section-head">
-      <span class="kicker">[ Reviews ]</span>
-      <h2>Don't just take our word for it</h2>
-    </div>
-    <div class="reviews-grid">
-      <blockquote class="review">
-        <div class="stars">★★★★★</div>
-        <p>"From the first call to the final walkthrough, the team was professional, punctual, and thorough. My home feels safe and clean again — highly recommend."</p>
-        <cite>Sarah M. · Homeowner</cite>
-      </blockquote>
-      <blockquote class="review">
-        <div class="stars">★★★★★</div>
-        <p>"They responded to my emergency fast, explained every step, and made sure the property was fully restored. The attention to detail was top-notch."</p>
-        <cite>James T. · Property Manager</cite>
-      </blockquote>
-      <blockquote class="review">
-        <div class="stars">★★★★★</div>
-        <p>"Honest, fair, and they handled the insurance side for me. Made a stressful situation a whole lot easier."</p>
-        <cite>Boca Raton Homeowner</cite>
-      </blockquote>
+    <div class="chips">
+      <span class="chip">Boca Raton</span><span class="chip">Delray Beach</span><span class="chip">Boynton Beach</span>
+      <span class="chip">Highland Beach</span><span class="chip">Deerfield Beach</span><span class="chip">Pompano Beach</span>
+      <span class="chip">Lighthouse Point</span><span class="chip">Coral Springs</span><span class="chip">Coconut Creek</span>
     </div>
   </div>
 </section>
 
-<!-- FAQ -->
-<section id="faq" class="section section-dark">
+<!-- reviews -->
+<section class="section reviews" id="reviews">
+  <div class="container">
+    <div class="rev-head">
+      <span class="eyebrow">Reviews</span>
+      <h2 style="font-size:clamp(28px,4vw,42px);font-weight:800;margin-top:8px">Rated 5.0 by South Florida homeowners</h2>
+      <div class="rev-rating"><span class="stars">★★★★★</span> <b>5.0</b> <span>on Google</span></div>
+    </div>
+    <div class="rev-grid">
+      <blockquote class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"The owners Ryan and Jon actually came out and did the work themselves. Transparent, hands-on, and easy to work with the whole way through."</p>
+        <div class="who"><span class="av">SF</span><div><b>Samantha Fonseca</b><span>Google review</span></div></div>
+      </blockquote>
+      <blockquote class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"Walked me through the whole mold removal process, set up containment, ran HEPA scrubbers, and left the place spotless. Professional from start to finish."</p>
+        <div class="who"><span class="av">KS</span><div><b>Keith Soraci</b><span>Boca Raton</span></div></div>
+      </blockquote>
+      <blockquote class="rev">
+        <div class="stars">★★★★★</div>
+        <p>"I went through three companies before I found these guys. Honest, fast, and they actually fixed the problem. 10 out of 10."</p>
+        <div class="who"><span class="av">MM</span><div><b>Matthew Maring</b><span>Google review</span></div></div>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- faq -->
+<section class="section faq" id="faq">
   <div class="container">
     <div class="section-head">
-      <span class="kicker">[ FAQ ]</span>
+      <span class="eyebrow">FAQ</span>
       <h2>Questions, answered</h2>
     </div>
-    <div class="faq">
-      <details>
-        <summary>How fast can you respond to an emergency?</summary>
-        <p>We offer 24/7 emergency response across South Florida and aim to be on-site as fast as possible — because with water and mold, every hour counts.</p>
-      </details>
-      <details>
-        <summary>Do you work with insurance companies?</summary>
-        <p>Yes. We document the damage thoroughly and work directly with your insurance provider to make the claims process as smooth as possible.</p>
-      </details>
-      <details>
-        <summary>Are you licensed and insured?</summary>
-        <p>Absolutely. Pure Shield Restoration is fully licensed and insured, and our technicians are trained and certified.</p>
-      </details>
-      <details>
-        <summary>Do you offer free inspections?</summary>
-        <p>Yes — we provide free inspections and honest, upfront estimates with no hidden costs.</p>
-      </details>
-      <details>
-        <summary>What areas do you serve?</summary>
-        <p>We're based in Boca Raton and serve Palm Beach, Broward, and Miami-Dade counties, including Delray Beach, Deerfield Beach, Boynton Beach, Fort Lauderdale, and surrounding communities.</p>
-      </details>
+    <div class="faq-list">
+      <details class="qa" open><summary>How fast can you respond?<span class="pm"></span></summary><div class="ans"><p>We offer 24/7 emergency response across Palm Beach and Broward and aim to be on-site fast, because with water and mold every hour counts.</p></div></details>
+      <details class="qa"><summary>Do you work with insurance?<span class="pm"></span></summary><div class="ans"><p>Yes. We document the damage thoroughly and work directly with your insurer to make the claim smoother.</p></div></details>
+      <details class="qa"><summary>Are you licensed and insured?<span class="pm"></span></summary><div class="ans"><p>Yes, fully licensed and insured, and you work directly with the owners.</p></div></details>
+      <details class="qa"><summary>How do I know if I have hidden mold?<span class="pm"></span></summary><div class="ans"><p>A musty smell, recent water damage, discoloration, or worse allergies indoors are common signs. We can inspect and moisture-map to confirm.</p></div></details>
+      <details class="qa"><summary>What does it cost?<span class="pm"></span></summary><div class="ans"><p>It depends on the size and source of the damage. We give honest, upfront estimates and only recommend what is actually needed.</p></div></details>
+      <details class="qa"><summary>What areas do you serve?<span class="pm"></span></summary><div class="ans"><p>Boca Raton and across Palm Beach and Broward, including Delray, Deerfield, Boynton, Pompano, Coral Springs, and surrounding communities.</p></div></details>
     </div>
   </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section section-cta">
-  <div class="container cta-inner">
+<!-- contact cta -->
+<section class="section cta" id="contact">
+  <svg class="contour" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 90 C 240 56,480 124,720 90 S 1200 56,1440 96"/>
+    <path d="M0 200 C 240 166,480 234,720 200 S 1200 166,1440 206"/>
+    <path d="M0 310 C 240 276,480 344,720 310 S 1200 276,1440 316"/>
+    <path d="M0 420 C 240 386,480 454,720 420 S 1200 386,1440 426"/>
+    <path d="M0 530 C 240 496,480 564,720 530 S 1200 496,1440 536"/>
+  </svg>
+  <div class="container">
     <div class="cta-copy">
-      <span class="kicker">[ Get help now ]</span>
-      <h2>Request a free inspection</h2>
-      <p>Tell us what's going on and we'll get right back to you. For active emergencies, call — we answer 24/7.</p>
-      <a href="tel:{{ .Site.Params.phoneRaw }}" class="cta-phone">{{ .Site.Params.phone }}</a>
+      <span class="eyebrow">Get help now</span>
+      <h2>Water or mold damage? Let's take care of it.</h2>
+      <p>Tell us what is going on and we will get right back to you. For active emergencies, call and we answer 24/7.</p>
+      <a href="tel:9547780925" class="cta-phone"><span class="dotg"></span> (954) 778-0925</a>
+      <div class="cta-note">Live response, day or night.</div>
     </div>
-    <!-- TODO: set the Formspree endpoint below (formspree.io) or wire to your form handler -->
-    <form class="lead-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-      <label>Name<input type="text" name="name" required></label>
-      <label>Phone<input type="tel" name="phone" required></label>
-      <label>Email<input type="email" name="email"></label>
+    <form class="form" action="#" method="POST" onsubmit="return false">
+      <div class="row">
+        <label>Name<input type="text" name="name" placeholder="Your name" required></label>
+        <label>Phone<input type="tel" name="phone" placeholder="(561) 000-0000" required></label>
+      </div>
+      <label>Email<input type="email" name="email" placeholder="you@email.com"></label>
       <label>What's going on?
         <select name="service">
-          <option>Water damage</option>
-          <option>Mold</option>
-          <option>Fire / smoke</option>
-          <option>Leak detection</option>
-          <option>Odor removal</option>
-          <option>Other / not sure</option>
+          <option>Mold</option><option>Water damage</option><option>Emergency extraction</option>
+          <option>Leak / moisture</option><option>Other / not sure</option>
         </select>
       </label>
-      <label class="full">Details<textarea name="details" rows="3"></textarea></label>
-      <button type="submit" class="btn btn-emergency full">Request inspection</button>
-      <p class="form-note">Prefer to talk? Call {{ .Site.Params.phone }} — live, 24/7.</p>
+      <label>Details<textarea name="details" rows="3" placeholder="A few details about the damage..."></textarea></label>
+      <button class="btn btn-primary" type="submit" style="width:100%">Request a free inspection</button>
     </form>
   </div>
 </section>
-
 {{ end }}

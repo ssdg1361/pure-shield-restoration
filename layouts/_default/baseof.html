@@ -313,6 +313,9 @@ img{max-width:100%;display:block}
   .mobile-call{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:60;align-items:center;justify-content:center;gap:9px;background:var(--water);color:#fff;font-family:var(--display);font-weight:700;font-size:16px;padding:15px 16px;border-radius:14px;box-shadow:0 12px 30px -8px rgba(15,42,69,.55);text-decoration:none}
   .mobile-call svg{width:18px;height:18px}
 }
+/* phone no-wrap + tight mobile header */
+.header-call,.tb-call,.mobile-call,.cta-phone,.footer-phone{white-space:nowrap}
+@media(max-width:430px){.brand span{display:none}.header-call{padding:10px 14px;font-size:15px}}
 </style>
 {{ partial "schema-home.html" . }}
 </head>
@@ -322,8 +325,8 @@ img{max-width:100%;display:block}
   <div class="container">
     <span class="dotg"></span>
     <strong style="font-family:var(--display);font-weight:600;color:#fff">24/7 Emergency Response</strong>
-    <span class="tb-area">Boca Raton &amp; across Palm Beach &amp; Broward</span>
-    <a href="tel:9547780925" class="tb-call">Call (954) 778-0925</a>
+    <span class="tb-area">Licensed &amp; Insured · FL Lic #MRSR5407</span>
+    <span class="tb-call">Free Inspections</span>
   </div>
 </div>
 
@@ -335,7 +338,7 @@ img{max-width:100%;display:block}
         <path d="M16 1.5 30 6.5v10c0 9.2-6 15.4-14 18.5C8 31.9 2 25.7 2 16.5v-10L16 1.5Z" stroke="currentColor" stroke-width="2" fill="rgba(47,139,197,.12)"/>
         <path d="M10.5 17.5l4 4 7.5-8" stroke="var(--green)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" style="stroke:#54A65B"/>
       </svg>
-      <span><b>PURE SHIELD</b><span>Restoration · South FL</span></span>
+      <span><b>PURE SHIELD</b><span>Restoration · South FLA</span></span>
     </a>
     <nav class="nav">
       <a href="#services">Services</a>

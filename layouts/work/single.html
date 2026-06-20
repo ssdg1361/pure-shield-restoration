@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Case study{{ with .Params.city }} · {{ . }}{{ end }}</span>
+    <h1>{{ .Title }}</h1>
+    <div class="cs-meta">
+      {{ range .Params.services }}<span class="cs-tag"><a href="/services/{{ . | urlize }}/">{{ . }}</a></span>{{ end }}
+      {{ range .Params.areas }}<span class="cs-tag"><a href="/areas/{{ . | urlize }}/">{{ . }}</a></span>{{ end }}
+      {{ with .Date }}<span class="cs-tag">{{ .Format "January 2006" }}</span>{{ end }}
+    </div>
+  </div>
+</section>
+<section class="page-body">
+  <div class="container">
+    <div class="prose">{{ .Content }}</div>
+    {{ with .Params.photos }}
+    <div class="cs-photos">
+      {{ range . }}<img src="{{ . }}" alt="Pure Shield Restoration job photo" loading="lazy">{{ end }}
+    </div>
+    {{ end }}
+    <div class="related">
+      <a href="tel:9547780925">Call (954) 778-0925</a>
+      {{ range .Params.services }}<a href="/services/{{ . | urlize }}/">{{ . }} &rarr;</a>{{ end }}
+      {{ range .Params.areas }}<a href="/areas/{{ . | urlize }}/">Restoration in {{ . }} &rarr;</a>{{ end }}
+      <a href="/work/">All our work &rarr;</a>
+    </div>
+  </div>
+</section>
+{{ end }}

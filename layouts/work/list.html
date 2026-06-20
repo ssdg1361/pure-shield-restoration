@@ -1,0 +1,29 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Our work</span>
+    <h1>{{ .Title | default "Our Work" }}</h1>
+    {{ with .Content }}<div class="prose" style="margin-top:14px">{{ . }}</div>{{ end }}
+  </div>
+</section>
+<section class="page-body">
+  <div class="container">
+    {{ if .Pages }}
+    <div class="case-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      <a class="case-card" href="{{ .RelPermalink }}">
+        {{ with .Params.hero }}<img src="{{ . }}" alt="{{ $.Title }}" loading="lazy">{{ end }}
+        <div class="cc-body">
+          {{ with .Params.city }}<span class="cc-tag">{{ . }}</span>{{ end }}
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Summary | plainify | truncate 110 }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="prose">Recent projects will appear here as we complete them.</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

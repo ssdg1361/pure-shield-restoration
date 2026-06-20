@@ -8,3 +8,7 @@ title = "Pure Shield Restoration | Mold & Water Damage Restoration | Boca Raton 
   phoneRaw = "9547780925"
   location = "Boca Raton, FL"
   serviceArea = "Palm Beach & Broward"
+
+[taxonomies]
+  service = "services"
+  area = "areas"

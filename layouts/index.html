@@ -205,6 +205,31 @@
   </div>
 </section>
 
+<!-- recent work -->
+<section class="section" style="background:var(--white)">
+  <div class="container">
+    <div class="section-head">
+      <span class="eyebrow">Recent work</span>
+      <h2>Latest projects</h2>
+      <p>Real mold and water damage jobs across Palm Beach and Broward.</p>
+    </div>
+    <div class="case-grid">
+      {{ range first 3 (where site.RegularPages "Section" "work").ByDate.Reverse }}
+      {{ $p := . }}
+      <a class="case-card" href="{{ .RelPermalink }}">
+        {{ with .Params.hero }}<img src="{{ . }}" alt="{{ $p.Title }}" loading="lazy">{{ end }}
+        <div class="cc-body">
+          {{ with .Params.city }}<span class="cc-tag">{{ . }}</span>{{ end }}
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Summary | plainify | truncate 110 }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    <div class="related" style="justify-content:center"><a href="/work/">See all our work &rarr;</a></div>
+  </div>
+</section>
+
 <!-- faq -->
 <section class="section faq" id="faq">
   <div class="container">

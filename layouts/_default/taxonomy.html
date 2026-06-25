@@ -1,13 +1,15 @@
 {{ define "main" }}
 <section class="page-hero">
   <div class="container">
-    <span class="eyebrow">Pure Shield Restoration</span>
+    <span class="eyebrow">{{ if eq .Data.Plural "services" }}Services{{ else }}Service area{{ end }}</span>
     <h1>{{ if eq .Data.Plural "services" }}Our Services{{ else }}Areas We Serve{{ end }}</h1>
+    {{ with .Content }}<div class="prose" style="margin-top:14px">{{ . }}</div>{{ end }}
   </div>
 </section>
 <section class="page-body">
   <div class="container">
-    <div class="related">
+    <span class="eyebrow">{{ if eq .Data.Plural "services" }}All services{{ else }}Cities we serve{{ end }}</span>
+    <div class="related" style="margin-top:14px">
       {{ range .Pages }}<a href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a>{{ end }}
     </div>
   </div>

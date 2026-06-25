@@ -265,7 +265,13 @@
       <a href="tel:9547780925" class="cta-phone"><span class="dotg"></span> (954) 778-0925</a>
       <div class="cta-note">Live response, day or night.</div>
     </div>
-    <form class="form" action="#" method="POST" onsubmit="return false">
+    <form class="form" id="lead-form" action="https://api.web3forms.com/submit" method="POST">
+      <!-- ACTIVATE: replace the value below with the Web3Forms access key emailed to the destination inbox -->
+      <input type="hidden" name="access_key" value="fbad3623-348c-4719-bc95-daccbdde3fa6">
+      <input type="hidden" name="subject" value="New inspection request — pureshieldrestoration.com">
+      <input type="hidden" name="from_name" value="Pure Shield Website">
+      <!-- honeypot: bots fill this, humans never see it -->
+      <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
       <div class="row">
         <label>Name<input type="text" name="name" placeholder="Your name" required></label>
         <label>Phone<input type="tel" name="phone" placeholder="(561) 000-0000" required></label>
@@ -279,7 +285,55 @@
       </label>
       <label>Details<textarea name="details" rows="3" placeholder="A few details about the damage..."></textarea></label>
       <button class="btn btn-primary" type="submit" style="width:100%">Request a free inspection</button>
+      <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
     </form>
   </div>
 </section>
+
+<style>
+.form-msg{margin:10px 0 0;font-size:14px;line-height:1.45;min-height:1px}
+.form-msg.ok{color:var(--green,#54A65B);font-weight:600}
+.form-msg.err{color:#c0392b;font-weight:600}
+</style>
+<script>
+(function(){
+  var f = document.getElementById('lead-form');
+  if(!f) return;
+  var msg = document.getElementById('form-msg');
+  f.addEventListener('submit', function(e){
+    e.preventDefault();
+    var btn = f.querySelector('button[type=submit]');
+    var key = (f.querySelector('input[name=access_key]')||{}).value || '';
+    if(key.indexOf('REPLACE_WITH') === 0){
+      msg.textContent = "Form isn't activated yet — add the Web3Forms access key.";
+      msg.className = 'form-msg err';
+      return;
+    }
+    var orig = btn.textContent;
+    btn.disabled = true; btn.textContent = 'Sending…';
+    msg.textContent = ''; msg.className = 'form-msg';
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: { 'Accept': 'application/json' },
+      body: new FormData(f)
+    })
+    .then(function(r){ return r.json(); })
+    .then(function(data){
+      if(data.success){
+        f.reset();
+        msg.textContent = "Thanks — we've got it and will reach out shortly. For an active emergency, call (954) 778-0925.";
+        msg.className = 'form-msg ok';
+      } else {
+        msg.textContent = 'Something went wrong. Please call (954) 778-0925.';
+        msg.className = 'form-msg err';
+      }
+    })
+    .catch(function(){
+      msg.textContent = 'Something went wrong. Please call (954) 778-0925.';
+      msg.className = 'form-msg err';
+    })
+    .then(function(){ btn.disabled = false; btn.textContent = orig; });
+  });
+})();
+</script>
 {{ end }}

@@ -19,7 +19,6 @@
     </div>
     {{ end }}
     <div class="related">
-      <a href="tel:9547780925">Call (954) 778-0925</a>
       {{ range .Params.services }}<a href="/services/{{ . | urlize }}/">{{ . }} &rarr;</a>{{ end }}
       {{ range .Params.areas }}<a href="/areas/{{ . | urlize }}/">Restoration in {{ . }} &rarr;</a>{{ end }}
       <a href="/work/">All our work &rarr;</a>

@@ -4,9 +4,9 @@ date: 2026-05-28
 services: ["Water Damage Restoration"]
 areas: ["Delray Beach"]
 city: "Delray Beach"
-hero: "/images/work-restore.jpg"
+hero: "/images/delray-water-hero.jpg"
 summary: "An upstairs condo leak flooded a 55+ community kitchen in Delray Beach. We dried it, removed the damaged materials, and worked the insurance claim end to end."
-photos: ["/images/work-moisture.jpg","/images/work-contain.jpg","/images/work-restore.jpg"]
+photos: ["/images/delray-water-1.jpg","/images/delray-water-2.jpg","/images/delray-water-3.jpg","/images/delray-water-4.jpg"]
 ---
 A leak from the upstairs condo caused significant water damage in this 55+ community condo in **Delray Beach**. Water from a failed garbage disposal and sink line traveled into the kitchen below, damaging cabinets, countertops, backsplash areas, and wood flooring.
 

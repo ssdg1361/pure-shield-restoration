@@ -15,7 +15,7 @@
     <div class="prose">{{ .Content }}</div>
     {{ with .Params.photos }}
     <div class="cs-photos">
-      {{ range . }}<img src="{{ . }}" alt="Pure Shield Restoration job photo" loading="lazy">{{ end }}
+      {{ range . }}<img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">{{ end }}
     </div>
     {{ end }}
     <div class="related">

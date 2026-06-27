@@ -6,7 +6,11 @@ areas: ["Boca Raton"]
 city: "Boca Raton"
 hero: "/images/boca-home-mold-hero.jpg"
 summary: "Two unnoticed leaks — a punctured refrigerator water line and a leak behind the dishwasher — fed hidden mold inside a Boca Raton home. We tracked down both sources and remediated the damage."
-photos: ["/images/boca-home-mold-1.jpg","/images/boca-home-mold-2.jpg","/images/boca-home-mold-3.jpg","/images/boca-home-mold-4.jpg"]
+photos:
+  - { src: "/images/boca-home-mold-1.jpg", alt: "Thermal imaging camera locating hidden moisture in a Boca Raton home" }
+  - { src: "/images/boca-home-mold-2.jpg", alt: "Moisture meter reading a mold-affected baseboard in a Boca Raton home" }
+  - { src: "/images/boca-home-mold-3.jpg", alt: "Hidden mold revealed behind drywall in a Boca Raton home" }
+  - { src: "/images/boca-home-mold-4.jpg", alt: "Mold-damaged material removed from a Boca Raton home" }
 ---
 This **Boca Raton** homeowner had mold growing from **two separate moisture sources** that had both gone unnoticed: a small puncture in the refrigerator water line and an additional leak behind the dishwasher. Each had been quietly feeding moisture into the surrounding walls, so the mold was hidden inside the affected areas well before anyone spotted it.
 

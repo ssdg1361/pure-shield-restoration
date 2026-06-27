@@ -6,7 +6,11 @@ areas: ["Margate"]
 city: "Margate"
 hero: "/images/margate-mold-water-hero.jpg"
 summary: "A slow leak from an exterior hose bib let moisture into a Margate home near the front of the house, leading to both water damage and mold. We cleaned it up, dried it out, and pinpointed the source."
-photos: ["/images/margate-mold-water-1.jpg","/images/margate-mold-water-2.jpg","/images/margate-mold-water-3.jpg","/images/margate-mold-water-4.jpg"]
+photos:
+  - { src: "/images/margate-mold-water-1.jpg", alt: "Water-damaged floor planks removed during cleanup in a Margate, FL home" }
+  - { src: "/images/margate-mold-water-2.jpg", alt: "Mold remediation treatment in progress in a Margate home" }
+  - { src: "/images/margate-mold-water-3.jpg", alt: "Checking moisture levels with a meter during a Margate water damage job" }
+  - { src: "/images/margate-mold-water-4.jpg", alt: "Removing water and mold damaged materials in a Margate home" }
 ---
 A slowly leaking exterior hose bib (spigot) had been letting water seep into an interior room near the front of this **Margate** home. The intrusion went unnoticed long enough to cause both water damage and mold growth.
 

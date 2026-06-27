@@ -3,12 +3,13 @@
   <div class="container">
     <span class="eyebrow">{{ if eq .Data.Plural "services" }}Service{{ else }}Service area{{ end }}</span>
     <h1>{{ .Title }}</h1>
-    {{ with .Content }}<div class="prose" style="margin-top:14px">{{ . }}</div>{{ end }}
+    {{ with .Params.lead }}<p class="lede" style="margin-top:12px;max-width:64ch">{{ . }}</p>{{ end }}
   </div>
 </section>
 <section class="page-body">
   <div class="container">
-    <span class="eyebrow">Recent work</span>
+    {{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+    <span class="eyebrow" style="display:inline-block;margin-top:42px">Recent work</span>
     {{ if .Pages }}
     <div class="case-grid">
       {{ range .Pages.ByDate.Reverse }}

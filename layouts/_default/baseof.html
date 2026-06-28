@@ -3,21 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pure Shield Restoration | Mold &amp; Water Damage Restoration | Boca Raton &amp; South Florida</title>
-<meta name="description" content="Owner-operated mold and water damage restoration in Boca Raton and across Palm Beach &amp; Broward. 24/7 response, honest pricing, insurance claims welcome. Call (954) 778-0925.">
-<link rel="canonical" href="https://pureshieldrestoration.com/">
+{{ $brandTitle := "Pure Shield Restoration | Mold & Water Damage Restoration | Boca Raton & South Florida" }}
+{{ $pageTitle := cond .IsHome $brandTitle (printf "%s | Pure Shield Restoration" .Title) }}
+{{ with .Params.seotitle }}{{ $pageTitle = . }}{{ end }}
+{{ $desc := "Owner-operated mold and water damage restoration in Boca Raton and across Palm Beach & Broward. 24/7 response, honest pricing, insurance claims welcome. Call (954) 778-0925." }}
+{{ if not .IsHome }}{{ $desc = or .Description .Params.lead (.Summary | plainify) $desc }}{{ end }}
+{{ $desc = $desc | plainify | truncate 165 }}
+<title>{{ $pageTitle }}</title>
+<meta name="description" content="{{ $desc }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Pure Shield Restoration">
-<meta property="og:title" content="Pure Shield Restoration | Mold &amp; Water Damage Restoration | Boca Raton &amp; South Florida">
-<meta property="og:description" content="Owner-operated mold and water damage restoration across Palm Beach &amp; Broward. 24/7 response, honest pricing, insurance claims welcome.">
-<meta property="og:url" content="https://pureshieldrestoration.com/">
+<meta property="og:title" content="{{ $pageTitle }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:image" content="https://pureshieldrestoration.com/images/og.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Pure Shield Restoration technician treating ductwork in a crawlspace">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Pure Shield Restoration | Mold &amp; Water Damage Restoration">
-<meta name="twitter:description" content="Owner-operated mold and water damage restoration across Palm Beach &amp; Broward.">
+<meta name="twitter:title" content="{{ $pageTitle }}">
+<meta name="twitter:description" content="{{ $desc }}">
 <meta name="twitter:image" content="https://pureshieldrestoration.com/images/og.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

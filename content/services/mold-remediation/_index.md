@@ -1,8 +1,48 @@
 ---
 title: "Mold Remediation"
+lead: "Owner-operated mold remediation across Boca Raton and South Florida. We find the moisture source, remove the mold at the root, and make sure it doesn't come back, with the owners on every job."
+heroimg: "/images/boca-home-mold-3.jpg"
+signs:
+  - title: "A musty smell"
+    icon: "smell"
+    text: "A persistent musty or earthy odor, even when you can't see anything, usually means mold is growing somewhere out of sight."
+  - title: "Visible growth"
+    icon: "search"
+    text: "Black, green, or fuzzy patches on walls, ceilings, grout, or around windows. What you see is usually the smallest part."
+  - title: "After a leak or flood"
+    icon: "storm"
+    text: "Mold can take hold within 24 to 48 hours of any water intrusion, so it's worth checking after a leak, even a small one."
+  - title: "Stains or discoloration"
+    icon: "stain"
+    text: "Brown or dark staining on drywall, ceilings, or baseboards is a sign moisture has been sitting where it shouldn't."
+  - title: "Warping or peeling"
+    icon: "alert"
+    text: "Bubbling paint, swelling drywall, or lifting flooring all point to trapped moisture behind the surface."
+  - title: "Worse allergies indoors"
+    icon: "humidity"
+    text: "Congestion or irritation that eases when you leave the house can be a clue that the air quality inside needs a look."
+process:
+  - title: "Inspect & moisture-map"
+    text: "We use moisture meters and thermal imaging to find the full reach of the problem, not just the patch you can see."
+  - title: "Contain the area"
+    text: "Plastic sheeting and negative air pressure seal off the space so spores don't spread to the rest of the home."
+  - title: "HEPA air scrubbing"
+    text: "Industrial HEPA scrubbers run throughout to pull airborne spores out of the work zone."
+  - title: "Remove affected materials"
+    text: "Porous materials the mold has rooted into come out; hard surfaces get HEPA-vacuumed and treated with antimicrobial."
+  - title: "Dry & fix the source"
+    text: "We dry the structure to verified-dry and address the moisture source, because if the water comes back, so does the mold."
+  - title: "Clearance & documentation"
+    text: "We document the work for your records and insurer, and coordinate third-party clearance testing when it's needed."
+faqs:
+  - q: "Is mold actually a problem, or is it overblown?"
+    a: "Mold is worth removing promptly, especially for anyone with allergies or breathing sensitivity, and it can damage the materials it grows on over time. Our job is to remove it safely and fix the moisture behind it, not to scare you. If it's a small surface spot, we'll tell you that too."
+  - q: "Can I just clean the mold myself?"
+    a: "You can wipe surface mold off non-porous surfaces like tile, but porous materials like drywall and insulation can't be cleaned once mold has rooted in, and bleach doesn't reach what's growing inside the wall. Cutting into it without containment also spreads spores. For anything beyond a small surface spot, it's worth having it done right."
+  - q: "How long does mold remediation take?"
+    a: "Most homes take about 3 to 5 days from start to verified-dry. Small, contained jobs can wrap in a day or two, while larger ones with rebuild work take longer. South Florida's humidity can stretch out the drying stage, so we run equipment until the moisture readings, not the calendar, say it's done."
+  - q: "Do you handle mold testing too?"
+    a: "We focus on remediation, the actual removal and cleanup. For independent air-quality or clearance testing, we work alongside a third-party assessor, which also keeps the testing and the remediation at arm's length, the way it should be."
+  - q: "What does mold remediation cost?"
+    a: "Most jobs run in the low thousands, depending on the size of the affected area and how far the moisture spread. Small contained problems cost less; larger multi-room or structural jobs cost more. We give an honest, upfront estimate after a free inspection."
 ---
-We find the moisture source, contain the area, and remove mold at the root — not just the surface. Pure Shield Restoration is owner-operated and Florida-licensed for mold remediation (Lic. MRSR5407), serving Boca Raton and across Palm Beach and Broward, 24/7.
-
-We use HEPA air scrubbers and negative-air containment so spores don't spread through the rest of your home, remove the materials the mold has grown into, treat the surfaces that stay, and check moisture levels so it doesn't come back. Because we find and address the moisture source, the fix actually holds.
-
-Call (954) 778-0925 for a free inspection.

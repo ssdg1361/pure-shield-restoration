@@ -1,0 +1,30 @@
+<section class="section" style="background:var(--white)">
+  <div class="container">
+    <div class="section-head">
+      {{ if eq .Data.Plural "areas" }}
+      <span class="eyebrow">Real work in {{ .Title }}</span>
+      <h2>Jobs we've actually done here</h2>
+      {{ else }}
+      <span class="eyebrow">Real {{ lower .Title }} jobs</span>
+      <h2>See the work</h2>
+      {{ end }}
+      <p>Actual jobs we've completed, shown with our own photos.</p>
+    </div>
+    {{ if .Pages }}
+    <div class="pa-cases">
+      {{ range .Pages.ByDate.Reverse }}
+      <a class="case-card" href="{{ .RelPermalink }}">
+        {{ with .Params.hero }}<img src="{{ . }}" alt="{{ $.Title }} job by Pure Shield Restoration" loading="lazy">{{ end }}
+        <div class="cc-body">
+          {{ with .Params.city }}<span class="cc-tag">{{ . }}</span>{{ end }}
+          <h3>{{ .Title }}</h3>
+          <p>{{ .Summary | plainify | truncate 110 }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+    {{ else }}
+    <p class="prose" style="text-align:center">More projects will appear here as we complete them.</p>
+    {{ end }}
+  </div>
+</section>

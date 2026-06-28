@@ -6,6 +6,11 @@
 .pa-cases .case-card{flex:1 1 300px;max-width:360px}
 .proc .ico{font-family:var(--display);font-weight:800;font-size:18px;color:var(--water);display:flex;align-items:center;justify-content:center}
 @media(max-width:820px){.pa-hero .container{grid-template-columns:1fr}.pa-hero .pa-img{display:none}}
+/* service pages: alternating tones + green accents */
+.svc-page .sv-signs{background:#fff}
+.svc-page .sv-signs .ico{background:rgba(84,166,91,.13);color:var(--green)}
+.svc-page .process{background:linear-gradient(180deg,#f1f6ee 0%,#e3efde 100%)}
+.svc-page .faq{background:var(--cream)}
 </style>
 
 {{ if eq .Data.Plural "areas" }}
@@ -81,6 +86,7 @@
 
 {{ else }}
 {{/* ===================== SERVICE PAGE ===================== */}}
+<div class="svc-page">
 <section class="page-hero pa-hero">
   <div class="container">
     <div>
@@ -99,7 +105,7 @@
 {{ partial "term-trust.html" . }}
 
 {{ with .Params.signs }}
-<section class="section">
+<section class="section sv-signs">
   <div class="container">
     <div class="section-head">
       <span class="eyebrow">Do you need it?</span>
@@ -132,5 +138,6 @@
 {{ partial "term-jobs.html" . }}
 {{ partial "term-faq.html" . }}
 {{ partial "term-cta.html" . }}
+</div>
 {{ end }}
 {{ end }}

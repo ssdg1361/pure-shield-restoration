@@ -1,15 +1,26 @@
 {{ define "main" }}
 {{ if eq .Data.Plural "areas" }}
 {{/* ---------------- City / service-area page ---------------- */}}
-<section class="page-hero">
+<style>
+.pa-hero .container{display:grid;grid-template-columns:1.05fr .95fr;gap:44px;align-items:center}
+.pa-hero .pa-img img{width:100%;height:100%;max-height:430px;object-fit:cover;border-radius:18px;box-shadow:0 24px 52px -18px rgba(15,42,69,.45)}
+.pa-cases{display:flex;flex-wrap:wrap;justify-content:center;gap:18px}
+.pa-cases .case-card{flex:1 1 300px;max-width:360px}
+@media(max-width:820px){.pa-hero .container{grid-template-columns:1fr}.pa-hero .pa-img{display:none}}
+</style>
+
+<section class="page-hero pa-hero">
   <div class="container">
-    <span class="eyebrow">Service area</span>
-    <h1>Mold &amp; Water Damage Restoration in {{ .Title }}</h1>
-    {{ with .Params.lead }}<p class="lede" style="margin-top:12px;max-width:60ch">{{ . }}</p>{{ end }}
-    <div class="hero-cta" style="margin-top:22px">
-      <a href="tel:9547780925" class="btn btn-primary"><span class="live"></span> Call (954) 778-0925</a>
-      <a href="/#contact" class="btn btn-ghost">Get a free inspection</a>
+    <div>
+      <span class="eyebrow">Service area</span>
+      <h1>Mold &amp; Water Damage Restoration in {{ .Title }}</h1>
+      {{ with .Params.lead }}<p class="lede" style="margin-top:12px">{{ . }}</p>{{ end }}
+      <div class="hero-cta" style="margin-top:22px">
+        <a href="tel:9547780925" class="btn btn-primary"><span class="live"></span> Call (954) 778-0925</a>
+        <a href="/#contact" class="btn btn-ghost">Get a free inspection</a>
+      </div>
     </div>
+    {{ with .Params.heroimg }}<div class="pa-img"><img src="{{ . }}" alt="Mold and water damage restoration in {{ $.Title }}"></div>{{ end }}
   </div>
 </section>
 
@@ -45,6 +56,18 @@
 </section>
 {{ end }}
 
+<section class="section process">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">How it works</span><h2>What to expect</h2></div>
+    <div class="steps">
+      <div class="step"><div class="num">1</div><h3>Call us</h3><p>Reach a real person 24/7. We dispatch fast.</p></div>
+      <div class="step"><div class="num">2</div><h3>Inspect &amp; contain</h3><p>We find the moisture, stop the spread, and document everything for insurance.</p></div>
+      <div class="step"><div class="num">3</div><h3>Dry &amp; remediate</h3><p>Extract, dry, remove, and treat with professional-grade equipment.</p></div>
+      <div class="step"><div class="num">4</div><h3>Clearance</h3><p>A final clean and walkthrough. Verified dry, restored, done.</p></div>
+    </div>
+  </div>
+</section>
+
 <section class="section" style="background:var(--white)">
   <div class="container">
     <div class="section-head">
@@ -53,7 +76,7 @@
       <p>Real local jobs, shown with our own photos.</p>
     </div>
     {{ if .Pages }}
-    <div class="case-grid">
+    <div class="pa-cases">
       {{ range .Pages.ByDate.Reverse }}
       <a class="case-card" href="{{ .RelPermalink }}">
         {{ with .Params.hero }}<img src="{{ . }}" alt="{{ $.Title }} mold and water damage job" loading="lazy">{{ end }}
@@ -70,6 +93,19 @@
     {{ end }}
   </div>
 </section>
+
+{{ with .Params.review }}
+<section class="section">
+  <div class="container" style="display:block;text-align:center">
+    <span class="eyebrow">What homeowners say</span>
+    <blockquote class="rev" style="max-width:640px;margin:18px auto 0">
+      <div class="stars">★★★★★</div>
+      <p>"{{ .quote }}"</p>
+      <div class="who" style="justify-content:center"><div><b>{{ .name }}</b><span>{{ .loc }}</span></div></div>
+    </blockquote>
+  </div>
+</section>
+{{ end }}
 
 {{ with .Params.neighborhoods }}
 <section class="section areas">

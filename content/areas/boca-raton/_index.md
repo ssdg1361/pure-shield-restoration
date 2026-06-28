@@ -1,6 +1,7 @@
 ---
 title: "Boca Raton"
 lead: "Owner-operated mold and water damage restoration in Boca Raton, 24/7. Call and you get Ryan and Jon on the job, not a call center."
+heroimg: "/images/boca-home-mold-1.jpg"
 causes:
   - title: "Coastal humidity"
     text: "Salt air and year-round moisture keep mold growing, especially in closets, bathrooms, and laundry rooms."
@@ -12,8 +13,14 @@ causes:
     text: "An upstairs condo lets go and the water lands in your kitchen or bath. We handle these constantly."
   - title: "Storms & wind-driven rain"
     text: "Tropical systems push water in around windows, doors, and roofs, flood zone or not."
+  - title: "Seasonal & vacant homes"
+    text: "Snowbird homes sit closed up for months, so a small leak becomes a big mold problem before anyone's back."
 neighborhoods: ["Old Floresta","Boca Villas","Mizner Park","Royal Palm Place","The Intracoastal","Boca West","Boca Falls","Mission Bay","Boca Pointe"]
 zips: "33428, 33431, 33432, 33433, 33434, 33486, 33487, 33496, 33498"
+review:
+  quote: "Walked me through the whole mold removal process, set up containment, ran HEPA scrubbers, and left the place spotless. Professional from start to finish."
+  name: "Keith Soraci"
+  loc: "Boca Raton"
 faqs:
   - q: "How fast can you get to my home?"
     a: "We respond 24/7 across Boca and aim to be on-site quickly. With water and mold, every hour counts."
@@ -21,4 +28,6 @@ faqs:
     a: "Shut off the water if you can, then call us. It's one of the most common jobs we handle in Boca's condo buildings, and we document everything for the HOA and your insurer."
   - q: "What does mold remediation cost in Boca Raton?"
     a: "Most jobs run a few thousand dollars depending on the size and how far the moisture spread. We give an honest, upfront estimate after a free inspection."
+  - q: "Do you work with my insurance?"
+    a: "Yes. We document the damage thoroughly and work directly with your insurer to make the claim smoother."
 ---

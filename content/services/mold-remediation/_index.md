@@ -1,5 +1,7 @@
 ---
 title: "Mold Remediation"
+seotitle: "Mold Remediation in Boca Raton & South Florida | Pure Shield"
+description: "Owner-operated mold remediation in Boca Raton and across Palm Beach & Broward. We find the moisture source, remove mold at the root, and verify it's dry. Call (954) 778-0925."
 lead: "Owner-operated mold remediation across Boca Raton and South Florida. We find the moisture source, remove the mold at the root, and make sure it doesn't come back, with the owners on every job."
 heroimg: "/images/boca-home-mold-3.jpg"
 signs:

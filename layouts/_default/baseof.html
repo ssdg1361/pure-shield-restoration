@@ -357,7 +357,7 @@ img{max-width:100%;display:block}
 .related a:hover{border-color:var(--water);color:var(--water)}
 .related .rel-soon{display:inline-flex;align-items:center;background:#fff;border:1px dashed var(--border);border-radius:12px;padding:12px 18px;font-family:var(--display);font-weight:600;color:#9aa0a6;cursor:default}
 </style>
-{{ partial "schema-home.html" . }}
+{{ if eq .Kind "term" }}{{ partial "schema-term.html" . }}{{ else }}{{ partial "schema-home.html" . }}{{ end }}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZKHQP839PD"></script>
 <script>
@@ -411,10 +411,10 @@ gtag('config', 'G-ZKHQP839PD');
       </div>
       <div class="footer-col">
         <h4>Services</h4>
-        <a href="/#services">Mold Remediation</a>
-        <a href="/#services">Water Damage Restoration</a>
-        <a href="/#services">Structural Drying</a>
-        <a href="/#services">Emergency Extraction</a>
+        <a href="/services/mold-remediation/">Mold Remediation</a>
+        <a href="/services/water-damage-restoration/">Water Damage Restoration</a>
+        <a href="/services/structural-drying/">Structural Drying</a>
+        <a href="/services/emergency-water-extraction/">Emergency Extraction</a>
         <a href="/#services">Leak &amp; Moisture Mapping</a>
       </div>
       <div class="footer-col">
@@ -427,7 +427,7 @@ gtag('config', 'G-ZKHQP839PD');
     </div>
     <div class="footer-bottom">
         <span>&copy; 2026 Pure Shield Restoration &middot; Boca Raton &middot; Palm Beach &middot; Broward</span>
-        <span>Designed by <a href="https://ailocalbusiness.biz" target="_blank" rel="noopener" style="color:var(--bright)">AILB</a> for Spencer Scott Digital &middot; <a href="https://www.instagram.com/spencerscottdigital/" target="_blank" rel="noopener" style="color:var(--bright)">Instagram</a></span>
+        <span>Designed by <a href="https://ailocalbusiness.biz" target="_blank" rel="noopener" style="color:var(--bright)">AILB</a> for Spencer Scott Digital</span>
       </div>
   </div>
 </footer>

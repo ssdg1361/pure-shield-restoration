@@ -1,0 +1,55 @@
+{{- /* Page-specific structured data for service + area term pages.
+     Emits: LocalBusiness (anchor node) + Service + BreadcrumbList + FAQPage (when faqs present). */ -}}
+{{- $base := "https://pureshieldrestoration.com/" -}}
+{{- $bizID := printf "%s#business" $base -}}
+{{- $isArea := eq .Data.Plural "areas" -}}
+{{- $towns := slice "Boca Raton" "Delray Beach" "Boynton Beach" "Margate" "Highland Beach" "Deerfield Beach" "Pompano Beach" "Lighthouse Point" "Coral Springs" "Coconut Creek" "Palm Beach County" "Broward County" -}}
+
+{{- $biz := dict
+  "@type" (slice "LocalBusiness" "HomeAndConstructionBusiness")
+  "@id" $bizID
+  "name" "Pure Shield Restoration"
+  "url" $base
+  "telephone" "+19547780925"
+  "address" (dict "@type" "PostalAddress" "addressLocality" "Boca Raton" "addressRegion" "FL" "addressCountry" "US")
+-}}
+
+{{- $svcName := .Title -}}
+{{- $svcType := .Title -}}
+{{- $served := $towns -}}
+{{- if $isArea -}}
+  {{- $svcName = printf "Mold & Water Damage Restoration in %s" .Title -}}
+  {{- $svcType = "Mold remediation and water damage restoration" -}}
+  {{- $served = slice (dict "@type" "City" "name" .Title) -}}
+{{- end -}}
+{{- $svc := dict
+  "@type" "Service"
+  "@id" (printf "%s#service" .Permalink)
+  "name" $svcName
+  "serviceType" $svcType
+  "provider" (dict "@id" $bizID)
+  "areaServed" $served
+  "url" .Permalink
+-}}
+
+{{- $sectionName := cond $isArea "Service Areas" "Services" -}}
+{{- $sectionURL := cond $isArea (printf "%sareas/" $base) (printf "%sservices/" $base) -}}
+{{- $crumbs := dict
+  "@type" "BreadcrumbList"
+  "itemListElement" (slice
+    (dict "@type" "ListItem" "position" 1 "name" "Home" "item" $base)
+    (dict "@type" "ListItem" "position" 2 "name" $sectionName "item" $sectionURL)
+    (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink))
+-}}
+
+{{- $graph := slice $biz $svc $crumbs -}}
+
+{{- with .Params.faqs -}}
+  {{- $qs := slice -}}
+  {{- range . -}}
+    {{- $qs = $qs | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) -}}
+  {{- end -}}
+  {{- $graph = $graph | append (dict "@type" "FAQPage" "mainEntity" $qs) -}}
+{{- end -}}
+
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" $graph | jsonify | safeJS }}</script>

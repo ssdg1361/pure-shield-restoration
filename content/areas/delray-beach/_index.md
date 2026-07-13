@@ -1,6 +1,37 @@
 ---
 title: "Delray Beach"
+seotitle: "Mold & Water Damage Restoration in Delray Beach, FL | Pure Shield"
+description: "Owner-operated mold remediation and water damage restoration in Delray Beach. 24/7 response, 55+ community experience, insurance claims welcome. Call (954) 778-0925."
+lead: "Owner-operated mold and water damage restoration in Delray Beach, 24/7. Minutes from our Boca Raton base — you get Ryan and Jon on the job, whether it's a condo off Atlantic or a house on the Intracoastal."
+heroimg: "/images/hero-6.jpg"
+causes:
+  - title: "Upstairs leaks in the 55+ communities"
+    icon: "condo"
+    text: "Kings Point, High Point, and the Villages of Oriole run on stacked units. When a supply line, disposal, or water heater fails upstairs, the kitchen or ceiling below takes the hit — we've restored exactly that here."
+  - title: "Seasonal residents"
+    icon: "home"
+    text: "A big share of Delray lives here half the year. A small leak in a closed-up unit has all summer to become a mold problem before anyone's back to smell it."
+  - title: "Original plumbing east of Federal"
+    icon: "pipe"
+    text: "The older cottages and duplexes between Federal Highway and the beach still run plumbing from the '50s and '60s that fails behind walls."
+  - title: "AC condensate"
+    icon: "ac"
+    text: "Units run nearly year-round here. A clogged condensate line drips into ceilings and closets for weeks before anyone notices."
+  - title: "Waterfront exposure"
+    icon: "storm"
+    text: "Tropic Isle and the Intracoastal homes take wind-driven rain around windows, sliders, and doors every storm season."
+  - title: "Coastal humidity"
+    icon: "humidity"
+    text: "Salt air and year-round moisture keep mold growing in closets, bathrooms, and anywhere air doesn't move."
+neighborhoods: ["Kings Point","High Point","Villages of Oriole","Rainberry Bay","Lake Ida","Tropic Isle","Del Aire","East Atlantic corridor","The beachside"]
+zips: "33444, 33445, 33446, 33483, 33484"
+faqs:
+  - q: "How fast can you get to my home in Delray Beach?"
+    a: "Delray borders our Boca Raton home base, so we're usually there fast — we answer 24/7 and aim to be on-site the same day, often within a couple of hours. With water and mold, the faster it's contained, the less it spreads."
+  - q: "The leak came from the unit above mine. How does that work?"
+    a: "We handle this constantly in Delray's 55+ communities — our featured Delray job was exactly this, a failed disposal and sink line upstairs that damaged the kitchen below. The damage in your unit is your claim, the source is theirs, and we document everything with photos and moisture readings so both insurers and the association get what they need."
+  - q: "Can you handle a problem while I'm up north for the summer?"
+    a: "Yes. We can coordinate access with your property manager, a neighbor, or the association, document everything with photos as we go, and walk you through what we found by phone before any work beyond emergency stabilization."
+  - q: "Do you work with my insurance?"
+    a: "Yes. We photograph and document the damage the way adjusters expect and work with your insurer through the claim. Sudden, accidental damage like a burst pipe is typically covered; gradual leaks often aren't — and we'll tell you straight which side yours falls on."
 ---
-Water damage and mold restoration in **Delray Beach** — fast, owner-operated, and insurance-friendly. Whether it's a slab leak a few blocks off Atlantic Avenue or mold creeping behind a beachside condo's drywall, Pure Shield Restoration handles mold remediation, water damage restoration, structural drying, and emergency extraction. You work directly with the owners: quick response, honest assessments, and work we treat like it's our own home.
-
-The whole idea is simple — spend less time worrying about a funky smell in your house, and more time on a fishbowl cocktail at Boston's on the Beach. Available 24/7 across Delray Beach and Palm Beach County.

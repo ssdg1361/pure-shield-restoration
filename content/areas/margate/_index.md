@@ -1,6 +1,37 @@
 ---
 title: "Margate"
+seotitle: "Mold & Water Damage Restoration in Margate, FL | Pure Shield"
+description: "Owner-operated mold remediation and water damage restoration in Margate. 24/7 response, honest estimates, insurance claims welcome. Call (954) 778-0925."
+lead: "Owner-operated mold and water damage restoration in Margate, 24/7. The beach town without a beach still gets plenty of water — we keep it from staying inside your house."
+heroimg: "/images/hero-1.jpg"
+causes:
+  - title: "Original plumbing from the '60s and '70s"
+    icon: "pipe"
+    text: "Most of Margate went up fast in the '60s and '70s, and a lot of those ranch homes still run original galvanized or cast iron lines that fail behind walls and under slabs."
+  - title: "Stacked condos in the 55+ communities"
+    icon: "condo"
+    text: "Oriole Gardens and the other condo communities get the classic upstairs leak — a failed supply line or water heater above ends up in your ceiling, and two insurers plus the association all want documentation."
+  - title: "AC condensate"
+    icon: "ac"
+    text: "Units run nearly year-round here. A clogged condensate line quietly soaks ceilings, closets, and the wall behind the air handler for weeks before anyone notices."
+  - title: "Water heaters in garages and closets"
+    icon: "home"
+    text: "A lot of Margate homes keep the water heater in an interior closet or garage. When a 15-year-old tank lets go, the water finds carpet and drywall fast."
+  - title: "Canal-side humidity"
+    icon: "humidity"
+    text: "Margate is laced with canals and lakes. Year-round moisture keeps mold growing in bathrooms, closets, and any room where air doesn't move."
+  - title: "Summer storms & wind-driven rain"
+    icon: "storm"
+    text: "Tropical systems push water in around windows, doors, and older flat roofs — flood zone or not."
+neighborhoods: ["Oriole Gardens","Holiday Springs","Paradise Gardens","Coral Gate","Vanguard Village","Winfield Park","Palm Lakes","Margate Estates"]
+zips: "33063, 33093"
+faqs:
+  - q: "How fast can you get to my home in Margate?"
+    a: "We're based in Boca Raton, so Margate is a quick run for us. We answer 24/7 and aim to be on-site the same day, often within a couple of hours — with water and mold, the faster it's contained, the less it spreads."
+  - q: "The leak came from the condo above mine. Whose problem is it?"
+    a: "Common one in Margate's condo communities. Practically, the damage in your unit is your claim, the source is theirs, and the association may be involved for common elements. We document everything with photos and moisture readings the way adjusters expect, so you're covered no matter how the responsibility shakes out."
+  - q: "How much does mold remediation cost in Margate?"
+    a: "Most jobs land in the low thousands, depending on how much area is affected and how far moisture spread behind walls and floors. A small contained spot might be a few hundred dollars; a larger multi-room job runs higher. You get an honest, upfront estimate after a free inspection — we only recommend what's actually needed."
+  - q: "Do you work with my insurance?"
+    a: "Yes. We photograph and document the damage the way adjusters expect and work with your insurer through the claim. Sudden, accidental damage like a burst pipe is typically covered; gradual leaks often aren't — and we'll tell you straight which side yours falls on."
 ---
-Water damage and mold restoration in **Margate**, Broward County — fast, owner-operated, and available 24/7.
-
-Margate's the beach town without a beach, so the closest you'll get to a splash around here is Calypso Cove. Let us deal with the water that ends up *inside* your house, so you can keep it where it belongs.

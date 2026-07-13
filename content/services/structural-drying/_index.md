@@ -3,7 +3,7 @@ title: "Structural Drying"
 seotitle: "Structural Drying in Boca Raton & South Florida | Pure Shield"
 description: "Professional structural drying across Palm Beach & Broward. Meters, dehumidifiers, and daily readings until your home is verified dry — not guessed dry. (954) 778-0925."
 lead: "Getting the water out is half the job. Structural drying is the other half — drying what's inside your walls and floors to verified-dry readings, so mold never gets its 24-hour head start."
-heroimg: "/images/delray-water-2.jpg"
+heroimg: "/images/structural-drying-hero.jpg"
 signs:
   - title: "After any water event"
     icon: "storm"

@@ -1,0 +1,37 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Restoration Advice</span>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.lead }}<p class="lede" style="margin-top:16px;max-width:740px;color:var(--muted);font-size:18px">{{ . }}</p>{{ end }}
+    <div class="cs-meta">
+      <span class="cs-tag">{{ .Date.Format "January 2, 2006" }}</span>
+      {{ range .Params.tags }}<span class="cs-tag">{{ . }}</span>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="page-body">
+  <div class="container prose">
+    {{ .Content }}
+  </div>
+</section>
+
+{{ with .Params.faqs }}
+<section class="faq section">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">FAQ</span><h2>Frequently asked questions</h2></div>
+    <div class="faq-list">
+      {{ range . }}
+      <details class="qa">
+        <summary>{{ .q }}<span class="pm"></span></summary>
+        <div class="ans"><p>{{ .a }}</p></div>
+      </details>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ partial "post-cta.html" . }}
+{{ end }}

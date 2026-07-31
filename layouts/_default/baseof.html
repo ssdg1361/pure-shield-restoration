@@ -357,7 +357,7 @@ img{max-width:100%;display:block}
 .related a:hover{border-color:var(--water);color:var(--water)}
 .related .rel-soon{display:inline-flex;align-items:center;background:#fff;border:1px dashed var(--border);border-radius:12px;padding:12px 18px;font-family:var(--display);font-weight:600;color:#9aa0a6;cursor:default}
 </style>
-{{ if eq .Kind "term" }}{{ partial "schema-term.html" . }}{{ else }}{{ partial "schema-home.html" . }}{{ end }}
+{{ if eq .Kind "term" }}{{ partial "schema-term.html" . }}{{ else if eq .Section "blog" }}{{ if eq .Kind "page" }}{{ partial "schema-post.html" . }}{{ end }}{{ else if .IsHome }}{{ partial "schema-home.html" . }}{{ end }}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZKHQP839PD"></script>
 <script>
@@ -414,6 +414,7 @@ document.addEventListener('click', function(e){
         <a href="/services/">Services</a>
         <a href="/areas/">Areas</a>
         <a href="/work/">Our Work</a>
+        <a href="/blog/">Advice</a>
         <a href="/#why">Why Us</a>
         <a href="/#reviews">Reviews</a>
         <a href="/#faq">FAQ</a>
@@ -441,6 +442,7 @@ document.addEventListener('click', function(e){
         <a href="/services/structural-drying/">Structural Drying</a>
         <a href="/services/emergency-water-extraction/">Emergency Extraction</a>
         <a href="/#services">Leak &amp; Moisture Mapping</a>
+        <a href="/blog/">Restoration Advice</a>
       </div>
       <div class="footer-col">
         <h4>Contact</h4>

@@ -26,6 +26,9 @@
   "author" (dict "@id" $bizID)
   "publisher" (dict "@id" $bizID)
 -}}
+{{- with .Params.heroimg -}}
+  {{- $post = merge $post (dict "image" (printf "%s%s" "https://pureshieldrestoration.com" .)) -}}
+{{- end -}}
 
 {{- $crumbs := dict
   "@type" "BreadcrumbList"

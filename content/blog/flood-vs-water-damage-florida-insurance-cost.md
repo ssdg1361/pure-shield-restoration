@@ -1,10 +1,11 @@
 ---
-title: "Flood Damage vs. Water Damage in Florida: What Insurance Covers and What It Costs"
-seotitle: "Flood vs Water Damage in Florida: Insurance & Costs Explained | Pure Shield"
-description: "Why homeowners insurance usually excludes flood damage in Florida, what flood restoration actually costs, and how to tell the two kinds of water apart."
+title: "Flood Restoration vs. Water Damage in Florida: What Insurance Covers and What It Costs"
+seotitle: "Flood Restoration vs Water Damage in Florida: Insurance & Costs | Pure Shield"
+description: "When you need flood restoration instead of a water damage cleanup, why Florida homeowners policies exclude flood, and what the work actually costs."
 date: 2026-07-31
 heroimg: "/images/flood-vs-water-damage-coverage.jpg"
-lead: "If water came into your house from outside, your homeowners policy probably does not cover it. Here is what that means, what the work actually involves, and what drives the price."
+heroalt: "Side by side diagram: water entering a house from outside is a flood and is excluded by standard Florida homeowners insurance, while a burst pipe inside is water damage and is usually covered"
+lead: "If water came into your house from outside, you need flood restoration, and your homeowners policy probably does not cover it. Here is what that means, what the work involves, and what drives the price."
 summary: "Flood water and water damage are two different things in Florida, and the difference decides who pays. A plain explanation of coverage, cost drivers, and how to choose a restoration company."
 tags: ["flood-restoration", "water-damage", "insurance", "south-florida"]
 categories: ["water-damage"]
@@ -23,13 +24,13 @@ faqs:
     a: "Ask three things. Are they licensed and insured in Florida, and will they show you the license number. Will they give you moisture readings and documentation you can hand to an adjuster. And will they tell you plainly what does not need doing. Be careful with anyone who both tests for mold and remediates it on the same job, because Florida law separates those roles."
 ---
 
-Water on the floor is water on the floor. But where it came from decides who pays for it, and most South Florida homeowners find that out at the worst possible moment.
+Water on the floor is water on the floor. But where it came from decides who pays for it, and whether what you need is flood restoration or a standard water damage cleanup. Most South Florida homeowners find that out at the worst possible moment.
 
-## The short answer
+## The short answer: flood water and water damage are not the same thing
 
-**Flood water and water damage are two different things on your insurance policy.** A burst pipe or a failed water heater is sudden internal water, and a standard homeowners policy usually covers it. Water that rises from outside, from storm surge, heavy rain, or a canal that came up, is a flood, and standard homeowners policies generally exclude it. Flood is covered separately through the National Flood Insurance Program or a private flood policy. The cleanup work looks similar from the driveway, but the claim goes to a completely different place.
+**Flood water and water damage are two different things on your insurance policy.** A burst pipe or a failed water heater is sudden internal water, and a standard homeowners policy usually covers it. Water that rises from outside, from storm surge, heavy rain, or a canal that came up, is a flood, and standard homeowners policies generally exclude it. Flood is covered separately through the National Flood Insurance Program or a private flood policy. The cleanup work looks similar from the driveway, but the claim goes to a completely different place, and flood restoration is a different job from drying out a burst pipe.
 
-## Why outside water is handled differently
+## Why flood restoration is different from a water damage cleanup
 
 **Flood water is treated as contaminated from the moment it enters, no matter how clear it looks.** The industry standard that restoration companies work to, IICRC S500, sorts water into three categories. Category 1 is clean water from a supply line. Category 2 has some contamination, like a washing machine overflow. Category 3 is grossly contaminated, and ground surface water and storm surge land there by definition, because they pick up whatever is in the street, the soil, and the septic and sewer systems on the way to your house.
 
@@ -46,7 +47,7 @@ That classification is not a technicality. It changes the work:
 
 If a company treats storm surge like a clean water loss and just runs fans, you will be calling someone else in three weeks about mold.
 
-## What actually drives the cost
+## What flood restoration costs in South Florida, and what drives the price
 
 **Nobody can quote a flood job honestly without seeing it, and the size of the puddle is not the main variable.** Four things move the number more than anything else:
 
@@ -61,13 +62,13 @@ If a company treats storm surge like a clean water loss and just runs fans, you 
 
 Be wary of a firm price quoted over the phone before anyone has taken a reading. That number is either padded to cover the unknown or it is going to grow later.
 
-## The Florida licensing thing worth knowing
+## Florida law separates mold assessment from mold remediation
 
 **In Florida, the company that tests your home for mold generally cannot be the company that remediates it.** Under Florida Statute 468.8419, a licensed mold assessor may not perform remediation on a structure they assessed within the last twelve months, and a remediator may not perform an assessment on a structure they remediated in that window. The point is to remove the incentive to find more mold than is actually there.
 
 It is worth knowing because it gives you a clean question to ask any company that shows up: which one are you. Pure Shield is a licensed mold remediator, license number MRSR5407. We do not do our own clearance testing, so when a job needs independent verification you get it from a third party with no stake in how big the job is.
 
-## What to ask before you hire anyone
+## How to choose a flood restoration company
 
 ![Restoration technician in a full protective suit and respirator working in a contaminated crawlspace](/images/category-3-water-protective-equipment.jpg "Category 3 water is why this is not a shop-vac job.")
 
@@ -75,7 +76,7 @@ It is worth knowing because it gives you a clean question to ask any company tha
 
 If you are dealing with an active leak or interior water rather than outside flooding, the coverage question flips and the work changes with it. Our [flood and water damage restoration](/services/water-damage-restoration/) page walks through how we handle both. If mold has already taken hold, that is [mold remediation](/services/mold-remediation/) work, which Florida licenses separately. Homeowners in [Boca Raton](/areas/boca-raton/) can see recent jobs we have documented.
 
-## If you have water in the house right now
+## What to do first if you have flood water in your house
 
 Shut off the source if you can reach it safely, and stay out of standing water where electricity may be live. Photograph everything before anything moves, because that is what your adjuster wants. Then call someone.
 

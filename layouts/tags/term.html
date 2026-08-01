@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Topic</span>
+    <h1>{{ .Title }}</h1>
+    <p class="lede" style="margin-top:12px;color:var(--muted)">Articles on {{ lower .Title }} from Pure Shield Restoration.</p>
+  </div>
+</section>
+<section class="page-body">
+  <div class="container">
+    <div class="case-grid">
+      {{ range .Pages.ByDate.Reverse }}
+      <a class="case-card" href="{{ .RelPermalink }}">
+        <div class="cc-body">
+          <span class="cc-tag">{{ .Date.Format "Jan 2, 2006" }}</span>
+          <h3>{{ .Title }}</h3>
+          <p>{{ with .Params.lead }}{{ . | truncate 150 }}{{ else }}{{ .Summary | plainify | truncate 150 }}{{ end }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ partial "post-cta.html" . }}
+{{ end }}

@@ -6,7 +6,7 @@
     {{ with .Params.lead }}<p class="lede" style="margin-top:16px;max-width:740px;color:var(--muted);font-size:18px">{{ . }}</p>{{ end }}
     <div class="cs-meta">
       <span class="cs-tag">{{ .Date.Format "January 2, 2006" }}</span>
-      {{ range .Params.tags }}<span class="cs-tag">{{ . }}</span>{{ end }}
+      {{ range .Params.tags }}<a class="cs-tag" href="{{ (printf "/tags/%s/" (urlize .)) }}">{{ . }}</a>{{ end }}
     </div>
   </div>
 </section>
@@ -14,7 +14,7 @@
 {{ with .Params.heroimg }}
 <section style="padding:0 0 8px;background:var(--cream)">
   <div class="container">
-    <img src="{{ . }}" alt="{{ $.Title }}" style="width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--border);box-shadow:var(--shadow)">
+    <img src="{{ . }}" alt="{{ with $.Params.heroalt }}{{ . }}{{ else }}{{ $.Title }}{{ end }}" style="width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--border);box-shadow:var(--shadow)">
   </div>
 </section>
 {{ end }}

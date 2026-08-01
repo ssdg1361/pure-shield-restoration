@@ -1,0 +1,18 @@
+{{ define "main" }}
+<section class="page-hero">
+  <div class="container">
+    <span class="eyebrow">Topics</span>
+    <h1>All topics</h1>
+  </div>
+</section>
+<section class="page-body">
+  <div class="container">
+    <div class="chips" style="gap:12px">
+      {{ range .Data.Terms.Alphabetical }}
+      <a class="cs-tag" href="{{ .Page.RelPermalink }}">{{ .Page.Title }} ({{ .Count }})</a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ partial "post-cta.html" . }}
+{{ end }}

@@ -24,9 +24,9 @@ Mold doesn't always announce itself. In this **Boca Raton condo**, a hot-water l
 When we opened up the wall, the growth was worse than it looked from the room. Water from the upstairs leak had wicked down through the drywall and into the baseboards, feeding heavy **black mold** across the wall, around the bathroom vanity, and over near the laundry area. We used moisture meters to trace exactly how far the moisture had traveled, so nothing got missed behind the finishes.
 
 ## How we remediated it
-Mold spreads the moment you disturb it, so the first move was **full containment** — sealing off the affected rooms and running **HEPA air scrubbers** to pull spores out of the air and keep them from drifting into the rest of the condo. From there we removed the drywall and materials the mold had rooted into (porous materials can't simply be wiped clean once mold is established), HEPA-vacuumed and treated the surfaces that stayed, and applied antimicrobial throughout.
+Mold spreads the moment you disturb it, so the first move was **full containment**, sealing off the affected rooms and running **HEPA air scrubbers** to pull spores out of the air and keep them from drifting into the rest of the condo. From there we removed the drywall and materials the mold had rooted into (porous materials can't simply be wiped clean once mold is established), HEPA-vacuumed and treated the surfaces that stayed, and applied antimicrobial throughout.
 
-Because this was a condo, we kept the work clean and contained out of respect for the neighbors and the building — nothing tracked into shared hallways, no spores pushed into adjacent units.
+Because this was a condo, we kept the work clean and contained out of respect for the neighbors and the building. Nothing tracked into shared hallways, no spores pushed into adjacent units.
 
 ## The result
 Once the moisture source was addressed and the affected materials were out, we dried the space to verified-dry and cleared it. The mold was gone, the air was clean, and the homeowner could stop worrying about what was growing behind the wall.

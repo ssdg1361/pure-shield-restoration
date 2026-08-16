@@ -18,6 +18,6 @@ A slowly leaking exterior hose bib (spigot) had been letting water seep into an 
 We removed the water-damaged flooring and affected materials, used moisture meters to map how far the water had actually traveled, and dried the space out. With the leaking spigot identified as the real source, the repair could target the actual problem instead of just the symptoms.
 
 ## The result
-The room was cleaned up, dried to verified-dry, and cleared — and the homeowner knew exactly where the water had been coming from.
+The room was cleaned up, dried to verified-dry, and cleared, and the homeowner knew exactly where the water had been coming from.
 
 Mold or water damage in Margate or nearby Broward? [Mold remediation](/services/mold-remediation/) · [water damage restoration](/services/water-damage-restoration/), or call (954) 778-0925 for a free inspection.

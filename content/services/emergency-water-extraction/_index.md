@@ -4,6 +4,9 @@ seotitle: "24/7 Emergency Water Extraction | Boca Raton & South Florida | Pure S
 description: "Standing water in your home? 24/7 emergency water extraction across Palm Beach & Broward. Owners answer the phone. Call (954) 778-0925 now."
 lead: "Standing water in your home right now? Call (954) 778-0925 — we answer 24/7, and the owners pick up. Every hour water sits, it soaks deeper into floors, walls, and everything you own."
 heroimg: "/images/delray-water-2.jpg"
+relatedservices: ["Water Damage Restoration", "Structural Drying"]
+relatedheading: "Water losses we've handled"
+relatedlead: "Recent water damage and structural drying work from the same crew, shown with our own photos."
 signs:
   - title: "Burst pipe or supply line"
     icon: "pipe"

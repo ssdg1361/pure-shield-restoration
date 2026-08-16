@@ -1,20 +1,50 @@
+{{/* Jobs on a taxonomy term page.
+     If the term has its own jobs, show them.
+     If it has none but declares `relatedservices` in front matter, show recent work
+     tagged with those services instead, under honest "related work" framing.
+     If it has neither, render nothing at all rather than advertising an empty gallery. */}}
+{{ $isArea := eq .Data.Plural "areas" }}
+{{ $jobs := .Pages }}
+{{ $fallback := slice }}
+{{ if and (not $jobs) .Params.relatedservices }}
+  {{ $want := .Params.relatedservices }}
+  {{ range (where site.RegularPages "Section" "work").ByDate.Reverse }}
+    {{ $svcs := .Params.services | default slice }}
+    {{/* match on the job's FIRST service, i.e. what the job actually led with,
+         so a mold job that happened to involve water doesn't surface as water proof */}}
+    {{ if and $svcs (in $want (index $svcs 0)) }}
+      {{ $fallback = $fallback | append . }}
+    {{ end }}
+  {{ end }}
+  {{ $fallback = first 3 $fallback }}
+{{ end }}
+{{ $show := $jobs }}
+{{ if not $jobs }}{{ $show = $fallback }}{{ end }}
+
+{{ if $show }}
 <section class="section" style="background:var(--white)">
   <div class="container">
     <div class="section-head">
-      {{ if eq .Data.Plural "areas" }}
-      <span class="eyebrow">Real work in {{ .Title }}</span>
-      <h2>Jobs we've actually done here</h2>
+      {{ if $jobs }}
+        {{ if $isArea }}
+        <span class="eyebrow">Real work in {{ .Title }}</span>
+        <h2>Jobs we've actually done here</h2>
+        {{ else }}
+        <span class="eyebrow">Real {{ lower .Title }} jobs</span>
+        <h2>See the work</h2>
+        {{ end }}
+        <p>Actual jobs we've completed, shown with our own photos.</p>
       {{ else }}
-      <span class="eyebrow">Real {{ lower .Title }} jobs</span>
-      <h2>See the work</h2>
+        <span class="eyebrow">Related work</span>
+        <h2>{{ .Params.relatedheading | default "Work that shows how we handle this" }}</h2>
+        <p>{{ .Params.relatedlead | default "Recent jobs from the same crew, shown with our own photos." }}</p>
       {{ end }}
-      <p>Actual jobs we've completed, shown with our own photos.</p>
     </div>
-    {{ if .Pages }}
     <div class="pa-cases">
-      {{ range .Pages.ByDate.Reverse }}
+      {{ range $show }}
+      {{ $p := . }}
       <a class="case-card" href="{{ .RelPermalink }}">
-        {{ with .Params.hero }}<img src="{{ . }}" alt="{{ $.Title }} job by Pure Shield Restoration" loading="lazy">{{ end }}
+        {{ with .Params.hero }}<img src="{{ . }}" alt="{{ $p.Title }} by Pure Shield Restoration" loading="lazy">{{ end }}
         <div class="cc-body">
           {{ with .Params.city }}<span class="cc-tag">{{ . }}</span>{{ end }}
           <h3>{{ .Title }}</h3>
@@ -23,8 +53,6 @@
       </a>
       {{ end }}
     </div>
-    {{ else }}
-    <p class="prose" style="text-align:center">More projects will appear here as we complete them.</p>
-    {{ end }}
   </div>
 </section>
+{{ end }}

@@ -15,7 +15,7 @@ photos:
 A leak from the upstairs condo caused significant water damage in this 55+ community condo in **Delray Beach**. Water from a failed garbage disposal and sink line traveled into the kitchen below, damaging cabinets, countertops, backsplash areas, and wood flooring.
 
 ## How we restored it
-Our team responded quickly to begin the drying and cleanup process. We set commercial **LGR dehumidifiers** and air movers to dry the affected areas and prevent further moisture damage, removed damaged materials as needed, and helped put everything back together — working directly with the insurance process the whole way.
+Our team responded quickly to begin the drying and cleanup process. We set commercial **LGR dehumidifiers** and air movers to dry the affected areas and prevent further moisture damage, removed damaged materials as needed, and helped put everything back together, working directly with the insurance process the whole way.
 
 ## The result
 The kitchen was dried to verified-dry, cleaned, and restored. No lingering moisture, no secondary mold, and a homeowner who could stop worrying.

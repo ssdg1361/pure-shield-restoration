@@ -604,8 +604,14 @@ body.navopen{overflow:hidden}
 .page-hero h1{font-size:var(--t-4xl);font-weight:800;max-width:20ch}
 .page-body{padding:var(--s-10) 0 var(--sec-tight);background:var(--cream)}
 .prose{max-width:68ch;font-size:var(--t-md);color:var(--text);line-height:1.7}
-.prose h2{font-family:var(--display);color:var(--navy);font-size:var(--t-xl);margin:var(--s-8) 0 var(--s-3)}
+.prose h2{font-family:var(--display);color:var(--navy);font-size:var(--t-xl);
+  line-height:1.25;margin:var(--s-8) 0 var(--s-4)}
 .prose p{margin:0 0 var(--s-4)}
+.prose ul,.prose ol{margin:0 0 var(--s-5);padding-left:1.35em}
+.prose li{margin:0 0 var(--s-4)}
+.prose li:last-child{margin-bottom:0}
+.prose li::marker{color:var(--water)}
+.prose ul+p,.prose ol+p{margin-top:var(--s-5)}
 .prose a{color:var(--water);text-decoration:underline;text-underline-offset:2px}
 .prose img{width:100%;max-height:520px;object-fit:cover;object-position:center;
   border-radius:var(--radius-sm);border:1px solid var(--border);box-shadow:var(--shadow-sm);

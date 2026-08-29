@@ -28,11 +28,15 @@ Water on the floor is water on the floor. But where it came from decides who pay
 
 ## The short answer: flood water and water damage are not the same thing
 
-**Flood water and water damage are two different things on your insurance policy.** A burst pipe or a failed water heater is sudden internal water, and a standard homeowners policy usually covers it. Water that rises from outside, from storm surge, heavy rain, or a canal that came up, is a flood, and standard homeowners policies generally exclude it. Flood is covered separately through the National Flood Insurance Program or a private flood policy. The cleanup work looks similar from the driveway, but the claim goes to a completely different place, and flood restoration is a different job from drying out a burst pipe.
+**Flood water and water damage are two different things on your insurance policy.** A burst pipe or a failed water heater is sudden internal water, and a standard homeowners policy usually covers it. Water that rises from outside, from storm surge, heavy rain, or a canal that came up, is a flood, and standard homeowners policies generally exclude it.
+
+Flood is covered separately through the National Flood Insurance Program or a private flood policy. The cleanup work looks similar from the driveway, but the claim goes to a completely different place, and flood restoration is a different job from drying out a burst pipe.
 
 ## Why flood restoration is different from a water damage cleanup
 
-**Flood water is treated as contaminated from the moment it enters, no matter how clear it looks.** The industry standard that restoration companies work to, IICRC S500, sorts water into three categories. Category 1 is clean water from a supply line. Category 2 has some contamination, like a washing machine overflow. Category 3 is grossly contaminated, and ground surface water and storm surge land there by definition, because they pick up whatever is in the street, the soil, and the septic and sewer systems on the way to your house.
+**Flood water is treated as contaminated from the moment it enters, no matter how clear it looks.** The industry standard that restoration companies work to, IICRC S500, sorts water into three categories. Category 1 is clean water from a supply line. Category 2 has some contamination, like a washing machine overflow.
+
+Category 3 is grossly contaminated, and ground surface water and storm surge land there by definition, because they pick up whatever is in the street, the soil, and the septic and sewer systems on the way to your house.
 
 That classification is not a technicality. It changes the work:
 
@@ -41,9 +45,11 @@ That classification is not a technicality. It changes the work:
 - **Disinfecting is part of the job, not an add-on.** Surfaces that stay get cleaned and treated before anything is closed back up.
 - **Drying is verified with meters, not by eye.** A wall can feel dry and still hold enough moisture for mold to start.
 
-![Chart of the three IICRC S500 water categories, showing that flood water is always Category 3 and porous materials are removed rather than dried](/images/water-damage-categories.jpg "Category 1, 2 and 3 water, and what happens to your materials in each.")
+![Chart of the three IICRC S500 water categories, showing that flood water is always Category 3 and porous materials are removed rather than dried](/images/water-damage-categories.jpg)
+*Category 1, 2 and 3 water, and what happens to your materials in each.*
 
-![Removing water-damaged drywall from a wall, showing the wet and mold-stained back face that was hidden from view](/images/flood-water-damaged-drywall-removal.jpg "Drywall that took on water comes out. You cannot disinfect the inside of it.")
+![Removing water-damaged drywall from a wall, showing the wet and mold-stained back face that was hidden from view](/images/flood-water-damaged-drywall-removal.jpg)
+*Drywall that took on water comes out. You cannot disinfect the inside of it.*
 
 If a company treats storm surge like a clean water loss and just runs fans, you will be calling someone else in three weeks about mold.
 
@@ -56,25 +62,34 @@ If a company treats storm surge like a clean water loss and just runs fans, you 
 - **How far the water traveled.** Water moves under flooring and inside wall cavities. What looks like one wet room is often three, and moisture mapping is what finds that.
 - **How long the structure takes to dry.** Most jobs run a few days of monitored drying. Our humidity stretches that out, so equipment stays until the readings say it is done rather than until the calendar says so.
 
-![Commercial air movers and lay-flat ducting drying a large room after a water loss in South Florida](/images/flood-drying-air-movers-hero.jpg "Monitored drying on a real job. Equipment stays until the readings say it is done.")
+![Commercial air movers and lay-flat ducting drying a large room after a water loss in South Florida](/images/flood-drying-air-movers-hero.jpg)
+*Monitored drying on a real job. Equipment stays until the readings say it is done.*
 
-![Moisture meter being held against a wall to take a reading during a water damage inspection](/images/moisture-meter-verified-dry.jpg "Readings, not guesses. This is what decides when the equipment comes out.")
+![Moisture meter being held against a wall to take a reading during a water damage inspection](/images/moisture-meter-verified-dry.jpg)
+*Readings, not guesses. This is what decides when the equipment comes out.*
 
 Be wary of a firm price quoted over the phone before anyone has taken a reading. That number is either padded to cover the unknown or it is going to grow later.
 
 ## Florida law separates mold assessment from mold remediation
 
-**In Florida, the company that tests your home for mold generally cannot be the company that remediates it.** Under Florida Statute 468.8419, a licensed mold assessor may not perform remediation on a structure they assessed within the last twelve months, and a remediator may not perform an assessment on a structure they remediated in that window. The point is to remove the incentive to find more mold than is actually there.
+**In Florida, the company that tests your home for mold generally cannot be the company that remediates it.** Under Florida Statute 468.8419, a licensed mold assessor may not perform remediation on a structure they assessed within the last twelve months, and a remediator may not perform an assessment on a structure they remediated in that window.
+
+The point is to remove the incentive to find more mold than is actually there. We cover how that works, and the one exception to it, in [mold inspection vs. mold remediation in Florida](/blog/mold-inspection-vs-mold-remediation-florida/).
 
 It is worth knowing because it gives you a clean question to ask any company that shows up: which one are you. Pure Shield is a licensed mold remediator, license number MRSR5407. We do not do our own clearance testing, so when a job needs independent verification you get it from a third party with no stake in how big the job is.
 
 ## How to choose a flood restoration company
 
-![Restoration technician in a full protective suit and respirator working in a contaminated crawlspace](/images/category-3-water-protective-equipment.jpg "Category 3 water is why this is not a shop-vac job.")
+![Restoration technician in a full protective suit and respirator working in a contaminated crawlspace](/images/category-3-water-protective-equipment.jpg)
+*Category 3 water is why this is not a shop-vac job.*
 
-**The company that answers the phone at 2am is not automatically the right one.** Ask for the Florida license number and confirm it. Ask whether you will get moisture readings and photo documentation formatted for an adjuster, because a claim without documentation is a claim you argue about later. Ask who is actually on site, since with the large franchises the estimator you meet is often not the crew that shows up. And ask them to tell you what does not need doing, because a company that will not say no to any part of a job is selling, not assessing.
+**The company that answers the phone at 2am is not automatically the right one.** Ask for the Florida license number and confirm it. Ask whether you will get moisture readings and photo documentation formatted for an adjuster, because a claim without documentation is a claim you argue about later.
 
-If you are dealing with an active leak or interior water rather than outside flooding, the coverage question flips and the work changes with it. Our [flood and water damage restoration](/services/water-damage-restoration/) page walks through how we handle both. If mold has already taken hold, that is [mold remediation](/services/mold-remediation/) work, which Florida licenses separately. Homeowners in [Boca Raton](/areas/boca-raton/) can see recent jobs we have documented.
+Ask who is actually on site, since with the large franchises the estimator you meet is often not the crew that shows up. And ask them to tell you what does not need doing, because a company that will not say no to any part of a job is selling, not assessing.
+
+If you are dealing with an active leak or interior water rather than outside flooding, the coverage question flips and the work changes with it. Our [flood and water damage restoration](/services/water-damage-restoration/) page walks through how we handle both.
+
+If mold has already taken hold, that is [mold remediation](/services/mold-remediation/) work, which Florida licenses separately. Homeowners in [Boca Raton](/areas/boca-raton/) can see recent jobs we have documented.
 
 ## What to do first if you have flood water in your house
 

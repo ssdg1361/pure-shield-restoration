@@ -1,7 +1,7 @@
 {{- /* Structured data for blog posts. Emits: LocalBusiness (anchor) + BlogPosting + BreadcrumbList + FAQPage (when faqs present). */ -}}
 {{- $base := "https://pureshieldrestoration.com/" -}}
 {{- $bizID := printf "%s#business" $base -}}
-{{- $towns := slice "Boca Raton" "Delray Beach" "Boynton Beach" "Margate" "Highland Beach" "Deerfield Beach" "Pompano Beach" "Lighthouse Point" "Coral Springs" "Coconut Creek" "Palm Beach County" "Broward County" -}}
+{{- $towns := slice "Boca Raton" "Delray Beach" "Boynton Beach" "Margate" "Highland Beach" "Deerfield Beach" "Pompano Beach" "Lighthouse Point" "Coral Springs" "Coconut Creek" "Parkland" "Palm Beach County" "Broward County" -}}
 
 {{- $biz := dict
   "@type" (slice "LocalBusiness" "HomeAndConstructionBusiness")

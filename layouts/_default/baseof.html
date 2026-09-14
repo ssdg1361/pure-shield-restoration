@@ -22,14 +22,59 @@
 <meta property="og:title" content="{{ $pageTitle }}">
 <meta property="og:description" content="{{ $desc }}">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:image" content="https://pureshieldrestoration.com/images/og.jpg">
+{{/* ----------------------------------------------------------------------
+     Open Graph / Twitter card image.
+
+     Picks the page's own lead image, then crops it to a 1200x630 social
+     card so every unfurl is the same shape no matter what the source
+     photo was. Most heroes on this site are portrait (3:4) or square,
+     which unfurl badly if handed over raw, so the crop is the point.
+
+     Order: ogimage (explicit override) -> hero (work) -> heroimg
+     (areas / services / blog) -> first entry in photos -> /images/og.jpg.
+
+     To override on any page, set `ogimage:` (and optionally
+     `ogimagealt:`) in its front matter. Reads static/ via the
+     static -> assets mount in hugo.toml.
+     ---------------------------------------------------------------------- */}}
+{{ $ogDefault := "images/og.jpg" }}
+{{ $ogAltDefault := cond .IsHome "Pure Shield Restoration technician treating ductwork in a crawlspace" (printf "%s, Pure Shield Restoration" (.Title | plainify)) }}
+{{ $ogPath := "" }}
+{{ $ogAlt := "" }}
+{{ with .Params.photos }}{{ $p := index . 0 }}{{ $ogPath = $p.src }}{{ $ogAlt = $p.alt }}{{ end }}
+{{ with .Params.heroimg }}{{ $ogPath = . }}{{ $ogAlt = "" }}{{ end }}
+{{ with .Params.hero }}{{ $ogPath = . }}{{ $ogAlt = "" }}{{ end }}
+{{ with .Params.heroalt }}{{ $ogAlt = . }}{{ end }}
+{{ with .Params.ogimage }}{{ $ogPath = . }}{{ $ogAlt = "" }}{{ end }}
+{{ with .Params.ogimagealt }}{{ $ogAlt = . }}{{ end }}
+{{ if not $ogPath }}{{ $ogPath = $ogDefault }}{{ end }}
+{{ if not $ogAlt }}{{ with .Params.seotitle }}{{ $ogAlt = . }}{{ end }}{{ end }}
+{{ if not $ogAlt }}{{ $ogAlt = $ogAltDefault }}{{ end }}
+{{ $ogAlt = $ogAlt | plainify | truncate 120 }}
+{{ $ogRes := resources.Get (strings.TrimPrefix "/" $ogPath) }}
+{{ if not $ogRes }}{{ $ogRes = resources.Get $ogDefault }}{{ end }}
+{{ $ogURL := printf "%simages/og.jpg" site.BaseURL }}
+{{/* Guard: a source smaller than this upscales into a mushy card, so fall
+     back to the brand image rather than publish a blurry one. */}}
+{{ if and $ogRes (or (lt $ogRes.Width 500) (lt $ogRes.Height 400)) }}
+  {{ $ogRes = resources.Get $ogDefault }}
+{{ end }}
+{{ with $ogRes }}
+  {{ $card := . }}
+  {{ if or (ne .Width 1200) (ne .Height 630) }}{{ $card = .Fill "1200x630 Smart" }}{{ end }}
+  {{ $ogURL = $card.Permalink }}
+{{ end }}
+<meta property="og:image" content="{{ $ogURL }}">
+<meta property="og:image:secure_url" content="{{ $ogURL }}">
+<meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Pure Shield Restoration technician treating ductwork in a crawlspace">
+<meta property="og:image:alt" content="{{ $ogAlt }}">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ $pageTitle }}">
 <meta name="twitter:description" content="{{ $desc }}">
-<meta name="twitter:image" content="https://pureshieldrestoration.com/images/og.jpg">
+<meta name="twitter:image" content="{{ $ogURL }}">
+<meta name="twitter:image:alt" content="{{ $ogAlt }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap" rel="stylesheet">
@@ -606,6 +651,9 @@ body.navopen{overflow:hidden}
 .prose{max-width:68ch;font-size:var(--t-md);color:var(--text);line-height:1.7}
 .prose h2{font-family:var(--display);color:var(--navy);font-size:var(--t-xl);
   line-height:1.25;margin:var(--s-8) 0 var(--s-4)}
+.prose h3{font-family:var(--display);color:var(--navy);font-size:var(--t-lg);
+  font-weight:700;line-height:1.3;margin:var(--s-6) 0 var(--s-3)}
+.prose h2+h3{margin-top:var(--s-4)}
 .prose p{margin:0 0 var(--s-4)}
 .prose ul,.prose ol{margin:0 0 var(--s-5);padding-left:1.35em}
 .prose li{margin:0 0 var(--s-4)}
@@ -749,6 +797,7 @@ document.addEventListener('click', function(e){
     <a class="sub" href="/services/water-damage-restoration/">Flood &amp; Water Damage Restoration</a>
     <a class="sub" href="/services/structural-drying/">Structural Drying</a>
     <a class="sub" href="/services/emergency-water-extraction/">Emergency Water Extraction</a>
+    <a class="sub" href="/services/insurance-claims/">Insurance Claims</a>
 
     <h4>Service areas</h4>
     <a href="/areas/">All areas</a>
@@ -794,6 +843,7 @@ document.addEventListener('click', function(e){
         <a href="/services/water-damage-restoration/">Water Damage Restoration</a>
         <a href="/services/structural-drying/">Structural Drying</a>
         <a href="/services/emergency-water-extraction/">Emergency Extraction</a>
+        <a href="/services/insurance-claims/">Insurance Claims</a>
         <a href="/#services">Leak &amp; Moisture Mapping</a>
       </div>
       <div class="footer-col">

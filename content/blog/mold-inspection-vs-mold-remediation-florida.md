@@ -1,7 +1,7 @@
 ---
 title: "Mold Inspection vs. Mold Remediation in Florida: Who to Call First"
-seotitle: "Mold Inspection vs Mold Remediation in Florida: Who to Call First | Pure Shield"
-description: "Florida licenses mold inspection and mold remediation separately. What each one is, who can legally do both, and how to check a license before you hire."
+seotitle: "Mold Inspection vs. Mold Remediation in Florida: Who to Call First"
+description: "Florida licenses mold testing and mold cleanup as two separate jobs, and most companies can't do both on your house. Which one you need first, the exception, and how to check a license in a minute."
 date: 2026-08-27
 heroimg: "/images/boca-home-mold-2.jpg"
 heroalt: "A thermal imaging camera aimed at a baseboard with dark staining running along the wall line"

@@ -1,7 +1,7 @@
 ---
 title: "Coconut Creek"
-seotitle: "Mold & Water Damage Restoration in Coconut Creek, FL | Pure Shield"
-description: "Owner-operated mold remediation and water damage restoration in Coconut Creek. 24/7 response, honest estimates, insurance claims welcome. Call (954) 778-0925."
+seotitle: "Mold Remediation & Water Damage Restoration in Coconut Creek, FL | Pure Shield"
+description: "Licensed, owner-operated mold remediation and water damage restoration in Coconut Creek. Same-day response, free inspection, condo and HOA experience, insurance welcome. Call (954) 778-0925."
 lead: "Owner-operated mold and water damage restoration in Coconut Creek, 24/7. Call and you get Ryan and Jon on the job, not a call center."
 heroimg: "/images/coconut-creek-condo-mold-hero.jpg"
 causes:

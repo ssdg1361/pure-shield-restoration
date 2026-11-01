@@ -50,29 +50,29 @@
   "img2" "/images/coral-springs-drying-1.jpg" "alt2" "Room sealed off with plastic containment, drying equipment running inside, in a Coral Springs home") }}
 
 <!-- credentials: one photograph cut across tiles -->
-{{/* The photo fills the middle 4x3 block, cropped to exactly 4:3 so it is never stretched;
-     the facts stand in the outside columns, three a side. Kept to 4 of 6 columns so the
-     1206px original isn't blown up past what it can hold. */}}
+{{/* The photo runs across the whole 6x4 board, cropped to exactly 3:2 (the board's shape) so it is
+     never stretched. The facts are dealt in among the pieces, spread over all four rows and kept off
+     the technician. Full original width at q90: the 1206px photo has no detail to spare. */}}
 {{ $mz := "/images/category-3-water-protective-equipment.jpg" }}
-{{ with resources.Get "images/category-3-water-protective-equipment.jpg" }}{{ $mz = (.Fill "1174x881 Center q85").RelPermalink }}{{ end }}
+{{ with resources.Get "images/category-3-water-protective-equipment.jpg" }}{{ $mz = (.Fill "1206x804 Center q90").RelPermalink }}{{ end }}
 <section class="b-check" aria-labelledby="check-title" style="--mz:url('{{ $mz }}')">
   <div class="mz">
-    {{ range $i := seq 0 17 }}
+    {{ range $i := seq 0 23 }}
       {{ $c := mod $i 6 }}{{ $r := div $i 6 }}
       {{ if eq $i 0 }}
         <div class="mz-t t-paper mz-head"><h2 id="check-title">Easy to check</h2></div>
       {{ else if eq $i 5 }}
         <div class="mz-t t-navy"><p><b>5.0 on Google</b> from the homeowners we've worked for.</p></div>
-      {{ else if eq $i 6 }}
-        <div class="mz-t t-green mz-crew"><p><b>Yes, that's one of our guys.</b> Not a stock photo.</p></div>
-      {{ else if eq $i 11 }}
-        <div class="mz-t t-ink"><p><b>IICRC certified.</b> Licensed and insured, too.</p></div>
       {{ else if eq $i 12 }}
-        <div class="mz-t t-paper2"><p><b>MRSR5407</b> is our Florida mold remediation license.</p></div>
+        <div class="mz-t t-green mz-crew"><p><b>Yes, that's one of our guys.</b> Not a stock photo.</p></div>
       {{ else if eq $i 17 }}
+        <div class="mz-t t-ink"><p><b>IICRC certified.</b> Licensed and insured, too.</p></div>
+      {{ else if eq $i 19 }}
+        <div class="mz-t t-paper2"><p><b>MRSR5407</b> is our Florida mold remediation license.</p></div>
+      {{ else if eq $i 22 }}
         <a class="mz-t t-accent mz-call" href="tel:9547780925"><p><b>Call now</b> (954)&nbsp;778&#8209;0925</p></a>
       {{ else }}
-        <div class="mz-p" style="--x:{{ div (mul (sub $c 1) 100.0) 3 }}%;--y:{{ mul $r 50 }}%" aria-hidden="true"></div>
+        <div class="mz-p" style="--x:{{ mul $c 20 }}%;--y:{{ div (mul $r 100.0) 3 }}%" aria-hidden="true"></div>
       {{ end }}
     {{ end }}
   </div>

@@ -47,21 +47,23 @@
 {{ partial "board/hero.html" (dict "h1" "Mold and water damage, handled."
   "sub" "Mold and water damage restoration in Boca Raton and across Palm Beach and Broward. You deal with the owners, Ryan and Jon, from the first call to the final walkthrough."
   "img1" "/images/hero-1.jpg" "alt1" "Heavy mold growth across a wall before remediation"
-  "img2" "/images/category-3-water-protective-equipment.jpg" "alt2" "Pure Shield technician in a full protective suit and respirator working in a crawlspace") }}
+  "img2" "/images/coral-springs-drying-1.jpg" "alt2" "Room sealed off with plastic containment, drying equipment running inside, in a Coral Springs home") }}
 
 <!-- credentials: one photograph cut across tiles -->
-{{ $mz := partial "rimg.html" (dict "src" "/images/coral-springs-drying-hero.jpg" "w" 1600) }}
+{{/* Cropped to the board's exact 3:2 shape so the picture is never stretched across the tiles. */}}
+{{ $mz := "/images/category-3-water-protective-equipment.jpg" }}
+{{ with resources.Get "images/category-3-water-protective-equipment.jpg" }}{{ $mz = (.Fill "1200x800 Center q80").RelPermalink }}{{ end }}
 <section class="b-check" aria-labelledby="check-title" style="--mz:url('{{ $mz }}')">
   <div class="mz">
     {{ range $i := seq 0 23 }}
       {{ $c := mod $i 6 }}{{ $r := div $i 6 }}
       {{ if eq $i 0 }}
         <div class="mz-t t-paper mz-head"><h2 id="check-title">Easy to check</h2></div>
-      {{ else if eq $i 9 }}
+      {{ else if eq $i 11 }}
         <div class="mz-t t-navy"><p><b>5.0 on Google</b> from the homeowners we've worked for.</p></div>
-      {{ else if eq $i 13 }}
+      {{ else if eq $i 19 }}
         <div class="mz-t t-paper2"><p><b>MRSR5407</b> is our Florida mold remediation license.</p></div>
-      {{ else if eq $i 17 }}
+      {{ else if eq $i 23 }}
         <div class="mz-t t-ink"><p><b>IICRC certified.</b> Licensed and insured, too.</p></div>
       {{ else if eq $i 21 }}
         <a class="mz-t t-accent mz-call" href="tel:9547780925"><p><b>Call now</b> (954)&nbsp;778&#8209;0925</p></a>
@@ -70,7 +72,7 @@
       {{ end }}
     {{ end }}
   </div>
-  <img class="mz-img" src="{{ $mz }}" alt="Drying equipment set up in a bright open-plan Coral Springs home" loading="lazy">
+  <img class="mz-img" src="{{ $mz }}" alt="Pure Shield technician in a full protective suit and respirator working in a crawlspace" loading="lazy">
 </section>
 
 <!-- the live thing: where are you seeing it? -->
@@ -122,7 +124,7 @@
     <a class="t t-paper2 sv-b" href="/services/water-damage-restoration/"><h3>Water damage restoration</h3><p>Leaks, storms and floods: extract, dry, restore, and document it all.</p></a>
     <a class="t t-ink sv-c" href="/services/structural-drying/"><h3>Structural drying</h3><p>Air movers and dehumidifiers, checked daily until the structure reads dry.</p></a>
     <a class="t t-paper sv-d" href="/services/emergency-water-extraction/"><h3>Emergency water extraction</h3><p>Standing water out fast, then straight into drying to limit the loss.</p></a>
-    <figure class="t t-photo sv-ph2"><img src="{{ partial "rimg.html" (dict "src" "/images/coral-springs-drying-1.jpg" "w" 900) }}" alt="Containment and drying equipment set up in an open-plan Coral Springs home" loading="lazy"></figure>
+    <figure class="t t-photo sv-ph2"><img src="{{ partial "rimg.html" (dict "src" "/images/flood-drying-air-movers-hero.jpg" "w" 900) }}" alt="Commercial air movers and lay-flat ducting drying a large room after a water loss" loading="lazy"></figure>
     <a class="t t-paper2 sv-e" href="/services/insurance-claims/"><h3>Insurance claims</h3><p>The photos, readings and paperwork your adjuster asks for.</p></a>
     <div class="t t-navy sv-f"><h3>Leak and moisture mapping</h3><p>Meters and thermal tools trace leaks behind walls and under floors.</p></div>
   </div>

@@ -1,5 +1,6 @@
 ---
 title: "Coral Springs"
+board: true   # tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold & Water Damage Restoration in Coral Springs, FL | Pure Shield"
 description: "Owner-operated mold remediation and water damage restoration in Coral Springs. 24/7 response, honest estimates, insurance claims welcome. Call (954) 778-0925."
 lead: "Owner-operated mold and water damage restoration in Coral Springs, 24/7. Family homes are our bread and butter — and you deal with the owners, not a call center."

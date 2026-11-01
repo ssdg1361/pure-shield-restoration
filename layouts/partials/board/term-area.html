@@ -1,6 +1,7 @@
 {{/* Area page, board layout (opt in with `board: true`). Same tiles as the homepage. */}}
 {{ $p := . }}
-{{ $hero := .Params.heroimg | default "/images/hero-1.jpg" }}
+{{/* `boardimg` overrides the hero photo for this layout only (heroimg also feeds the social card). */}}
+{{ $hero := .Params.boardimg | default .Params.heroimg | default "/images/hero-1.jpg" }}
 {{ $jobs := .Pages.ByDate.Reverse }}
 {{/* Pictures: this town's own job photos first, then a few from other jobs as a floor. */}}
 {{ $ph := slice }}
@@ -20,7 +21,7 @@
 <section class="b-svc" id="causes" aria-labelledby="causes-title">
   <div class="sv sv--long">
     <div class="t t-paper sv-head">
-      <h2 id="causes-title" data-rise>What goes wrong in {{ $p.Title }} homes</h2>
+      <h2 id="causes-title" data-rise>What goes wrong in {{ $p.Title }}</h2>
       <p data-rise>The causes we run into most here, and where the water usually comes from.</p>
     </div>
     <figure class="t t-photo sv-ph1"><img src="{{ partial "rimg.html" (dict "src" (index $ph 1).src "w" 900) }}" alt="{{ (index $ph 1).alt }}" loading="lazy"></figure>
@@ -93,7 +94,7 @@
 
 {{ partial "board/steps.html" (dict "title" "How a job runs" "intro" "Every job runs the same way, whether it's one wall or a whole condo. You get a realistic timeline at the inspection, and we document each step for your insurer." "steps" site.Data.board.steps) }}
 
-{{ with .Params.faqs }}{{ partial "board/faq.html" (dict "id" "faq" "title" (printf "%s questions" $p.Title) "faqs" .) }}{{ end }}
+{{ with .Params.faqs }}{{ partial "board/faq.html" (dict "id" "faq" "title" "Questions, answered" "faqs" .) }}{{ end }}
 
 {{ partial "board/contact.html" (dict "title" (printf "Mold or water damage in %s?" .Title) "text" "Tell us what's going on and we'll get right back to you. For an active leak or flooding, call <a class=\"ct-phone\" href=\"tel:9547780925\">(954)&nbsp;778&#8209;0925</a>. We answer 24/7.") }}
 

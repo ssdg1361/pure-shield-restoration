@@ -1,5 +1,6 @@
 ---
 title: "Pompano Beach"
+board: true   # tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold & Water Damage Restoration in Pompano Beach, FL | Pure Shield"
 description: "Owner-operated mold remediation and water damage restoration in Pompano Beach. 24/7 response, condo experience, insurance claims welcome. Call (954) 778-0925."
 lead: "Owner-operated mold and water damage restoration in Pompano Beach, 24/7. From beachfront condo towers to Old Pompano cottages, you deal directly with the owners on every job."

@@ -1,5 +1,6 @@
 ---
 title: "Boynton Beach"
+board: true   # tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold & Water Damage Restoration in Boynton Beach, FL | Pure Shield"
 description: "Owner-operated mold remediation and water damage restoration in Boynton Beach. 24/7 response, honest estimates, insurance claims welcome. Call (954) 778-0925."
 lead: "Owner-operated mold and water damage restoration in Boynton Beach, 24/7. Call and you get Ryan and Jon on the job, not a call center dispatching whoever's next."

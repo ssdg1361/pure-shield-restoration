@@ -1,5 +1,6 @@
 ---
 title: "Deerfield Beach"
+board: true   # tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold Remediation & Water Damage Restoration in Deerfield Beach, FL | Pure Shield"
 description: "Licensed, owner-operated mold remediation and water damage restoration in Deerfield Beach. Same-day response, free inspection, Century Village experience, insurance welcome. Call (954) 778-0925."
 lead: "Owner-operated mold and water damage restoration in Deerfield Beach, 24/7. Minutes from our Boca Raton base — you get Ryan and Jon on the job, not a franchise crew."

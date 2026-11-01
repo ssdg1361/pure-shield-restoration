@@ -1,5 +1,6 @@
 ---
 title: "Parkland"
+board: true   # tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold & Water Damage Restoration in Parkland, FL | Pure Shield"
 description: "Owner-operated mold remediation and water damage restoration in Parkland. 24/7 response, honest estimates, insurance claims welcome. Call (954) 778-0925."
 lead: "Owner-operated mold and water damage restoration in Parkland, 24/7. Big two-story houses hide leaks well — you get Ryan and Jon on the job, not a call center."

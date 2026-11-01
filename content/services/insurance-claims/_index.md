@@ -1,5 +1,9 @@
 ---
 title: "Water Damage & Mold Insurance Claims"
+board: true   # tile layout (layouts/partials/board/term-service.html)
+h1: "Insurance claims for water and mold"
+short: "insurance claims"
+boardimg: "/images/boca-condo-mold-7.jpg"   # heroimg is a diagram; it crops badly in the tall hero tile
 seotitle: "Water Damage & Mold Insurance Claims in Florida | Pure Shield Restoration"
 description: "What Florida homeowners insurance usually covers for water damage and mold, what it doesn't, and the documentation your adjuster will ask for. Free inspection. Call (954) 778-0925."
 lead: "Most water damage jobs we do become an insurance claim. Here's what's typically covered, what usually isn't, and what we document on every job so your claim is decided on evidence instead of memory."
@@ -29,16 +33,28 @@ signs:
 process:
   - title: "Document before we touch anything"
     text: "Photographs of the loss as found, moisture readings across affected and unaffected areas, and a note on the apparent cause and how far water traveled."
+    img: "/images/boca-condo-mold-1.jpg"
+    alt: "Black mold growth on a condo wall in Boca Raton, Florida"
   - title: "Mitigate immediately"
     text: "Every policy obliges you to prevent further damage. Extracting and drying promptly protects the claim as well as the house."
+    img: "/images/coral-springs-drying-1.jpg"
+    alt: "Containment and drying equipment set up in an open-plan Coral Springs home"
   - title: "Log the drying daily"
     text: "Daily moisture readings on each affected material until the structure is verified dry. That log is the record that the work was necessary and complete."
+    img: "/images/margate-mold-water-3.jpg"
+    alt: "Checking moisture levels with a meter during a Margate water damage job"
   - title: "Write a scope your adjuster can read"
     text: "A line-item scope of what was removed, dried and treated, in the format carriers expect, with the photographs attached."
+    img: "/images/parkland-ceiling-mold-1.jpg"
+    alt: "Moisture meter reading a damp bathroom ceiling beside a recessed light in a Parkland home"
   - title: "Talk to the adjuster directly"
     text: "We'll walk the loss with your adjuster, explain what's behind the wall, and answer the technical questions so you don't have to relay them."
+    img: "/images/delray-water-4.jpg"
+    alt: "Restored kitchen after water damage repair in a Delray Beach condo"
   - title: "Coordinate testing when it's needed"
     text: "If the claim calls for independent mold assessment or a clearance sample, we bring in a third-party licensed assessor, which keeps the testing at arm's length from the remediation."
+    img: "/images/moisture-meter-verified-dry.jpg"
+    alt: "Moisture meter held against a wall to take a reading during a water damage inspection"
 faqs:
   - q: "Does homeowners insurance cover water damage in Florida?"
     a: "Usually, when the cause is sudden and accidental — a burst pipe, a failed supply line, a water heater that lets go, an overflowing appliance. What's generally not covered is damage from long-term seepage, wear and tear, or lack of maintenance, on the theory that you had the opportunity to catch it. Flooding from groundwater or storm surge is excluded from standard homeowners policies entirely and requires separate flood coverage. Every policy is different, so read yours or ask your agent — we're restoration contractors, not adjusters, and we won't tell you what your policy says."

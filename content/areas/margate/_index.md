@@ -1,5 +1,6 @@
 ---
 title: "Margate"
+board: true   # tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold Remediation & Water Damage Restoration in Margate, FL | Pure Shield"
 description: "Licensed, owner-operated mold remediation and water damage restoration in Margate. Same-day response, free inspection, honest estimates, insurance welcome. Call (954) 778-0925."
 lead: "Owner-operated mold and water damage restoration in Margate, 24/7. A short drive down 441 from our Boca Raton base, so you get Ryan and Jon on the job, not a call center."

@@ -1,6 +1,9 @@
 {{/* Service page, board layout (opt in with `board: true`). Same tiles as the homepage. */}}
 {{ $p := . }}
-{{ $hero := .Params.heroimg | default "/images/hero-1.jpg" }}
+{{/* `short` (front matter) is the service name used inside headings; long titles run to 3 lines on phones. */}}
+{{ $short := .Params.short | default (lower .Title) }}
+{{/* `boardimg` overrides the hero photo for this layout only (heroimg also feeds the social card). */}}
+{{ $hero := .Params.boardimg | default .Params.heroimg | default "/images/hero-1.jpg" }}
 {{ $jobs := .Pages.ByDate.Reverse }}
 {{ $related := false }}
 {{ if and (not $jobs) .Params.relatedservices }}
@@ -18,14 +21,14 @@
 
 <div class="home">
 
-{{ partial "board/hero.html" (dict "h1" (printf "%s in South Florida" .Title) "h1class" "h-title--term" "variant" "term"
+{{ partial "board/hero.html" (dict "h1" (.Params.h1 | default (printf "%s in South Florida" .Title)) "h1class" "h-title--term" "variant" "term"
   "sub" .Params.lead
   "img1" $hero "alt1" (printf "%s on a Pure Shield job in South Florida" .Title)) }}
 
 {{ with .Params.signs }}
 <section class="b-signs" id="signs" aria-labelledby="signs-title">
   <div class="pk-head">
-    <h2 id="signs-title" data-rise>Signs you need {{ lower $p.Title }}</h2>
+    <h2 id="signs-title" data-rise>Signs it's time to call</h2>
     <p data-rise>If any of these sound familiar, it's worth a free inspection.</p>
   </div>
   <ul class="sg">{{ range . }}<li><h3>{{ .title }}</h3><p>{{ .text }}</p></li>{{ end }}</ul>
@@ -33,21 +36,21 @@
 {{ end }}
 
 {{ with .Params.process }}
-{{ partial "board/steps.html" (dict "title" (printf "How we handle %s" (lower $p.Title)) "intro" "The same steps on every job, with photos and moisture readings documented for your insurer." "steps" .) }}
+{{ partial "board/steps.html" (dict "title" (printf "How we handle %s" $short) "intro" "The same steps on every job, with photos and moisture readings documented for your insurer." "steps" .) }}
 {{ end }}
 
 {{ if $jobs }}
 {{ if $related }}
 {{ partial "board/job-rows.html" (dict "title" ($p.Params.relatedheading | default "Work that shows how we handle this") "intro" ($p.Params.relatedlead | default "Recent jobs from the same crew, shown with our own photos.") "jobs" (first 3 $jobs) "moreurl" "/work/" "morelabel" "See all our jobs") }}
 {{ else }}
-{{ partial "board/job-rows.html" (dict "title" (printf "Real %s jobs" (lower .Title)) "intro" "Jobs we've done, with our own photos: what happened, where, and what we did." "jobs" (first 3 $jobs) "moreurl" "/work/" "morelabel" (printf "See all %d jobs" (len $jobs))) }}
+{{ partial "board/job-rows.html" (dict "title" (printf "Real %s jobs" $short) "intro" "Jobs we've done, with our own photos: what happened, where, and what we did." "jobs" (first 3 $jobs) "moreurl" "/work/" "morelabel" (printf "See all %d jobs" (len $jobs))) }}
 {{ end }}
 {{ end }}
 
 {{ with .Content }}
 <section class="b-guide" id="guide" aria-labelledby="guide-title">
   <div class="pk-head">
-    <h2 id="guide-title" data-rise>More about {{ lower $p.Title }}</h2>
+    <h2 id="guide-title" data-rise>More about {{ $short }}</h2>
     <p data-rise>What to expect, and the questions we get most about it.</p>
   </div>
   <div class="gd">
@@ -77,7 +80,7 @@
   </div>
 </section>
 
-{{ partial "board/contact.html" (dict "title" (printf "Need %s?" (lower .Title)) "text" "Tell us what's going on and we'll get right back to you. For an active leak or flooding, call <a class=\"ct-phone\" href=\"tel:9547780925\">(954)&nbsp;778&#8209;0925</a>. We answer 24/7.") }}
+{{ partial "board/contact.html" (dict "title" (printf "Need help with %s?" $short) "text" "Tell us what's going on and we'll get right back to you. For an active leak or flooding, call <a class=\"ct-phone\" href=\"tel:9547780925\">(954)&nbsp;778&#8209;0925</a>. We answer 24/7.") }}
 
 </div>
 {{ partial "board/styles.html" . }}

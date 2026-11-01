@@ -298,12 +298,6 @@
   .h-pair>.t{min-height:180px}
   .h-pair .t-say{font-size:19px}
   .h-ph2{grid-column:1/-1;grid-row:auto;aspect-ratio:16/10}
-  .b-check{display:flex;flex-direction:column;gap:var(--gap)}
-  .mz-img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;order:-1}
-  .mz{grid-template-columns:1fr 1fr}
-  .mz-p{display:none}
-  .mz>*{aspect-ratio:auto;min-height:150px}
-  .mz-head{grid-column:1/-1;min-height:0 !important}
   .pk-head,.st-intro,.ow-head,.ct-head{grid-template-columns:1fr}
   .pk-head,.st-intro,.ow-head,.pk-foot,.ow-facts{padding:0 12px}
   .pk-head>*,.st-intro>*,.ow-head>*,.ct-head>*{grid-column:1/-1 !important}
@@ -390,6 +384,16 @@
   .ct-run img{height:110px}
   .ct-head{margin-top:40px}
   .ct-head,.ct-form{padding:0 calc(var(--edge) + 12px)}
+}
+/* the photo cut into squares needs room: below 1200px the squares get too small for their sentences,
+   so the credentials become one picture with the facts as tiles under it */
+@media (max-width:1200px){
+  .b-check{display:flex;flex-direction:column;gap:var(--gap)}
+  .mz-img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;order:-1}
+  .mz{grid-template-columns:1fr 1fr}
+  .mz-p{display:none}
+  .mz>*{aspect-ratio:auto;min-height:150px}
+  .mz-head{grid-column:1/-1;min-height:0 !important}
 }
 /* tablets get the stacked accordion too: side-by-side panels are too narrow under 900px */
 @media (max-width:900px){

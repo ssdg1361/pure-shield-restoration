@@ -1,5 +1,6 @@
 ---
 title: "Delray Beach"
+board: true   # tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold & Water Damage Restoration in Delray Beach, FL | Pure Shield"
 description: "Owner-operated mold remediation and water damage restoration in Delray Beach. 24/7 response, 55+ community experience, insurance claims welcome. Call (954) 778-0925."
 lead: "Owner-operated mold and water damage restoration in Delray Beach, 24/7. Minutes from our Boca Raton base — you get Ryan and Jon on the job, whether it's a condo off Atlantic or a house on the Intracoastal."

@@ -2,7 +2,7 @@
      Emits: LocalBusiness (anchor node) + Service + BreadcrumbList + FAQPage (when faqs present). */ -}}
 {{- $base := "https://pureshieldrestoration.com/" -}}
 {{- $bizID := printf "%s#business" $base -}}
-{{- $isArea := eq .Data.Plural "areas" -}}
+{{- $isArea := or (eq .Data.Plural "areas") (eq .Section "areas") -}}
 {{- $towns := slice "Boca Raton" "Delray Beach" "Boynton Beach" "Margate" "Highland Beach" "Deerfield Beach" "Pompano Beach" "Lighthouse Point" "Coral Springs" "Coconut Creek" "Parkland" "Palm Beach County" "Broward County" -}}
 
 {{- $biz := dict

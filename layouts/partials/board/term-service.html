@@ -1,0 +1,84 @@
+{{/* Service page, board layout (opt in with `board: true`). Same tiles as the homepage. */}}
+{{ $p := . }}
+{{ $hero := .Params.heroimg | default "/images/hero-1.jpg" }}
+{{ $jobs := .Pages.ByDate.Reverse }}
+{{ $related := false }}
+{{ if and (not $jobs) .Params.relatedservices }}
+  {{/* No job tagged with this service yet: show recent jobs that led with a related service, labelled as related. */}}
+  {{ $want := .Params.relatedservices }}{{ $fb := slice }}
+  {{ range (where site.RegularPages "Section" "work").ByDate.Reverse }}
+    {{ $svcs := .Params.services | default slice }}
+    {{ if and $svcs (in $want (index $svcs 0)) }}{{ $fb = $fb | append . }}{{ end }}
+  {{ end }}
+  {{ $jobs = $fb }}{{ $related = true }}
+{{ end }}
+{{ $ph := slice }}
+{{ range $jobs }}{{ range .Params.photos }}{{ if ne .src $hero }}{{ $ph = $ph | append . }}{{ end }}{{ end }}{{ end }}
+{{ $ph = $ph | append (slice (dict "src" "/images/category-3-water-protective-equipment.jpg" "alt" "Pure Shield technician in a full protective suit and respirator working in a crawlspace")) }}
+
+<div class="home">
+
+{{ partial "board/hero.html" (dict "h1" (printf "%s in South Florida" .Title) "h1class" "h-title--term" "variant" "term"
+  "sub" .Params.lead
+  "img1" $hero "alt1" (printf "%s on a Pure Shield job in South Florida" .Title)) }}
+
+{{ with .Params.signs }}
+<section class="b-signs" id="signs" aria-labelledby="signs-title">
+  <div class="pk-head">
+    <h2 id="signs-title" data-rise>Signs you need {{ lower $p.Title }}</h2>
+    <p data-rise>If any of these sound familiar, it's worth a free inspection.</p>
+  </div>
+  <ul class="sg">{{ range . }}<li><h3>{{ .title }}</h3><p>{{ .text }}</p></li>{{ end }}</ul>
+</section>
+{{ end }}
+
+{{ with .Params.process }}
+{{ partial "board/steps.html" (dict "title" (printf "How we handle %s" (lower $p.Title)) "intro" "The same steps on every job, with photos and moisture readings documented for your insurer." "steps" .) }}
+{{ end }}
+
+{{ if $jobs }}
+{{ if $related }}
+{{ partial "board/job-rows.html" (dict "title" ($p.Params.relatedheading | default "Work that shows how we handle this") "intro" ($p.Params.relatedlead | default "Recent jobs from the same crew, shown with our own photos.") "jobs" (first 3 $jobs) "moreurl" "/work/" "morelabel" "See all our jobs") }}
+{{ else }}
+{{ partial "board/job-rows.html" (dict "title" (printf "Real %s jobs" (lower .Title)) "intro" "Jobs we've done, with our own photos: what happened, where, and what we did." "jobs" (first 3 $jobs) "moreurl" "/work/" "morelabel" (printf "See all %d jobs" (len $jobs))) }}
+{{ end }}
+{{ end }}
+
+{{ with .Content }}
+<section class="b-guide" id="guide" aria-labelledby="guide-title">
+  <div class="pk-head">
+    <h2 id="guide-title" data-rise>More about {{ lower $p.Title }}</h2>
+    <p data-rise>What to expect, and the questions we get most about it.</p>
+  </div>
+  <div class="gd">
+    <nav class="t t-paper2 gd-toc" aria-label="On this page"><p class="gd-toc-h">On this page</p>{{ $p.TableOfContents }}</nav>
+    <div class="prose gd-body">{{ . }}</div>
+  </div>
+</section>
+{{ end }}
+
+{{ with .Params.faqs }}{{ partial "board/faq.html" (dict "id" "faq" "title" "Questions, answered" "faqs" .) }}{{ end }}
+
+<section class="b-more" id="more" aria-labelledby="more-title">
+  <div class="pk-head">
+    <h2 id="more-title" data-rise>Other ways we help</h2>
+    <p data-rise>Mold and water problems rarely come alone. We handle every part of the job ourselves, across Palm Beach and Broward.</p>
+  </div>
+  <div class="mo">
+    {{ $tones := slice "t-navy" "t-paper2" "t-ink" "t-paper" }}
+    {{ $n := 0 }}
+    {{ range (site.GetPage "/services").Pages }}{{ if ne .Permalink $p.Permalink }}
+    <a class="t {{ index $tones (mod $n 4) }}" href="{{ .RelPermalink }}"><h3>{{ .Title }}</h3><p>{{ .Params.lead | plainify | truncate 96 }}</p></a>
+    {{ $n = add $n 1 }}{{ end }}{{ end }}
+    <div class="t t-paper2 mo-towns">
+      <h3>Where we work</h3>
+      <ul>{{ range (site.GetPage "/areas").Pages }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}</ul>
+    </div>
+  </div>
+</section>
+
+{{ partial "board/contact.html" (dict "title" (printf "Need %s?" (lower .Title)) "text" "Tell us what's going on and we'll get right back to you. For an active leak or flooding, call <a class=\"ct-phone\" href=\"tel:9547780925\">(954)&nbsp;778&#8209;0925</a>. We answer 24/7.") }}
+
+</div>
+{{ partial "board/styles.html" . }}
+{{ partial "board/script.html" . }}

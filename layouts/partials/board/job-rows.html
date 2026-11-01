@@ -1,0 +1,24 @@
+{{/* Job rows: each real job as photo + what happened + link. dict: title intro jobs moreurl morelabel */}}
+<section class="b-jobs" id="jobs" aria-labelledby="jobs-title">
+  <div class="pk-head">
+    <h2 id="jobs-title" data-rise>{{ .title }}</h2>
+    <p data-rise>{{ .intro }}</p>
+  </div>
+  <div class="jr">
+    {{ range .jobs }}{{ $j := . }}
+    <article class="pk-panel jr-row">
+      <figure class="pk-ph">{{ with .Params.hero }}<img src="{{ partial "rimg.html" (dict "src" . "w" 900) }}" alt="{{ $j.Title }}" loading="lazy">{{ end }}</figure>
+      <div class="pk-body">
+        <h3>{{ .Title }}</h3>
+        <dl class="pk-bands">
+          {{ with .Params.city }}<div><dt>Where</dt><dd>{{ . }}</dd></div>{{ end }}
+          <div><dt>What happened</dt><dd>{{ .Summary | plainify }}</dd></div>
+          {{ with .Params.services }}<div><dt>What we did</dt><dd>{{ delimit . ", " }}</dd></div>{{ end }}
+        </dl>
+        <a class="pk-more" href="{{ .RelPermalink }}">Read the full job</a>
+      </div>
+    </article>
+    {{ end }}
+  </div>
+  {{ with .moreurl }}<p class="pk-foot"><a href="{{ . }}">{{ $.morelabel }}</a></p>{{ end }}
+</section>

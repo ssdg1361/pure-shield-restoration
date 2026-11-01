@@ -1,0 +1,24 @@
+{{/* Hero board. dict: h1 (html allowed) h1class variant sub img1 alt1 [img2 alt2] */}}
+<!-- hero: two-by-two board -->
+<section class="b-hero{{ with .variant }} b-hero--{{ . }}{{ end }}" aria-labelledby="hero-title">
+  <div class="t t-paper h-title{{ with .h1class }} {{ . }}{{ end }}">
+    <h1 id="hero-title" data-rise>{{ .h1 | safeHTML }}</h1>
+    <p class="h-sub" data-rise>{{ .sub }}</p>
+  </div>
+  <figure class="t t-photo h-ph1 shutter">
+    <img src="{{ partial "rimg.html" (dict "src" .img1 "w" 1100) }}" alt="{{ .alt1 }}" fetchpriority="high">
+  </figure>
+  {{ with .img2 }}<figure class="t t-photo h-ph2">
+    <img src="{{ partial "rimg.html" (dict "src" . "w" 1300) }}" alt="{{ $.alt2 }}">
+  </figure>{{ end }}
+  <div class="h-pair">
+    <div class="t t-ink h-facts">
+      <p class="t-say">Licensed and insured. FL license MRSR5407.</p>
+      <a class="t-link" href="#contact">Book a free inspection</a>
+    </div>
+    <a class="t t-accent h-call" href="tel:9547780925">
+      <span class="t-say">Call <span class="nw">(954) 778&#8209;0925</span></span>
+      <span class="t-note">A real person answers, 24/7.</span>
+    </a>
+  </div>
+</section>

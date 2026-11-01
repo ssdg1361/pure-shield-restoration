@@ -1,343 +1,214 @@
 {{ define "main" }}
-<!-- hero -->
-<section class="hero">
-  <div class="hero-glow" aria-hidden="true"></div>
-  <div class="hero-glow2" aria-hidden="true"></div>
-  <svg class="contour" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true">
-    <path d="M0 90 C 240 56,480 124,720 90 S 1200 56,1440 96"/>
-    <path d="M0 180 C 240 146,480 214,720 180 S 1200 146,1440 186"/>
-    <path d="M0 270 C 240 236,480 304,720 270 S 1200 236,1440 276"/>
-    <path d="M0 360 C 240 326,480 394,720 360 S 1200 326,1440 366"/>
-    <path d="M0 450 C 240 416,480 484,720 450 S 1200 416,1440 456"/>
-    <path d="M0 540 C 240 506,480 574,720 540 S 1200 506,1440 546"/>
-  </svg>
-  <div class="container">
-    <div class="hero-copy">
-      <span class="eyebrow" data-an>Owner-operated · Boca Raton &amp; South Florida</span>
-      <h1 data-an>Water or mold damage?<br><em>We're on it.</em></h1>
-      <p class="lede" data-an>Mold and water damage restoration across Palm Beach and Broward. You work directly with the owners, get honest pricing, and we handle the insurance paperwork. Fast, careful, and done right.</p>
-      <div class="hero-cta" data-an>
-        <a href="tel:9547780925" class="btn btn-primary"><span class="live"></span> Call (954) 778-0925</a>
-        <a href="#contact" class="btn btn-ghost">Get a free inspection</a>
-      </div>
-      <ul class="hero-trust" data-an>
-        <li><span class="chk">✓</span> Licensed &amp; insured</li>
-        <li><span class="chk">✓</span> 24/7 response</li>
-        <li><span class="chk">✓</span> Insurance claims welcome</li>
-      </ul>
-    </div>
-    <div class="hero-visual">
-      <div class="hero-photo">
-        <img src="/images/hero-1.jpg" class="is-active" alt="Heavy mold growth on a wall before remediation">
-        <img src="/images/hero-2.jpg" alt="Pure Shield technician remediating an affected wall">
-        <img src="/images/hero-3.jpg" alt="Mold spread across a wall near cabinetry">
-        <img src="/images/hero-4.jpg" alt="Technician removing water-damaged drywall">
-        <img src="/images/hero-5.jpg" alt="Thermal imaging camera detecting hidden moisture">
-        <img src="/images/hero-6.jpg" alt="Technician treating a crawlspace in full protective gear">
-      </div>
-      <div class="badge-top"><span class="dotg"></span> Live response, day or night</div>
-      <div class="badge-float">
-        <div><div class="stars">★★★★★</div></div>
-        <div><b>5.0 on Google</b><span>Owner-operated team</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-<svg class="wave" viewBox="0 0 1440 60" preserveAspectRatio="none" aria-hidden="true"><path fill="currentColor" d="M0 28c180 28 360 28 540 14s360-42 540-28 200 30 360 26v20H0z"/></svg>
+{{/* Homepage, 2026-10-31 restyle: "the well-kept board".
+     Every section is a board of flat tiles on one 12-column grid with 8px gaps.
+     The FAQ text below must stay word-for-word in sync with partials/schema-home.html. */}}
 
-<!-- authority bar -->
-<div class="authbar">
-  <div class="container">
-    <div class="auth-stats">
-      <div class="astat"><b>5.0</b><span><span class="ministars">★★★★★</span> Google rating</span></div>
-      <div class="astat"><b>100+</b><span>Jobs completed</span></div>
-      <div class="astat"><b>24/7</b><span>Emergency response</span></div>
-      <div class="astat"><b>Free</b><span>Inspections</span></div>
-    </div>
-    <div class="auth-creds">
-      <span class="cred"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 8 10 8 10s8-5 8-10V6l-8-4Z"/><path d="m9 12 2 2 4-4"/></svg> Licensed &amp; Insured</span>
-      <span class="cred"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2 4 6v6c0 5 8 10 8 10s8-5 8-10V6l-8-4Z"/></svg> FL Lic #MRSR5407</span>
-      <span class="cred"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m4 13 5 5L20 6"/></svg> IICRC Certified</span>
-      <span class="cred"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m4 13 5 5L20 6"/></svg> Insurance Claims Welcome</span>
-    </div>
-  </div>
-</div>
+{{ $jobs := slice
+  (dict "spot" "A stain on the ceiling" "short" "Ceiling stain" "page" "/work/parkland-attic-ac-leak-ceiling-mold" "img" "/images/parkland-ceiling-mold-4.jpg"
+        "alt" "Heavy mold growth on the hidden back side of ceiling drywall and insulation"
+        "source" "A condensate drain line from the AC unit in the attic, letting go slowly."
+        "found" "The growth had spread well past the stain, onto the back of the ceiling board and into the framing above it."
+        "did" "Cut it out, cleaned and sealed the wood, and covered the opening until repairs.")
+  (dict "spot" "Under the sink or cabinets" "short" "Under the sink" "page" "/work/deerfield-kitchen-mold" "img" "/images/deerfield-kitchen-mold-1.jpg"
+        "alt" "Mold on the kitchen wall beside the cabinets in a Deerfield Beach home"
+        "source" "A slow leak along the kitchen cabinet run."
+        "found" "Mold behind the lower cabinets, the one place nobody looks."
+        "did" "Opened it up, treated it, and dried it properly.")
+  (dict "spot" "Along the floor or baseboards" "short" "Along the floor" "page" "/work/coconut-creek-condo-mold" "img" "/images/coconut-creek-condo-mold-hero.jpg"
+        "alt" "Baseboard pulled away from a water-damaged wall along the floor of a Coconut Creek condo"
+        "source" "A failed supply line that ran long enough to push water along the slab."
+        "found" "Water up into the drywall in room after room, and mold rooted into it."
+        "did" "Traced it, contained it, took out what the mold had rooted into, and dried the structure until it read dry.")
+  (dict "spot" "From the unit above" "short" "Unit above" "page" "/work/boca-condo-mold" "img" "/images/boca-condo-mold-hero.jpg"
+        "alt" "Black mold spread across a condo wall in Boca Raton"
+        "source" "A hot-water leak from the condo upstairs."
+        "found" "Black mold growing behind the drywall."
+        "did" "Contained it, ran HEPA air scrubbers, removed the affected materials, and restored the space.")
+  (dict "spot" "Behind the fridge or dishwasher" "short" "Behind the fridge" "page" "/work/boca-home-hidden-mold" "img" "/images/boca-home-mold-hero.jpg"
+        "alt" "Moisture meter held against mold at the bottom of a wall in a Boca Raton home"
+        "source" "Two unnoticed leaks: a punctured refrigerator water line and a leak behind the dishwasher."
+        "found" "Hidden mold inside the walls, fed by both."
+        "did" "Tracked down both sources and remediated the damage.")
+  (dict "spot" "In a house left closed up" "short" "Closed-up house" "page" "/work/boynton-bedroom-mold" "img" "/images/boynton-home-mold-1.jpg"
+        "alt" "Black mold growth in a ceiling corner near an AC vent in a Boynton Beach home"
+        "source" "Humidity building up in a home that sat closed."
+        "found" "Mold across the bedroom walls and into the ceiling corners."
+        "did" "Treated every affected room and got the family's space back to healthy.")
+  (dict "spot" "Near an outside wall" "short" "Outside wall" "page" "/work/margate-mold-water-cleanup" "img" "/images/margate-mold-water-hero.jpg"
+        "alt" "Wall opened below a window showing water-stained framing in a Margate home"
+        "source" "A slow leak from an exterior hose bib at the front of the house."
+        "found" "Water damage and mold together, inside the wall."
+        "did" "Cleaned it up, dried it out, and pinpointed the source.")
+}}
 
-<!-- services -->
-<section class="section services" id="services">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">What we do</span>
-      <h2>Full-service damage restoration</h2>
-      <p>One certified, owner-led team for every step, from the first emergency call to the final clearance.</p>
-    </div>
-    <div class="svc-grid">
-      <article class="svc">
-        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z"/></svg></div>
-        <h3>Mold Remediation</h3>
-        <p>We find the moisture source, contain the area, remove affected materials, and treat the space so mold does not come back.</p>
-      </article>
-      <article class="svc">
-        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 14a8 8 0 0 0 16 0c0-5-8-11-8-11S4 9 4 14Z"/><path d="M9 14a3 3 0 0 0 3 3"/></svg></div>
-        <h3>Water Damage Restoration</h3>
-        <p>Leaks, storms, and floods. We extract the water, dry the structure, and restore your property, documenting everything for insurance.</p>
-      </article>
-      <article class="svc">
-        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 17h18M6 17V9m4 8V6m4 11v-7m4 7V8"/></svg></div>
-        <h3>Structural Drying</h3>
-        <p>Commercial air movers and dehumidifiers, with daily moisture monitoring until the structure is verified dry. No warping, no hidden mold.</p>
-      </article>
-      <article class="svc">
-        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2v4m0 0 3 3m-3-3L9 9"/><circle cx="12" cy="15" r="6"/></svg></div>
-        <h3>Emergency Water Extraction</h3>
-        <p>Standing water spreads damage fast. We respond quickly to pump and extract, then move straight into drying to limit the loss.</p>
-      </article>
-      <article class="svc">
-        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></div>
-        <h3>Leak &amp; Moisture Mapping</h3>
-        <p>Moisture meters and thermal tools trace hidden leaks behind walls and under floors, so repairs target the real source.</p>
-      </article>
-      <article class="svc feature">
-        <div class="ico"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2 4 6v6c0 5 8 10 8 10s8-5 8-10V6l-8-4Z"/></svg></div>
-        <h3>Containment &amp; Final Clean</h3>
-        <p>HEPA filtration and negative-air containment during the job, plus the detailed post-remediation clean that makes a space safe and move-in ready.</p>
-        <a href="tel:9547780925" class="svc-call">Call now →</a>
-      </article>
-    </div>
+<div class="home">
+
+<!-- hero: two-by-two board -->
+{{ partial "board/hero.html" (dict "h1" "Mold and water damage, handled."
+  "sub" "Mold and water damage restoration in Boca Raton and across Palm Beach and Broward. You deal with the owners, Ryan and Jon, from the first call to the final walkthrough."
+  "img1" "/images/hero-1.jpg" "alt1" "Heavy mold growth across a wall before remediation"
+  "img2" "/images/category-3-water-protective-equipment.jpg" "alt2" "Pure Shield technician in a full protective suit and respirator working in a crawlspace") }}
+
+<!-- credentials: one photograph cut across tiles -->
+{{ $mz := partial "rimg.html" (dict "src" "/images/coral-springs-drying-hero.jpg" "w" 1600) }}
+<section class="b-check" aria-labelledby="check-title" style="--mz:url('{{ $mz }}')">
+  <div class="mz">
+    {{ range $i := seq 0 23 }}
+      {{ $c := mod $i 6 }}{{ $r := div $i 6 }}
+      {{ if eq $i 0 }}
+        <div class="mz-t t-paper mz-head"><h2 id="check-title">Easy to check</h2></div>
+      {{ else if eq $i 9 }}
+        <div class="mz-t t-navy"><p><b>5.0 on Google</b> from the homeowners we've worked for.</p></div>
+      {{ else if eq $i 13 }}
+        <div class="mz-t t-paper2"><p><b>MRSR5407</b> is our Florida mold remediation license.</p></div>
+      {{ else if eq $i 17 }}
+        <div class="mz-t t-ink"><p><b>Licensed and insured.</b> We work directly with your insurer.</p></div>
+      {{ else if eq $i 21 }}
+        <a class="mz-t t-accent mz-call" href="tel:9547780925"><p><b>Call now</b> (954)&nbsp;778&#8209;0925</p></a>
+      {{ else }}
+        <div class="mz-p" style="--x:{{ mul $c 20 }}%;--y:{{ div (mul $r 100) 3 }}%" aria-hidden="true"></div>
+      {{ end }}
+    {{ end }}
   </div>
+  <img class="mz-img" src="{{ $mz }}" alt="Drying equipment set up in a bright open-plan Coral Springs home" loading="lazy">
 </section>
 
-<!-- why -->
-<section class="section why" id="why">
-  <div class="container">
-    <div class="why-photo"><img src="/images/why.jpg" alt="Containment and drying setup on a Pure Shield restoration job"></div>
-    <div class="why-copy">
-      <span class="eyebrow">Why Pure Shield</span>
-      <h2>You work directly with the owners</h2>
-      <p>Pure Shield is a small, owner-operated team. When you call, you get Ryan and Jon, not a call center. That means quick response, honest assessments, and work we treat like it is our own home.</p>
-      <div class="why-list">
-        <div class="why-li"><span class="chk">✓</span><div><b>Hands-on owners</b><p>The people who quote the job are the people who do the work.</p></div></div>
-        <div class="why-li"><span class="chk">✓</span><div><b>Honest, upfront pricing</b><p>Clear estimates and only what actually needs doing. No surprises.</p></div></div>
-        <div class="why-li"><span class="chk">✓</span><div><b>We handle insurance</b><p>We document the damage thoroughly and work directly with your insurer.</p></div></div>
-        <div class="why-li"><span class="chk">✓</span><div><b>Fast 24/7 response</b><p>With water and mold every hour counts, so we move quickly.</p></div></div>
-      </div>
-    </div>
+<!-- the live thing: where are you seeing it? -->
+<section class="b-pick" id="work" aria-labelledby="pick-title">
+  <div class="pk-head">
+    <h2 id="pick-title" data-rise>Where are you seeing it?</h2>
+    <p data-rise>Pick the spot. You'll see a real job where we found the same thing, what was causing it, and how we fixed it.</p>
   </div>
-</section>
-
-<!-- process -->
-<section class="section process">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">How it works</span>
-      <h2>From first call to clearance</h2>
-    </div>
-    <div class="steps">
-      <div class="step"><div class="num">1</div><h3>Call us</h3><p>Reach a real person 24/7. We dispatch fast.</p></div>
-      <div class="step"><div class="num">2</div><h3>Inspect &amp; contain</h3><p>We assess the damage, stop the spread, and document it for insurance.</p></div>
-      <div class="step"><div class="num">3</div><h3>Dry &amp; remediate</h3><p>Extract, dry, remove, and treat with professional-grade equipment.</p></div>
-      <div class="step"><div class="num">4</div><h3>Clearance</h3><p>A final clean and walkthrough. Your home, restored and verified.</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- our work -->
-<section class="section work" id="work">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Our work</span>
-      <h2>Real jobs, start to finish</h2>
-      <p>Every job runs the same way: find the moisture, contain the area, remove what's damaged, dry it out, and restore the space.</p>
-    </div>
-    <div class="work-grid">
-      <figure class="work-item"><img src="/images/work-detect-2.jpg" alt="Moisture meter detecting elevated moisture in a wall"><figcaption><b>1. Detect</b>Thermal and moisture mapping finds water you can't see.</figcaption></figure>
-      <figure class="work-item"><img src="/images/work-contain.jpg" alt="Negative-air containment set up in a home"><figcaption><b>2. Contain</b>We seal off the area so spores don't spread.</figcaption></figure>
-      <figure class="work-item"><img src="/images/work-mold.jpg" alt="Mold-damaged trim removed from a home"><figcaption><b>3. Remove</b>Damaged materials come out at the source.</figcaption></figure>
-      <figure class="work-item"><img src="/images/work-moisture.jpg" alt="Moisture meter verifying a wall is dry"><figcaption><b>4. Dry</b>Commercial drying, monitored until verified dry.</figcaption></figure>
-      <figure class="work-item"><img src="/images/work-restore.jpg" alt="Clean, restored kitchen after a mold and water damage job"><figcaption><b>5. Restore</b>Cleaned, dried, and back to normal.</figcaption></figure>
-    </div>
-  </div>
-</section>
-
-<!-- areas -->
-<section class="section areas" id="areas">
-  <svg class="shield-wm" viewBox="0 0 32 36" fill="currentColor" aria-hidden="true"><path d="M16 1.5 30 6.5v10c0 9.2-6 15.4-14 18.5C8 31.9 2 25.7 2 16.5v-10L16 1.5Z"/></svg>
-  <div class="container">
-    <div>
-      <span class="eyebrow">Service area</span>
-      <h2>Serving Palm Beach &amp; Broward</h2>
-      <p>Based in Boca Raton and covering homeowners across both counties, 24/7.</p>
-      <a href="tel:9547780925" class="btn btn-primary"><span class="live" style="background:var(--navy)"></span> Call (954) 778-0925</a>
-    </div>
-    <div class="chips">
-      <a class="chip" href="/areas/boca-raton/">Boca Raton</a><a class="chip" href="/areas/delray-beach/">Delray Beach</a><a class="chip" href="/areas/boynton-beach/">Boynton Beach</a>
-      <span class="chip">Highland Beach</span><a class="chip" href="/areas/deerfield-beach/">Deerfield Beach</a><a class="chip" href="/areas/pompano-beach/">Pompano Beach</a>
-      <span class="chip">Lighthouse Point</span><a class="chip" href="/areas/coral-springs/">Coral Springs</a><a class="chip" href="/areas/coconut-creek/">Coconut Creek</a>
-      <a class="chip" href="/areas/margate/">Margate</a><a class="chip" href="/areas/parkland/">Parkland</a>
-    </div>
-  </div>
-</section>
-
-<!-- reviews -->
-<section class="section reviews" id="reviews">
-  <div class="container">
-    <div class="rev-head">
-      <span class="eyebrow">Reviews</span>
-      <h2 style="font-size:clamp(28px,4vw,42px);font-weight:800;margin-top:8px">Rated 5.0 by South Florida homeowners</h2>
-      <div class="rev-rating"><span class="stars">★★★★★</span> <b>5.0</b> <span>on Google</span></div>
-    </div>
-    <div class="rev-grid">
-      <blockquote class="rev">
-        <div class="stars">★★★★★</div>
-        <p>"The owners Ryan and Jon actually came out and did the work themselves. Transparent, hands-on, and easy to work with the whole way through."</p>
-        <div class="who"><span class="av">SF</span><div><b>Samantha Fonseca</b><span>Google review</span></div></div>
-      </blockquote>
-      <blockquote class="rev">
-        <div class="stars">★★★★★</div>
-        <p>"Walked me through the whole mold removal process, set up containment, ran HEPA scrubbers, and left the place spotless. Professional from start to finish."</p>
-        <div class="who"><span class="av">KS</span><div><b>Keith Soraci</b><span>Boca Raton</span></div></div>
-      </blockquote>
-      <blockquote class="rev">
-        <div class="stars">★★★★★</div>
-        <p>"I went through three companies before I found these guys. Honest, fast, and they actually fixed the problem. 10 out of 10."</p>
-        <div class="who"><span class="av">MM</span><div><b>Matthew Maring</b><span>Google review</span></div></div>
-      </blockquote>
-    </div>
-  </div>
-</section>
-
-<!-- recent work -->
-<section class="section" style="background:var(--white)">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">Recent work</span>
-      <h2>Latest projects</h2>
-      <p>Real mold and water damage jobs across Palm Beach and Broward.</p>
-    </div>
-    <div class="case-grid">
-      {{ range first 3 (where site.RegularPages "Section" "work").ByDate.Reverse }}
-      {{ $p := . }}
-      <a class="case-card" href="{{ .RelPermalink }}">
-        {{ with .Params.hero }}<img src="{{ . }}" alt="{{ $p.Title }}" loading="lazy">{{ end }}
-        <div class="cc-body">
-          {{ with .Params.city }}<span class="cc-tag">{{ . }}</span>{{ end }}
-          <h3>{{ .Title }}</h3>
-          <p>{{ .Summary | plainify | truncate 110 }}</p>
-        </div>
-      </a>
+  <div class="pk">
+    <div class="pk-tabs" role="tablist" aria-label="Where you are seeing it" aria-orientation="vertical">
+      {{ range $i, $j := $jobs }}
+      <button class="pk-tab" type="button" role="tab" id="pk-tab-{{ $i }}" aria-controls="pk-job-{{ $i }}" aria-selected="{{ if eq $i 0 }}true{{ else }}false{{ end }}" tabindex="{{ if eq $i 0 }}0{{ else }}-1{{ end }}"><span class="pk-long">{{ $j.spot }}</span><span class="pk-short">{{ $j.short }}</span></button>
       {{ end }}
     </div>
-    <div class="related" style="justify-content:center"><a href="/work/">See all our work &rarr;</a></div>
+    <div class="pk-panels">
+      {{ range $i, $j := $jobs }}
+      {{ with site.GetPage $j.page }}
+      <article class="pk-panel" role="tabpanel" id="pk-job-{{ $i }}" aria-labelledby="pk-tab-{{ $i }}"{{ if ne $i 0 }} data-off{{ end }}>
+        <figure class="pk-ph"><img src="{{ partial "rimg.html" (dict "src" $j.img "w" 900) }}" alt="{{ $j.alt }}" loading="lazy"></figure>
+        <div class="pk-body">
+          <h3><span class="pk-spot">{{ $j.spot }}: </span>{{ .Params.city }}</h3>
+          <dl class="pk-bands">
+            <div><dt>The source</dt><dd>{{ $j.source }}</dd></div>
+            <div><dt>What we found</dt><dd>{{ $j.found }}</dd></div>
+            <div><dt>What we did</dt><dd>{{ $j.did }}</dd></div>
+          </dl>
+          <a class="pk-more" href="{{ .RelPermalink }}">Read the full {{ .Params.city }} job</a>
+        </div>
+      </article>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+  <p class="pk-foot">Not sure where it's coming from? That's what the free inspection is for. <a href="/work/">See all our jobs</a></p>
+</section>
+
+<!-- process: accordion of tinted panels -->
+{{ partial "board/steps.html" (dict "title" "How a job runs" "intro" "Every job runs the same way, whether it's one wall or a whole condo. You get a realistic timeline at the inspection, and we document each step for your insurer." "steps" site.Data.board.steps) }}
+
+<!-- services: mosaic of unlike tiles -->
+<section class="b-svc" id="services" aria-labelledby="svc-title">
+  <div class="sv">
+    <div class="t t-paper sv-head">
+      <h2 id="svc-title" data-rise>Mold and water, start to finish</h2>
+      <p data-rise>We don't do fire or smoke. We do mold and water, and we do every part of it ourselves.</p>
+    </div>
+    <figure class="t t-photo sv-ph1"><img src="{{ partial "rimg.html" (dict "src" "/images/boca-home-mold-2.jpg" "w" 900) }}" alt="Moisture meter reading a wall above mold-stained drywall" loading="lazy"></figure>
+    <a class="t t-navy sv-a" href="/services/mold-remediation/"><h3>Mold remediation</h3><p>Find the source, contain it, remove it, treat it, so it doesn't come back.</p></a>
+    <a class="t t-paper2 sv-b" href="/services/water-damage-restoration/"><h3>Water damage restoration</h3><p>Leaks, storms and floods: extract, dry, restore, and document it all.</p></a>
+    <a class="t t-ink sv-c" href="/services/structural-drying/"><h3>Structural drying</h3><p>Air movers and dehumidifiers, checked daily until the structure reads dry.</p></a>
+    <a class="t t-paper sv-d" href="/services/emergency-water-extraction/"><h3>Emergency water extraction</h3><p>Standing water out fast, then straight into drying to limit the loss.</p></a>
+    <figure class="t t-photo sv-ph2"><img src="{{ partial "rimg.html" (dict "src" "/images/coral-springs-drying-1.jpg" "w" 900) }}" alt="Containment and drying equipment set up in an open-plan Coral Springs home" loading="lazy"></figure>
+    <a class="t t-paper2 sv-e" href="/services/insurance-claims/"><h3>Insurance claims</h3><p>The photos, readings and paperwork your adjuster asks for.</p></a>
+    <div class="t t-navy sv-f"><h3>Leak and moisture mapping</h3><p>Meters and thermal tools trace leaks behind walls and under floors.</p></div>
   </div>
 </section>
 
-<!-- faq -->
-<section class="section faq" id="faq">
-  <div class="container">
-    <div class="section-head">
-      <span class="eyebrow">FAQ</span>
-      <h2>Questions, answered</h2>
-    </div>
-    <div class="faq-list">
-      <details class="qa" open><summary>How much does mold remediation cost in South Florida?<span class="pm"></span></summary><div class="ans"><p>Most mold remediation jobs in South Florida run about $1,500 to $4,000. Small, contained problems can start around $500, while larger jobs involving multiple rooms, hidden moisture, or rebuild work can run $7,000 to $10,000 or more. The biggest cost drivers are how much area is affected, how far moisture has spread behind walls and floors, and how much material has to be removed and replaced. Every job is different, so we give an honest, upfront estimate after a free inspection, and only recommend what's actually needed.</p></div></details>
-      <details class="qa"><summary>How long does mold remediation take?<span class="pm"></span></summary><div class="ans"><p>Most homes take about 3 to 5 days from start to verified-dry. Small, contained jobs can wrap in a day or two, while larger jobs with extensive removal or rebuild work take longer, and South Florida's humidity can stretch out drying time. We give you a realistic timeline at the inspection.</p></div></details>
-      <details class="qa"><summary>How do I know if I have hidden mold?<span class="pm"></span></summary><div class="ans"><p>Common signs are a musty smell, recent water damage, discoloration on walls or ceilings, or allergies that get worse indoors. Mold often grows behind drywall or under flooring where you can't see it, so we use moisture meters and thermal imaging to find it and confirm how far it's spread.</p></div></details>
-      <details class="qa"><summary>Is mold remediation covered by insurance?<span class="pm"></span></summary><div class="ans"><p>Often, yes. It usually depends on the cause. Sudden, accidental water damage like a burst pipe or appliance failure is typically covered, while mold from a gradual leak or lack of maintenance usually isn't. We document everything thoroughly and work directly with your insurer to make the claim smoother.</p></div></details>
-      <details class="qa"><summary>Can I stay in my home during mold remediation?<span class="pm"></span></summary><div class="ans"><p>For small, contained jobs, usually yes. You can stay in the unaffected parts of the home. For larger jobs that need whole-home containment, it's safer to stay elsewhere while we work. We'll let you know which applies at the inspection.</p></div></details>
-      <details class="qa"><summary>Are you licensed and insured?<span class="pm"></span></summary><div class="ans"><p>Yes. Pure Shield is fully licensed and insured, including a Florida mold remediation license (MRSR5407), and you work directly with the owners on every job.</p></div></details>
-      <details class="qa"><summary>What areas do you serve?<span class="pm"></span></summary><div class="ans"><p>Boca Raton and across Palm Beach and Broward, including Delray Beach, Boynton Beach, Margate, Deerfield Beach, Pompano Beach, Coral Springs, Coconut Creek, and Parkland.</p></div></details>
-    </div>
+<!-- owners: wide photo, colour tile, facts -->
+<section class="b-own" id="why" aria-labelledby="own-title">
+  <div class="ow-head">
+    <h2 id="own-title" data-rise>You get the owners</h2>
+    <p data-rise>Pure Shield is Ryan and Jon. The people who quote your job are the people who do the work, so you get straight answers, honest pricing, and a home treated like our own.</p>
   </div>
-</section>
-
-<!-- contact cta -->
-<section class="section cta" id="contact">
-  <svg class="contour" viewBox="0 0 1440 600" preserveAspectRatio="none" aria-hidden="true">
-    <path d="M0 90 C 240 56,480 124,720 90 S 1200 56,1440 96"/>
-    <path d="M0 200 C 240 166,480 234,720 200 S 1200 166,1440 206"/>
-    <path d="M0 310 C 240 276,480 344,720 310 S 1200 276,1440 316"/>
-    <path d="M0 420 C 240 386,480 454,720 420 S 1200 386,1440 426"/>
-    <path d="M0 530 C 240 496,480 564,720 530 S 1200 496,1440 536"/>
-  </svg>
-  <div class="container">
-    <div class="cta-copy">
-      <span class="eyebrow">Get help now</span>
-      <h2>Water or mold damage? Let's take care of it.</h2>
-      <p>Tell us what is going on and we will get right back to you. For active emergencies, call and we answer 24/7.</p>
-      <a href="tel:9547780925" class="cta-phone"><span class="dotg"></span> (954) 778-0925</a>
-      <div class="cta-note">Live response, day or night.</div>
-    </div>
-    <form class="form" id="lead-form" action="https://api.web3forms.com/submit" method="POST">
-      <!-- ACTIVATE: replace the value below with the Web3Forms access key emailed to the destination inbox -->
-      <input type="hidden" name="access_key" value="fbad3623-348c-4719-bc95-daccbdde3fa6">
-      <input type="hidden" name="subject" value="New inspection request — pureshieldrestoration.com">
-      <input type="hidden" name="from_name" value="Pure Shield Website">
-      <!-- honeypot: bots fill this, humans never see it -->
-      <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
-      <div class="row">
-        <label>Name<input type="text" name="name" placeholder="Your name" required></label>
-        <label>Phone<input type="tel" name="phone" placeholder="(561) 000-0000" required></label>
+  <div class="ow">
+    <figure class="ow-ph">
+      <img src="{{ partial "rimg.html" (dict "src" "/images/pompano-containment-hero.jpg" "w" 1400) }}" alt="Floor-to-ceiling containment in the dining room of a Pompano Beach home" loading="lazy">
+      <figcaption>In this Pompano Beach home we sealed the work area floor to ceiling, so the rest of the house stayed exactly as we found it.</figcaption>
+    </figure>
+    <div class="ow-side">
+      <div class="t t-navy ow-towns" id="areas">
+        <h3>Based in Boca Raton, working across Palm Beach and Broward</h3>
+        <ul>
+          <li><a href="/areas/boca-raton/">Boca Raton</a></li><li><a href="/areas/delray-beach/">Delray Beach</a></li>
+          <li><a href="/areas/boynton-beach/">Boynton Beach</a></li><li>Highland Beach</li>
+          <li><a href="/areas/deerfield-beach/">Deerfield Beach</a></li><li><a href="/areas/pompano-beach/">Pompano Beach</a></li>
+          <li>Lighthouse Point</li><li><a href="/areas/coral-springs/">Coral Springs</a></li>
+          <li><a href="/areas/coconut-creek/">Coconut Creek</a></li><li><a href="/areas/margate/">Margate</a></li>
+          <li><a href="/areas/parkland/">Parkland</a></li>
+        </ul>
       </div>
-      <label>Email<input type="email" name="email" placeholder="you@email.com"></label>
-      <label>What's going on?
-        <select name="service">
-          <option>Mold</option><option>Water damage</option><option>Emergency extraction</option>
-          <option>Leak / moisture</option><option>Other / not sure</option>
-        </select>
-      </label>
-      <label>Details<textarea name="details" rows="3" placeholder="A few details about the damage..."></textarea></label>
-      <button class="btn btn-primary" type="submit" style="width:100%">Request a free inspection</button>
-      <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
-    </form>
+      <dl class="ow-facts">
+        <div><dt>Owners</dt><dd>Ryan and Jon</dd></div>
+        <div><dt>Based in</dt><dd>Boca Raton, FL</dd></div>
+        <div><dt>License</dt><dd>FL MRSR5407</dd></div>
+        <div><dt>Hours</dt><dd>24/7, every day</dd></div>
+      </dl>
+    </div>
   </div>
 </section>
 
-<style>
-.form-msg{margin:10px 0 0;font-size:14px;line-height:1.45;min-height:1px}
-.form-msg.ok{color:var(--green,#54A65B);font-weight:600}
-.form-msg.err{color:#c0392b;font-weight:600}
-</style>
-<script>
-(function(){
-  var f = document.getElementById('lead-form');
-  if(!f) return;
-  var msg = document.getElementById('form-msg');
-  f.addEventListener('submit', function(e){
-    e.preventDefault();
-    var btn = f.querySelector('button[type=submit]');
-    var key = (f.querySelector('input[name=access_key]')||{}).value || '';
-    if(key.indexOf('REPLACE_WITH') === 0){
-      msg.textContent = "Form isn't activated yet — add the Web3Forms access key.";
-      msg.className = 'form-msg err';
-      return;
-    }
-    var orig = btn.textContent;
-    btn.disabled = true; btn.textContent = 'Sending…';
-    msg.textContent = ''; msg.className = 'form-msg';
-    fetch('https://api.web3forms.com/submit', {
-      method: 'POST',
-      headers: { 'Accept': 'application/json' },
-      body: new FormData(f)
-    })
-    .then(function(r){ return r.json(); })
-    .then(function(data){
-      if(data.success){
-        f.reset();
-        if(typeof fbq === 'function') fbq('track', 'Lead');
-        if(typeof gtag === 'function') gtag('event', 'generate_lead');
-        msg.textContent = "Thanks — we've got it and will reach out shortly. For an active emergency, call (954) 778-0925.";
-        msg.className = 'form-msg ok';
-      } else {
-        msg.textContent = 'Something went wrong. Please call (954) 778-0925.';
-        msg.className = 'form-msg err';
-      }
-    })
-    .catch(function(){
-      msg.textContent = 'Something went wrong. Please call (954) 778-0925.';
-      msg.className = 'form-msg err';
-    })
-    .then(function(){ btn.disabled = false; btn.textContent = orig; });
-  });
-})();
-</script>
+<!-- reviews: name block, quote block -->
+<section class="b-rev" id="reviews" aria-labelledby="rev-title">
+  <div class="rv">
+    <div class="t t-navy rv-name">
+      <h2 id="rev-title">Rated 5.0 on Google</h2>
+      <p class="rv-who"><b>Samantha Fonseca</b><span>Google review</span></p>
+    </div>
+    <blockquote class="t t-paper2 rv-quote">
+      <p>&ldquo;The owners Ryan and Jon actually came out and did the work themselves. Transparent, hands-on, and easy to work with the whole way through.&rdquo;</p>
+    </blockquote>
+  </div>
+  <div class="rv-more">
+    <blockquote class="t t-paper">
+      <p>&ldquo;Walked me through the whole mold removal process, set up containment, ran HEPA scrubbers, and left the place spotless. Professional from start to finish.&rdquo;</p>
+      <footer><b>Keith Soraci</b>, Boca Raton</footer>
+    </blockquote>
+    <blockquote class="t t-paper">
+      <p>&ldquo;I went through three companies before I found these guys. Honest, fast, and they actually fixed the problem. 10 out of 10.&rdquo;</p>
+      <footer><b>Matthew Maring</b>, Google review</footer>
+    </blockquote>
+  </div>
+</section>
+
+<!-- faq: a band per question (text must match schema-home.html) -->
+{{ $faqs := slice
+  (dict "q" "How much does mold remediation cost in South Florida?"
+        "a" "Most mold remediation jobs in South Florida run about $1,500 to $4,000. Small, contained problems can start around $500, while larger jobs involving multiple rooms, hidden moisture, or rebuild work can run $7,000 to $10,000 or more. The biggest cost drivers are how much area is affected, how far moisture has spread behind walls and floors, and how much material has to be removed and replaced. Every job is different, so we give an honest, upfront estimate after a free inspection, and only recommend what's actually needed.")
+  (dict "q" "How long does mold remediation take?"
+        "a" "Most homes take about 3 to 5 days from start to verified-dry. Small, contained jobs can wrap in a day or two, while larger jobs with extensive removal or rebuild work take longer, and South Florida's humidity can stretch out drying time. We give you a realistic timeline at the inspection.")
+  (dict "q" "How do I know if I have hidden mold?"
+        "a" "Common signs are a musty smell, recent water damage, discoloration on walls or ceilings, or allergies that get worse indoors. Mold often grows behind drywall or under flooring where you can't see it, so we use moisture meters and thermal imaging to find it and confirm how far it's spread.")
+  (dict "q" "Is mold remediation covered by insurance?"
+        "a" "Often, yes. It usually depends on the cause. Sudden, accidental water damage like a burst pipe or appliance failure is typically covered, while mold from a gradual leak or lack of maintenance usually isn't. We document everything thoroughly and work directly with your insurer to make the claim smoother.")
+  (dict "q" "Can I stay in my home during mold remediation?"
+        "a" "For small, contained jobs, usually yes. You can stay in the unaffected parts of the home. For larger jobs that need whole-home containment, it's safer to stay elsewhere while we work. We'll let you know which applies at the inspection.")
+  (dict "q" "Are you licensed and insured?"
+        "a" "Yes. Pure Shield is fully licensed and insured, including a Florida mold remediation license (MRSR5407), and you work directly with the owners on every job.")
+  (dict "q" "What areas do you serve?"
+        "a" "Boca Raton and across Palm Beach and Broward, including Delray Beach, Boynton Beach, Margate, Deerfield Beach, Pompano Beach, Coral Springs, Coconut Creek, and Parkland.")
+}}
+{{ partial "board/faq.html" (dict "id" "faq" "title" "Questions, answered" "faqs" $faqs) }}
+
+<!-- contact: photo strip, form as a board of cells -->
+{{ partial "board/contact.html" (dict "title" "Tell us what's going on" "text" "We'll get right back to you. For an active leak or flooding, call <a class=\"ct-phone\" href=\"tel:9547780925\">(954)&nbsp;778&#8209;0925</a>. We answer 24/7.") }}
+
+</div>
+
+{{ partial "board/styles.html" . }}
+
+{{ partial "board/script.html" . }}
 {{ end }}

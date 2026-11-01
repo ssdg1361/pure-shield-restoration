@@ -3,7 +3,7 @@
      If it has none but declares `relatedservices` in front matter, show recent work
      tagged with those services instead, under honest "related work" framing.
      If it has neither, render nothing at all rather than advertising an empty gallery. */}}
-{{ $isArea := eq .Data.Plural "areas" }}
+{{ $isArea := or (eq .Data.Plural "areas") (eq .Section "areas") }}
 {{ $jobs := .Pages }}
 {{ $fallback := slice }}
 {{ if and (not $jobs) .Params.relatedservices }}

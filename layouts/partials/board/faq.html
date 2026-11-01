@@ -1,0 +1,6 @@
+{{/* FAQ bands. dict: id title faqs (each: q a). Wording must match the page's FAQPage schema. */}}
+<section class="b-faq" id="{{ .id | default "faq" }}" aria-labelledby="faq-title">
+  <div class="fq-head"><h2 id="faq-title">{{ .title }}</h2></div>
+  {{ range .faqs }}<div class="fq"><h3><button class="fq-q" type="button" aria-expanded="true">{{ .q }}</button></h3><div class="fq-a"><p>{{ .a }}</p></div></div>
+  {{ end }}
+</section>

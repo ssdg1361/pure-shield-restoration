@@ -1,0 +1,10 @@
+{{/* Returns a resized URL for a /images/... path (static/ is mounted into assets/).
+     Usage: {{ partial "rimg.html" (dict "src" "/images/x.jpg" "w" 1200) }}
+     Falls back to the original path when the file can't be processed. */}}
+{{ $out := .src }}
+{{ with resources.Get (strings.TrimPrefix "/" .src) }}
+  {{ $r := . }}
+  {{ if gt .Width $.w }}{{ $r = .Resize (printf "%dx q78" (int $.w)) }}{{ end }}
+  {{ $out = $r.RelPermalink }}
+{{ end }}
+{{ return $out }}

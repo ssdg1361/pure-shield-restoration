@@ -11,3 +11,6 @@ Images of work/
 
 # Internal client docs (tracker, contracts, pricing, transcripts) — NEVER commit/push
 Pure Shield — Internal/
+
+# Taste-skill inspector output — local only
+.taste-skill/

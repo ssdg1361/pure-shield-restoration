@@ -1,0 +1,102 @@
+{{/* Board behaviour: picker tabs, process accordion, phone FAQ toggles, entrances, lead form. */}}
+<script>
+(function(){
+  /* picker: tabs with arrow keys */
+  var tabs=[].slice.call(document.querySelectorAll('.pk-tab'));
+  function pick(t,focus){
+    tabs.forEach(function(b){
+      var on=b===t;
+      b.setAttribute('aria-selected',on?'true':'false');
+      b.tabIndex=on?0:-1;
+      var p=document.getElementById(b.getAttribute('aria-controls'));
+      if(p){ if(on){p.removeAttribute('data-off');} else {p.setAttribute('data-off','');} }
+    });
+    if(focus) t.focus();
+  }
+  tabs.forEach(function(b,i){
+    b.addEventListener('click',function(){pick(b);});
+    b.addEventListener('keydown',function(e){
+      var k=e.key,n=null;
+      if(k==='ArrowDown'||k==='ArrowRight') n=tabs[(i+1)%tabs.length];
+      else if(k==='ArrowUp'||k==='ArrowLeft') n=tabs[(i-1+tabs.length)%tabs.length];
+      else if(k==='Home') n=tabs[0]; else if(k==='End') n=tabs[tabs.length-1];
+      if(n){e.preventDefault();pick(n,true);}
+    });
+  });
+
+  /* faq: open on wide screens, tap-to-open on phones (first one open) */
+  var mq=window.matchMedia('(max-width:760px)');
+  var qs=[].slice.call(document.querySelectorAll('.fq'));
+  function setFaq(){
+    qs.forEach(function(f,i){
+      var b=f.querySelector('.fq-q'), open=!mq.matches||i===0;
+      f.classList.toggle('is-shut',!open);
+      b.setAttribute('aria-expanded',open?'true':'false');
+      b.tabIndex=mq.matches?0:-1;
+    });
+  }
+  qs.forEach(function(f){
+    var b=f.querySelector('.fq-q');
+    b.addEventListener('click',function(){
+      if(!mq.matches) return;
+      var shut=f.classList.toggle('is-shut');
+      b.setAttribute('aria-expanded',shut?'false':'true');
+    });
+  });
+  setFaq();
+  if(mq.addEventListener) mq.addEventListener('change',setFaq); else if(mq.addListener) mq.addListener(setFaq);
+
+  /* process accordion */
+  var panels=[].slice.call(document.querySelectorAll('.st-p'));
+  panels.forEach(function(p){
+    p.querySelector('.st-btn').addEventListener('click',function(){
+      panels.forEach(function(q){
+        var on=q===p;
+        q.classList.toggle('is-open',on);
+        q.querySelector('.st-btn').setAttribute('aria-expanded',on?'true':'false');
+      });
+    });
+  });
+
+  /* entrances: rise once as each part enters */
+  var els=document.querySelectorAll('[data-rise],.shutter,.home .t,.mz-t,.fq');
+  if(!('IntersectionObserver' in window)){ [].forEach.call(els,function(el){el.classList.add('is-in');}); return; }
+  [].forEach.call(document.querySelectorAll('.home .t:not(.shutter),.mz-t,.fq'),function(el){el.classList.add('reveal-tile');});
+  var io=new IntersectionObserver(function(es){
+    es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('is-in'); io.unobserve(e.target);} });
+  },{rootMargin:'0px 0px -8% 0px',threshold:0.08});
+  [].forEach.call(els,function(el){io.observe(el);});
+})();
+
+(function(){
+  var f=document.getElementById('lead-form');
+  if(!f) return;
+  var msg=document.getElementById('form-msg');
+  f.addEventListener('submit',function(e){
+    e.preventDefault();
+    var btn=f.querySelector('button[type=submit]');
+    var orig=btn.textContent;
+    btn.disabled=true; btn.textContent='Sending…';
+    msg.textContent=''; msg.className='form-msg';
+    fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Accept':'application/json'},body:new FormData(f)})
+    .then(function(r){return r.json();})
+    .then(function(data){
+      if(data.success){
+        f.reset();
+        if(typeof fbq==='function') fbq('track','Lead');
+        if(typeof gtag==='function') gtag('event','generate_lead');
+        msg.textContent="Thanks, we've got it and will reach out shortly. For an active emergency, call (954) 778-0925.";
+        msg.className='form-msg ok';
+      } else {
+        msg.textContent='Something went wrong. Please call (954) 778-0925.';
+        msg.className='form-msg err';
+      }
+    })
+    .catch(function(){
+      msg.textContent='Something went wrong. Please call (954) 778-0925.';
+      msg.className='form-msg err';
+    })
+    .then(function(){btn.disabled=false;btn.textContent=orig;});
+  });
+})();
+</script>

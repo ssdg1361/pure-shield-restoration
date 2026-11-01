@@ -1,0 +1,18 @@
+{{/* Process accordion. dict: title intro steps (each: name|title, text, img, alt) */}}
+<section class="b-steps" aria-labelledby="steps-title">
+  <div class="st-intro">
+    <h2 id="steps-title" data-rise>{{ .title }}</h2>
+    <p data-rise>{{ .intro }}</p>
+  </div>
+  <div class="st" data-n="{{ len .steps }}">
+    {{ range $i, $s := .steps }}
+    <div class="st-p{{ if eq $i 0 }} is-open{{ end }}" data-i="{{ $i }}">
+      <h3 class="st-h"><button class="st-btn" type="button" aria-expanded="{{ if eq $i 0 }}true{{ else }}false{{ end }}" aria-controls="st-{{ $i }}">{{ or $s.name $s.title }}</button></h3>
+      <div class="st-body" id="st-{{ $i }}">
+        <p>{{ $s.text }}</p>
+        {{ with $s.img }}<img src="{{ partial "rimg.html" (dict "src" . "w" 800) }}" alt="{{ $s.alt }}" loading="lazy">{{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>

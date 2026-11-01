@@ -1,0 +1,102 @@
+{{/* Area page, board layout (opt in with `board: true`). Same tiles as the homepage. */}}
+{{ $p := . }}
+{{ $hero := .Params.heroimg | default "/images/hero-1.jpg" }}
+{{ $jobs := .Pages.ByDate.Reverse }}
+{{/* Pictures: this town's own job photos first, then a few from other jobs as a floor. */}}
+{{ $ph := slice }}
+{{ range $jobs }}{{ range .Params.photos }}{{ if ne .src $hero }}{{ $ph = $ph | append . }}{{ end }}{{ end }}{{ end }}
+{{ $ph = $ph | append (slice
+  (dict "src" "/images/category-3-water-protective-equipment.jpg" "alt" "Pure Shield technician in a full protective suit and respirator working in a crawlspace")
+  (dict "src" "/images/pompano-containment-3.jpg" "alt" "Zip-wall containment sealing off the work area in a Pompano Beach home")
+  (dict "src" "/images/coral-springs-drying-1.jpg" "alt" "Containment and drying equipment set up in an open-plan Coral Springs home")) }}
+
+<div class="home">
+
+{{ partial "board/hero.html" (dict "h1" (printf "%s<br> mold &amp; water damage" .Title) "h1class" "h-title--term" "variant" "term"
+  "sub" .Params.lead
+  "img1" $hero "alt1" (printf "Mold damage on a wall in a %s home" .Title)) }}
+
+{{ with .Params.causes }}
+<section class="b-svc" id="causes" aria-labelledby="causes-title">
+  <div class="sv sv--long">
+    <div class="t t-paper sv-head">
+      <h2 id="causes-title" data-rise>What goes wrong in {{ $p.Title }} homes</h2>
+      <p data-rise>The causes we run into most here, and where the water usually comes from.</p>
+    </div>
+    <figure class="t t-photo sv-ph1"><img src="{{ partial "rimg.html" (dict "src" (index $ph 1).src "w" 900) }}" alt="{{ (index $ph 1).alt }}" loading="lazy"></figure>
+    {{ $tones := slice "t-navy" "t-paper2" "t-ink" "t-paper" "t-paper2" "t-navy" }}
+    {{ $slots := slice "a" "b" "c" "d" "e" "f" }}
+    {{ range $i, $c := first 6 . }}
+    <div class="t {{ index $tones $i }} sv-{{ index $slots $i }}"><h3>{{ $c.title }}</h3><p>{{ $c.text }}</p></div>
+    {{ end }}
+    <figure class="t t-photo sv-ph2"><img src="{{ partial "rimg.html" (dict "src" (index $ph 2).src "w" 900) }}" alt="{{ (index $ph 2).alt }}" loading="lazy"></figure>
+  </div>
+</section>
+{{ end }}
+
+{{ if $jobs }}
+{{ partial "board/job-rows.html" (dict "title" (printf "Jobs we've done in %s" .Title)
+  "intro" "Real jobs, with our own photos: what happened, what we found, and what we did about it."
+  "jobs" $jobs "moreurl" "/work/" "morelabel" "See all our jobs") }}
+{{ end }}
+
+{{ with .Content }}
+<section class="b-guide" id="guide" aria-labelledby="guide-title">
+  <div class="pk-head">
+    <h2 id="guide-title" data-rise>{{ $p.Title }}, up close</h2>
+    <p data-rise>Where the water comes from in {{ $p.Title }}, what the homes here are like, and what to expect when you call.</p>
+  </div>
+  <div class="gd">
+    <nav class="t t-paper2 gd-toc" aria-label="In this guide"><p class="gd-toc-h">In this guide</p>{{ $p.TableOfContents }}</nav>
+    <div class="prose gd-body">{{ . }}</div>
+  </div>
+</section>
+{{ end }}
+
+<section class="b-where" id="where" aria-labelledby="where-title">
+  <div class="pk-head">
+    <h2 id="where-title" data-rise>Where we work in {{ .Title }}</h2>
+    <p data-rise>Every neighborhood and ZIP code, with the owners on every job. We answer 24/7.</p>
+  </div>
+  <div class="ww">
+    <div class="t t-navy ww-hoods">
+      <h3>{{ .Title }} neighborhoods</h3>
+      {{ with .Params.neighborhoods }}<ul>{{ range . }}<li>{{ . }}</li>{{ end }}</ul>{{ end }}
+      {{ with .Params.zips }}<p class="ww-zips">ZIP codes {{ . }}</p>{{ end }}
+    </div>
+    <div class="ww-side">
+      <div class="t t-paper ww-near">
+        <h3>Nearby</h3>
+        <ul>{{ range (site.GetPage "/areas").Pages }}{{ if ne .Permalink $p.Permalink }}<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>{{ end }}{{ end }}</ul>
+      </div>
+      <dl class="ow-facts">
+        <div><dt>Owners</dt><dd>Ryan and Jon</dd></div>
+        <div><dt>Based in</dt><dd>Boca Raton, FL</dd></div>
+        <div><dt>License</dt><dd>FL MRSR5407</dd></div>
+        <div><dt>Hours</dt><dd>24/7, every day</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+{{ with .Params.review }}
+<section class="b-rev" id="reviews" aria-labelledby="rev-title">
+  <div class="rv">
+    <div class="t t-navy rv-name">
+      <h2 id="rev-title">Rated 5.0 on Google</h2>
+      <p class="rv-who"><b>{{ .name }}</b><span>{{ .loc }}</span></p>
+    </div>
+    <blockquote class="t t-paper2 rv-quote"><p>&ldquo;{{ .quote }}&rdquo;</p></blockquote>
+  </div>
+</section>
+{{ end }}
+
+{{ partial "board/steps.html" (dict "title" "How a job runs" "intro" "Every job runs the same way, whether it's one wall or a whole condo. You get a realistic timeline at the inspection, and we document each step for your insurer." "steps" site.Data.board.steps) }}
+
+{{ with .Params.faqs }}{{ partial "board/faq.html" (dict "id" "faq" "title" (printf "%s questions" $p.Title) "faqs" .) }}{{ end }}
+
+{{ partial "board/contact.html" (dict "title" (printf "Mold or water damage in %s?" .Title) "text" "Tell us what's going on and we'll get right back to you. For an active leak or flooding, call <a class=\"ct-phone\" href=\"tel:9547780925\">(954)&nbsp;778&#8209;0925</a>. We answer 24/7.") }}
+
+</div>
+{{ partial "board/styles.html" . }}
+{{ partial "board/script.html" . }}

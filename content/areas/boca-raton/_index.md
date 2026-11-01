@@ -1,5 +1,6 @@
 ---
 title: "Boca Raton"
+board: true   # 2026-11 pilot: tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold & Water Damage Restoration in Boca Raton, FL | Pure Shield"
 description: "Owner-operated mold remediation and water damage restoration based in Boca Raton. 24/7 response, condo and HOA experience, insurance welcome. Call (954) 778-0925."
 lead: "Owner-operated mold and water damage restoration in Boca Raton, 24/7. Boca is home base, so you get Ryan and Jon on the job, not a call center."

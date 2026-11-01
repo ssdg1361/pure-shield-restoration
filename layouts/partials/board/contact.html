@@ -1,0 +1,33 @@
+{{/* Contact board: job-photo strip + lead form. dict: title text(html) */}}
+<!-- contact: photo strip, form as a board of cells -->
+{{ $strip := slice "boca-condo-mold-7.jpg" "parkland-ceiling-mold-9.jpg" "pompano-containment-3.jpg" "boca-home-mold-1.jpg" "coconut-creek-condo-mold-4.jpg" "margate-mold-water-3.jpg" "deerfield-kitchen-mold-2.jpg" "coral-springs-drying-3.jpg" "hero-2.jpg" "parkland-ceiling-mold-8.jpg" "flood-drying-air-movers-hero.jpg" "boynton-home-mold-2.jpg" }}
+<section class="b-contact" id="contact" aria-labelledby="contact-title">
+  <div class="ct-strip" aria-hidden="true">
+    <div class="ct-run">
+      {{ range (slice 1 2) }}{{ range $strip }}<img src="{{ partial "rimg.html" (dict "src" (printf "/images/%s" .) "w" 400) }}" alt="" loading="lazy">{{ end }}{{ end }}
+    </div>
+  </div>
+  <div class="ct-head">
+    <h2 id="contact-title" data-rise>{{ .title }}</h2>
+    <p data-rise>{{ .text | safeHTML }}</p>
+  </div>
+  <form class="ct-form" id="lead-form" action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="fbad3623-348c-4719-bc95-daccbdde3fa6">
+    <input type="hidden" name="subject" value="New inspection request — pureshieldrestoration.com">
+    <input type="hidden" name="from_name" value="Pure Shield Website">
+    <!-- honeypot: bots fill this, humans never see it -->
+    <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+    <label class="cell"><span>Name</span><input type="text" name="name" autocomplete="name" placeholder="Your name" required></label>
+    <label class="cell"><span>Phone</span><input type="tel" name="phone" autocomplete="tel" placeholder="(561) 000-0000" required></label>
+    <label class="cell"><span>Email (optional)</span><input type="email" name="email" autocomplete="email" placeholder="you@email.com"></label>
+    <label class="cell"><span>What's going on?</span>
+      <select name="service">
+        <option>Mold</option><option>Water damage</option><option>Emergency extraction</option>
+        <option>Leak / moisture</option><option>Other / not sure</option>
+      </select>
+    </label>
+    <label class="cell"><span>Details (optional)</span><textarea name="details" rows="2" placeholder="A few words about the damage"></textarea></label>
+    <button class="cell cell-go" type="submit">Request a free inspection</button>
+    <p class="form-msg" id="form-msg" role="status" aria-live="polite"></p>
+  </form>
+</section>

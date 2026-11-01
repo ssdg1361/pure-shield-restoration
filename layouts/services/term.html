@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{- /* Area and service pages. `board: true` in a page's front matter opts it into the tile layout
+       (2026-11 pilot: Boca Raton, Mold Remediation); everything else keeps the original layout.
+       Section-level term templates (areas/term.html, services/term.html) are used by Hugo 0.128 (CI)
+       and by newer versions alike; _default/term.html is not picked up by Hugo 0.146+. */ -}}
+{{ if .Params.board }}{{ partial "board/term-service.html" . }}{{ else }}{{ partial "term-legacy.html" . }}{{ end }}
+{{ end }}

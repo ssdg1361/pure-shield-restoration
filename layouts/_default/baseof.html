@@ -4,10 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script>document.documentElement.classList.add('js')</script>
-{{ $brandTitle := "Pure Shield Restoration | Mold & Water Damage Restoration | Boca Raton & South Florida" }}
+{{ $brandTitle := "Mold & Water Damage Restoration in Boca Raton | Pure Shield" }}
 {{ $pageTitle := cond .IsHome $brandTitle (printf "%s | Pure Shield Restoration" .Title) }}
 {{ with .Params.seotitle }}{{ $pageTitle = . }}{{ end }}
-{{ $desc := "Owner-operated mold and water damage restoration in Boca Raton and across Palm Beach & Broward. 24/7 response, honest pricing, insurance claims welcome. Call (954) 778-0925." }}
+{{ $desc := "Owner-operated mold & water damage restoration in Boca Raton, Palm Beach & Broward. 24/7 response, insurance claims welcome. Call (954) 778-0925." }}
 {{ if not .IsHome }}{{ $desc = or .Description .Params.lead (.Summary | plainify) $desc }}{{ end }}
 {{ $desc = $desc | plainify | truncate 165 }}
 <title>{{ $pageTitle }}</title>

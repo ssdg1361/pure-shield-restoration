@@ -14,7 +14,7 @@ relatedlead: "Recent water and mold work, photographed and metered the way a cla
 signs:
   - title: "A pipe or appliance let go"
     icon: "pipe"
-    text: "Sudden, accidental discharge — a burst supply line, a failed water heater, a washing machine hose — is the classic covered cause under most Florida policies."
+    text: "Sudden, accidental discharge, like a burst supply line, a failed water heater, or a washing machine hose, is the classic covered cause under most Florida policies."
   - title: "Water came from the unit above"
     icon: "condo"
     text: "Two policies and often an association are involved. Whose carrier pays depends on the cause and the governing documents, which is exactly why the documentation matters."
@@ -26,7 +26,7 @@ signs:
     text: "Denials often turn on cause and timeline. A written scope with dated moisture readings gives you something concrete to go back with."
   - title: "It's been leaking a while"
     icon: "humidity"
-    text: "Long-term seepage is usually excluded as a maintenance issue. It's still worth an honest look — sometimes the cause is more sudden than it appears."
+    text: "Long-term seepage is usually excluded as a maintenance issue. It's still worth an honest look. Sometimes the cause is more sudden than it appears."
   - title: "The storm did it"
     icon: "storm"
     text: "Wind-driven rain, storm surge and groundwater flooding are treated very differently. Which one you had decides which policy applies."
@@ -57,17 +57,17 @@ process:
     alt: "Moisture meter held against a wall to take a reading during a water damage inspection"
 faqs:
   - q: "Does homeowners insurance cover water damage in Florida?"
-    a: "Usually, when the cause is sudden and accidental — a burst pipe, a failed supply line, a water heater that lets go, an overflowing appliance. What's generally not covered is damage from long-term seepage, wear and tear, or lack of maintenance, on the theory that you had the opportunity to catch it. Flooding from groundwater or storm surge is excluded from standard homeowners policies entirely and requires separate flood coverage. Every policy is different, so read yours or ask your agent — we're restoration contractors, not adjusters, and we won't tell you what your policy says."
+    a: "Usually, when the cause is sudden and accidental: a burst pipe, a failed supply line, a water heater that lets go, an overflowing appliance. What's generally not covered is damage from long-term seepage, wear and tear, or lack of maintenance, on the theory that you had the opportunity to catch it. Flooding from groundwater or storm surge is excluded from standard homeowners policies entirely and requires separate flood coverage. Every policy is different, so read yours or ask your agent. We're restoration contractors, not adjusters, and we won't tell you what your policy says."
   - q: "Is mold covered by insurance?"
-    a: "It depends almost entirely on what caused it. Mold that results from a covered water loss is often covered, though many Florida policies cap mold remediation at a set dollar limit regardless of the actual cost. Mold from a gradual leak, humidity, or deferred maintenance is typically excluded. Check your declarations page for a mold or fungi sublimit — it's frequently a five-figure cap that people don't know they have until they need it."
+    a: "It depends almost entirely on what caused it. Mold that results from a covered water loss is often covered, though many Florida policies cap mold remediation at a set dollar limit regardless of the actual cost. Mold from a gradual leak, humidity, or deferred maintenance is typically excluded. Check your declarations page for a mold or fungi sublimit. It's frequently a five-figure cap that people don't know they have until they need it."
   - q: "Should I call my insurance company or a restoration company first?"
-    a: "Call whoever stops the damage first, then the carrier. Most policies include a duty to mitigate — an obligation to take reasonable steps to prevent the loss from getting worse. Waiting several days for an adjuster while drywall stays wet can itself become a reason for a reduced payout. Get the water out, get the structure drying, document everything, and report the claim as soon as you reasonably can."
+    a: "Call whoever stops the damage first, then the carrier. Most policies include a duty to mitigate, meaning an obligation to take reasonable steps to prevent the loss from getting worse. Waiting several days for an adjuster while drywall stays wet can itself become a reason for a reduced payout. Get the water out, get the structure drying, document everything, and report the claim as soon as you reasonably can."
   - q: "What documentation does an adjuster actually want?"
     a: "Photographs of the damage as it was found, before anything was removed. Moisture readings showing how far the water travelled, including readings in unaffected areas for comparison. A daily drying log. A line-item scope of what was removed, dried and treated. Receipts for emergency expenses. If materials were removed, photographs of what was behind them. We produce all of that on every job as a matter of course."
   - q: "Do you work directly with insurance companies?"
-    a: "Yes. We document to carrier standards, write the scope in the format adjusters expect, and will walk the loss with your adjuster to explain the technical side. What we don't do is decide your claim or negotiate it for you — that's between you and your carrier, and if a claim gets contested, a licensed public adjuster or an attorney is who handles that side."
+    a: "Yes. We document to carrier standards, write the scope in the format adjusters expect, and will walk the loss with your adjuster to explain the technical side. What we don't do is decide your claim or negotiate it for you. That's between you and your carrier, and if a claim gets contested, a licensed public adjuster or an attorney is who handles that side."
   - q: "What if my claim gets denied?"
-    a: "Denials usually turn on cause or on timeline — the carrier's position is either that the cause was excluded or that the damage was gradual. Both are factual questions, and both are easier to challenge with dated photographs and moisture data than with recollection. You have the right to request the denial in writing with the specific policy language it relies on. If you want it pushed back on formally, that's a public adjuster or an attorney's job, not ours."
+    a: "Denials usually turn on cause or on timeline. The carrier's position is either that the cause was excluded or that the damage was gradual. Both are factual questions, and both are easier to challenge with dated photographs and moisture data than with recollection. You have the right to request the denial in writing with the specific policy language it relies on. If you want it pushed back on formally, that's a public adjuster or an attorney's job, not ours."
   - q: "Will filing a claim raise my premium?"
     a: "It can, and in the current Florida market it sometimes affects renewal as well as price. That's a real consideration on a small loss where the repair cost isn't far above your deductible. We'll give you an honest estimate before any work starts so you can make that call with a real number in front of you rather than a guess."
 ---
@@ -88,13 +88,13 @@ Three rough categories, and the line between them is the cause.
 
 **Usually not covered** is gradual damage. A fitting that has been weeping for a year. A shower pan that has been leaking into the subfloor since before you bought the house. The reasoning carriers apply is that you had the opportunity to notice and address it. This is where most disputes live, because "gradual" is a judgment call and the evidence for it is often ambiguous.
 
-**Not covered under a homeowners policy at all** is flood — water that rises from outside and comes in at ground level. Storm surge, a canal over its banks, street flooding after a heavy rain. That requires separate flood coverage through the NFIP or a private carrier. Wind-driven rain that enters through a storm-created opening is a different animal and is often handled under the homeowners policy, which is why the distinction matters so much in South Florida. We wrote about that difference in more detail [here](/blog/flood-vs-water-damage-florida-insurance-cost/).
+**Not covered under a homeowners policy at all** is flood: water that rises from outside and comes in at ground level. Storm surge, a canal over its banks, street flooding after a heavy rain. That requires separate flood coverage through the NFIP or a private carrier. Wind-driven rain that enters through a storm-created opening is a different animal and is often handled under the homeowners policy, which is why the distinction matters so much in South Florida. We wrote about that difference in more detail [here](/blog/flood-vs-water-damage-florida-insurance-cost/).
 
 ## Check your mold sublimit before you need it
 
 This is the single most common unpleasant surprise we see.
 
-Many Florida homeowners policies cover mold remediation arising from a covered water loss, but cap it — a specific dollar limit for mold, separate from and much lower than your dwelling coverage. The cap applies no matter what the remediation actually costs.
+Many Florida homeowners policies cover mold remediation arising from a covered water loss, but cap it. That means a specific dollar limit for mold, separate from and much lower than your dwelling coverage. The cap applies no matter what the remediation actually costs.
 
 It's on your declarations page, usually under fungi, mold or microbial matter. It takes thirty seconds to find and it's worth knowing now rather than in the middle of a claim. Some carriers will sell you a higher limit for a modest increase in premium.
 
@@ -108,7 +108,7 @@ Stop the source. [Extract the standing water](/services/emergency-water-extracti
 
 ## What not to do before the adjuster comes
 
-**Don't throw anything away.** Damaged flooring, cabinetry, baseboard, personal property — if it has to come out, it comes out, but photograph it first and keep it somewhere accessible if you can.
+**Don't throw anything away.** Damaged flooring, cabinetry, baseboard, personal property. If it has to come out, it comes out, but photograph it first and keep it somewhere accessible if you can.
 
 **Don't have it repaired before it's inspected.** A repaired ceiling is an uninspectable ceiling.
 

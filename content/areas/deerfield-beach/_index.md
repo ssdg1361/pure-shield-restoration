@@ -3,18 +3,18 @@ title: "Deerfield Beach"
 board: true   # tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold Remediation & Water Damage Restoration in Deerfield Beach, FL | Pure Shield"
 description: "Licensed, owner-operated mold remediation and water damage restoration in Deerfield Beach. Same-day response, free inspection, Century Village experience, insurance welcome. Call (954) 778-0925."
-lead: "Owner-operated mold and water damage restoration in Deerfield Beach, 24/7. Minutes from our Boca Raton base — you get Ryan and Jon on the job, not a franchise crew."
+lead: "Owner-operated mold and water damage restoration in Deerfield Beach, 24/7. Minutes from our Boca Raton base, so you get Ryan and Jon on the job, not a franchise crew."
 heroimg: "/images/hero-4.jpg"
 causes:
   - title: "Stacked condos in Century Village"
     icon: "condo"
-    text: "Thousands of units, most from the '70s, sharing risers and ceilings. When a supply line or water heater lets go upstairs, the damage lands below — and it needs documentation for two insurers and the association."
+    text: "Thousands of units, most from the '70s, sharing risers and ceilings. When a supply line or water heater lets go upstairs, the damage lands below, and it needs documentation for two insurers and the association."
   - title: "Seasonal residents"
     icon: "home"
     text: "A big share of Deerfield lives here half the year. Small leaks in closed-up units run for months before anyone's back to smell them."
   - title: "AC condensate"
     icon: "ac"
-    text: "Clogged condensate lines quietly soak ceilings and closets — the most common 'where is this water coming from?' call we get."
+    text: "Clogged condensate lines quietly soak ceilings and closets. It's the most common 'where is this water coming from?' call we get."
   - title: "Older beach cottages"
     icon: "pipe"
     text: "The cottages and duplexes east of Federal Highway near the pier still run original plumbing that fails behind walls."
@@ -28,13 +28,13 @@ neighborhoods: ["Century Village","The Cove","Deer Creek","Crystal Lake","The be
 zips: "33441, 33442"
 faqs:
   - q: "How fast can you get to Deerfield Beach?"
-    a: "Deerfield borders Boca — it's often our fastest response area in Broward. We answer 24/7 and aim to be on-site the same day, frequently within the hour for active water emergencies."
+    a: "Deerfield borders Boca, so it's often our fastest response area in Broward. We answer 24/7 and aim to be on-site the same day, frequently within the hour for active water emergencies."
   - q: "Do you work in Century Village?"
-    a: "Yes — stacked '70s-era condos with shared risers are exactly the kind of building we handle all the time. We follow association rules for access and containment, work with your property manager if you're away, and document everything both insurers and the association will ask for."
+    a: "Yes. Stacked '70s-era condos with shared risers are exactly the kind of building we handle all the time. We follow association rules for access and containment, work with your property manager if you're away, and document everything both insurers and the association will ask for."
   - q: "How much does mold remediation cost in Deerfield Beach?"
     a: "Most jobs land in the low thousands, depending on the affected area and how far moisture traveled. Small contained spots cost a few hundred dollars; bigger multi-room jobs run higher. Free inspection first, honest number before any work."
   - q: "A leak ran while I was up north all summer. What now?"
-    a: "Don't start ripping things out. Call us — we'll inspect, measure how far the moisture and mold actually spread, contain it properly, and give you a straight answer on what needs to come out versus what can be dried and saved. We can coordinate with a property manager or neighbor if you're not back yet."
+    a: "Don't start ripping things out. Call us. We'll inspect, measure how far the moisture and mold actually spread, contain it properly, and give you a straight answer on what needs to come out versus what can be dried and saved. We can coordinate with a property manager or neighbor if you're not back yet."
 ---
 
 ## Century Village is its own kind of job
@@ -67,11 +67,11 @@ Getting at it means opening the wall behind the counter, not cleaning what's vis
 
 ### Bathrooms
 
-Dark grout and discolored caulk are usually surface conditions. What matters is whether water has gotten behind the tile — under a shower pan, around a tub surround, into the wall the vanity sits against. A surface clean and a structural remediation are very different jobs at very different prices, and you can't tell which one you have from the outside.
+Dark grout and discolored caulk are usually surface conditions. What matters is whether water has gotten behind the tile: under a shower pan, around a tub surround, into the wall the vanity sits against. A surface clean and a structural remediation are very different jobs at very different prices, and you can't tell which one you have from the outside.
 
 ### Attics and air handlers
 
-If the air handler is in the attic or a closet, the condensate line is the thing to watch. A clogged line backs the pan up, and the water goes into the ceiling below. Attic mold in South Florida is almost never a roof leak — it's usually the AC, and the fix is as much about the drain line as the drywall.
+If the air handler is in the attic or a closet, the condensate line is the thing to watch. A clogged line backs the pan up, and the water goes into the ceiling below. Attic mold in South Florida is almost never a roof leak. It's usually the AC, and the fix is as much about the drain line as the drywall.
 
 ### Garages
 
@@ -81,7 +81,7 @@ Poor door seals, a slab that wicks, and a second refrigerator running in the cor
 
 We get asked for mold testing a lot, so it's worth being direct about how this works in Florida.
 
-Mold **assessment** — the testing, the air and surface samples, the written protocol — is a separate license from mold **remediation**, and in most cases one company can't do both on the same property. That's deliberate. It removes the incentive for the company finding the mold to also be the company selling the removal.
+Mold **assessment** (the testing, the air and surface samples, the written protocol) is a separate license from mold **remediation**, and in most cases one company can't do both on the same property. That's deliberate. It removes the incentive for the company finding the mold to also be the company selling the removal.
 
 We're remediators. We hold Florida mold remediation license MRSR5407. When a job needs independent testing or a clearance sample, we work alongside a third-party assessor, which keeps those two things at arm's length the way the statute intends. If you want the longer version, including how to check any Florida license in about a minute, it's here: [mold inspection vs. mold remediation](/blog/mold-inspection-vs-mold-remediation-florida/).
 
@@ -97,7 +97,7 @@ An estimate is different from an assessment, and it's free. We come look, meter 
 
 ## The Cove, Deer Creek and the waterfront
 
-Not all of Deerfield is condos. The single-family stock in Deer Creek and Crystal Lake fails differently — slab plumbing, aging water heaters, and AC condensate rather than shared risers.
+Not all of Deerfield is condos. The single-family stock in Deer Creek and Crystal Lake fails differently: slab plumbing, aging water heaters, and AC condensate rather than shared risers.
 
 On the Intracoastal side in The Cove, the recurring issue is wind-driven rain finding its way around sliders, window frames and door thresholds during storm season. That water enters at the perimeter and tracks into the wall assembly, so it often shows up as staining at the base of a wall well after the storm passed.
 
@@ -105,6 +105,6 @@ On the Intracoastal side in The Cove, the recurring issue is wind-driven rain fi
 
 Deerfield borders Boca, where we're based, so it's usually our fastest response in Broward. We answer 24/7 and aim to be on site the same day, often within the hour for an active water emergency.
 
-On cost: small contained spots run a few hundred dollars, most jobs land in the low thousands, and large multi-room work with rebuild runs higher. On a covered claim, insurance typically carries most of it — [what's usually covered and what usually isn't](/services/insurance-claims/) is worth a read before you file.
+On cost: small contained spots run a few hundred dollars, most jobs land in the low thousands, and large multi-room work with rebuild runs higher. On a covered claim, insurance typically carries most of it. [What's usually covered and what usually isn't](/services/insurance-claims/) is worth a read before you file.
 
 Free inspection, honest number before any work starts. Call (954) 778-0925. Just south of here we handle the same buildings and the same failures in [Pompano Beach](/areas/pompano-beach/).

@@ -53,19 +53,19 @@ process:
     alt: "Moisture meter held against a wall to take a reading during a water damage inspection"
 faqs:
   - q: "How fast do I need to act on water damage?"
-    a: "Right away. Water damage gets worse by the hour, and mold can start within 24 to 48 hours. The faster we extract and start drying, the less ends up needing to be replaced, which is why we run 24/7."
+    a: "Right away. Water damage gets worse by the hour, and mold can start growing within 24 to 48 hours. The faster we get the water out and start drying, the less you'll end up replacing, and that's why we run 24/7."
   - q: "Will my insurance cover water damage?"
-    a: "Often, yes, when it is sudden and accidental, like a burst pipe or an appliance failure. Gradual leaks and long-term seepage frequently are not covered, and flood water that comes in from outside falls under a separate flood policy entirely. We document everything the way adjusters expect and work directly with your insurer, and we will tell you straight which side yours falls on."
+    a: "In a lot of cases, yes, when it's sudden and accidental, like a burst pipe or an appliance failure. Gradual leaks and long-term seepage often aren't covered, and flood water coming in from outside falls under a separate flood policy. We document everything the way adjusters expect, we work directly with your insurer, and we'll tell you straight which side yours falls on."
   - q: "Can you save my floors and cabinets after water damage?"
-    a: "It depends on how long the water sat and how far it spread. We dry aggressively to save what we can, and we'll be honest about what's salvageable versus what's better to replace."
+    a: "It depends on how long the water sat and how far it spread. We dry hard to save what we can, and we'll be honest about what can be saved and what's better replaced."
   - q: "How long does it take to dry out water damage?"
-    a: "Most jobs take about 3 to 5 days of monitored drying. South Florida's humidity can stretch that out, so we run the equipment until the moisture readings, not the calendar, say it's done."
+    a: "Most jobs take about 3 to 5 days of monitored drying. South Florida's humidity can stretch that out, so we keep the equipment running until the moisture readings say it's done, however long that takes."
   - q: "Do you handle the mold that comes with water damage?"
-    a: "Yes. Water and mold go hand in hand, so we treat the area to prevent mold during drying, and if it's already started we remediate it as part of the job."
+    a: "Yes. Water and mold go hand in hand, so we treat the area to keep mold from starting while it dries. If it's already started, we remediate it as part of the same job."
   - q: "Do you handle flood water, not just burst pipes and leaks?"
-    a: "Yes. Storm flooding, wind-driven rain, and rising outside water are all work we take. Flood water is handled differently than a clean water leak, because anything that comes in from outside is treated as contaminated. That means porous materials come out instead of being dried, the area gets contained, and surfaces are disinfected before anything is closed back up."
+    a: "Yes. We take storm flooding, wind-driven rain and rising outside water jobs. Flood water gets handled differently from a clean water leak, because anything coming in from outside is treated as contaminated. That means porous materials get pulled out instead of dried, the area gets contained, and surfaces get disinfected before anything is closed back up."
   - q: "Can you come out tonight?"
-    a: "We run 24/7 and answer the phone ourselves. Call (954) 778-0925 and you will get one of the owners, not a call center. With water, the first few hours matter more than anything else you can do."
+    a: "We run 24/7 and answer the phone ourselves. Call (954) 778-0925 and you'll get one of the owners, not a call center. With water, the first few hours matter more than anything else you can do."
 ---
 
 ## Flood water is handled differently than a burst pipe

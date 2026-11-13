@@ -52,15 +52,15 @@ process:
     alt: "Baseboard pulled away from a water-damaged wall along the floor of a Coconut Creek condo"
 faqs:
   - q: "How long does structural drying take?"
-    a: "Typically 2 to 4 days of equipment running, sometimes longer for saturated materials or South Florida's summer humidity. We take readings daily, and the equipment comes out when the numbers say dry. Not before, not after."
+    a: "Usually 2 to 4 days of equipment running, sometimes longer for soaked materials or South Florida's summer humidity. We take readings daily, and the equipment comes out the day the numbers say it's dry."
   - q: "Can't I just run fans and the AC?"
-    a: "Household fans and AC dry surfaces, not the inside of walls and floors. Trapped moisture is exactly how a 'handled' leak turns into a mold job a month later. Commercial dehumidifiers pull moisture out of materials; fans just move air past them."
+    a: "Fans and household AC dry surfaces but not the inside of walls and floors. Trapped moisture is how a leak you thought was handled turns into a mold job a month later. Commercial dehumidifiers pull moisture out of materials, while fans only move air past them."
   - q: "Do you have to cut open my walls?"
-    a: "Only when the moisture map says there's no other way to reach a wet cavity, and then we make the smallest openings that work. Plenty of jobs dry fully without any demolition."
+    a: "Only when the moisture map shows there's no other way to reach a wet cavity, and then we keep the openings as small as we can. Plenty of jobs dry out fully without any demolition."
   - q: "Is structural drying covered by insurance?"
-    a: "When it follows a covered water event like a burst pipe or appliance failure, drying is usually part of the same claim. We document moisture readings from first visit to verified-dry, which is exactly what adjusters want to see."
+    a: "If it follows a covered water loss like a burst pipe or an appliance failure, drying is usually part of the same claim. We log moisture readings from the first visit until it's verified dry, and that's what adjusters want to see."
   - q: "What does structural drying cost?"
-    a: "As part of a water damage claim it's usually folded into the overall job. Standalone, most residential drying runs from several hundred to a few thousand dollars depending on how many rooms and how much equipment it takes. Free inspection first, honest number before we start."
+    a: "On a water damage claim it's usually rolled into the overall job. On its own, most home drying runs from several hundred to a few thousand dollars, depending on how many rooms and how much equipment it takes. The inspection's free, and you'll get an honest number before we start."
 ---
 
 Drying is the stage where water damage either gets finished or turns into a mold problem. Mold can take hold within 24 to 48 hours of water intrusion, so we treat drying as its own job. We get the standing water out first with [emergency water extraction](/services/emergency-water-extraction/), and [mold remediation](/services/mold-remediation/) is ready if moisture sat too long before we got the call. If you're anywhere in Palm Beach or Broward and something got wet, the inspection is free and the moisture meter will tell you where you stand.

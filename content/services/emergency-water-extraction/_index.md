@@ -56,15 +56,15 @@ process:
     alt: "Pure Shield technician using a moisture meter to find hidden moisture in Boca Raton"
 faqs:
   - q: "What should I do in the first ten minutes?"
-    a: "Stop the water if you safely can. The main shutoff is usually at the front of the house or by the water heater. Stay clear of water near outlets or appliances. Move what's valuable and movable out of the wet area. Then call us and we'll walk you through the rest while we head over."
+    a: "Shut off the water if it's safe to. The main shutoff is usually at the front of the house or by the water heater. Stay clear of any water near outlets or appliances, and move anything valuable you can carry out of the wet area. Then call us and we'll talk you through the rest on our way over."
   - q: "How fast can you get here?"
-    a: "We run 24/7 across Palm Beach and Broward from Boca Raton and aim to be on-site within hours. For active flooding we move immediately. The sooner extraction starts, the more of your flooring and drywall we can save."
+    a: "We run 24/7 across Palm Beach and Broward out of Boca Raton and aim to be there within hours. If water's still coming in, we leave right away. The sooner we start extracting, the more flooring and drywall we can save."
   - q: "Is emergency water extraction covered by insurance?"
-    a: "Sudden, accidental water (burst pipes, failed water heaters, appliance hoses) is typically covered, and emergency mitigation is usually the first thing policies pay for because it limits the total loss. We document everything from the first hour to support the claim."
+    a: "Usually, when it's sudden and accidental, like a burst pipe, failed water heater or appliance hose. Emergency mitigation is usually the first thing a policy pays for, since it limits the total loss. We document everything from hour one to back up the claim."
   - q: "The water's gone down on its own. Do I still need you?"
-    a: "The standing water disappearing doesn't mean it left. It soaked into flooring, drywall, and framing. A free inspection with a moisture meter tells you in fifteen minutes whether you're fine or whether there's a wet wall about to become a mold job."
+    a: "Standing water that goes down by itself has soaked into your flooring, drywall and framing. A free inspection with a moisture meter tells you in fifteen minutes whether you're fine or whether you've got a wet wall about to turn into a mold job."
   - q: "What does extraction cost?"
-    a: "Most residential extractions run from a few hundred dollars for a single room to the low thousands for larger losses, and when it's a covered claim it's usually part of the insurance job. You'll get a straight number before we start work."
+    a: "Most home extractions run from a few hundred dollars for one room to the low thousands for bigger losses. If it's a covered claim, it's usually part of the insurance job. Either way, you'll get a straight number from us before we start."
 ---
 
 Extraction is step one. Once the standing water is out, we use [structural drying](/services/structural-drying/) to dry what soaked into walls and floors, and if water sat for more than a day or two, [mold remediation](/services/mold-remediation/) may need to follow. You can call one number for all of it: (954) 778-0925, any hour.

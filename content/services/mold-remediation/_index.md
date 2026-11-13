@@ -52,13 +52,13 @@ process:
     alt: "Moisture meter confirming a wall reads dry"
 faqs:
   - q: "Is mold actually a problem, or is it overblown?"
-    a: "Mold is worth removing promptly, especially for anyone with allergies or breathing sensitivity, and it can damage the materials it grows on over time. Our job is to remove it safely and fix the moisture behind it, not to scare you. If it's a small surface spot, we'll tell you that too."
+    a: "Mold should come out promptly, especially if anyone in the house has allergies or breathing issues, and over time it can damage whatever it's growing on. We're there to remove it safely and fix the moisture behind it, and we won't try to scare you. If it's a small surface spot, we'll tell you that too."
   - q: "Can I just clean the mold myself?"
-    a: "You can wipe surface mold off non-porous surfaces like tile, but porous materials like drywall and insulation can't be cleaned once mold has rooted in, and bleach doesn't reach what's growing inside the wall. Cutting into it without containment also spreads spores. For anything beyond a small surface spot, it's worth having it done right."
+    a: "You can wipe surface mold off hard surfaces like tile. Drywall and insulation are porous and can't be cleaned once mold has rooted in, and bleach won't reach what's growing inside the wall. Cutting into it without containment also spreads spores around. For anything bigger than a small surface spot, it's best to have it done right."
   - q: "How long does mold remediation take?"
-    a: "Most homes take about 3 to 5 days from start to verified-dry. Small, contained jobs can wrap in a day or two, while larger ones with rebuild work take longer. South Florida's humidity can stretch out the drying stage, so we run equipment until the moisture readings, not the calendar, say it's done."
+    a: "Most homes take about 3 to 5 days from start to verified dry. Small, contained jobs can wrap up in a day or two, and bigger ones with rebuild work take longer. South Florida's humidity can stretch out the drying, so we keep the equipment running until the moisture readings say it's done, however many days that takes."
   - q: "Do you handle mold testing too?"
-    a: "We focus on remediation, the actual removal and cleanup. For independent air-quality or clearance testing, we work alongside a third-party assessor, which also keeps the testing and the remediation at arm's length, the way it should be."
+    a: "Our focus is remediation, which is the removal and cleanup. For independent air quality or clearance testing, we work with a third-party assessor. That keeps the testing and the remediation separate from each other, which is how it should be."
   - q: "What does mold remediation cost?"
-    a: "Most jobs run in the low thousands, depending on the size of the affected area and how far the moisture spread. Small contained problems cost less; larger multi-room or structural jobs cost more. We give an honest, upfront estimate after a free inspection."
+    a: "Most jobs run in the low thousands, depending on how big the affected area is and how far the moisture spread. Small, contained problems cost less, and bigger multi-room or structural jobs cost more. After a free inspection, we'll give you an honest estimate up front."
 ---

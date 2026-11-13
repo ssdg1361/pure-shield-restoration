@@ -28,13 +28,13 @@ neighborhoods: ["Eagle Trace","Turtle Run","Ramblewood","Maplewood","Westchester
 zips: "33065, 33067, 33071, 33073, 33076"
 faqs:
   - q: "How fast can you get to Coral Springs?"
-    a: "We answer 24/7 and aim to be on-site the same day, often within a couple of hours. For active water emergencies like a burst line or a failed water heater, call the moment you find it and we'll head out."
+    a: "We answer 24/7 and aim to be on-site the same day, often within a couple of hours. For active water emergencies like a burst line or a failed water heater, call as soon as you find it and we'll head out."
   - q: "How much does mold remediation cost in Coral Springs?"
-    a: "Most jobs land in the low thousands, depending on how much area is affected and how far the moisture spread. A small contained spot might be a few hundred dollars; a multi-room job with rebuild runs higher. Free inspection, honest estimate, no upsell."
+    a: "Most jobs land in the low thousands, depending on how much area is affected and how far the moisture spread. A small contained spot might be a few hundred dollars. A multi-room job with rebuild runs higher. You get a free inspection and an honest, no-upsell estimate."
   - q: "My house was built in the '80s. Should I be worried about the pipes?"
-    a: "Not worried, just aware. Original '70s–'90s plumbing is reaching the age where failures get common, and the damage happens inside walls where you won't see it early. Musty smells, warm spots on floors, unexplained water-bill jumps, or stains on drywall are worth a look. The inspection is free either way."
+    a: "No need to worry, but be aware. Original '70s to '90s plumbing is reaching the age where failures get common, and the damage happens inside walls where you won't see it early. Musty smells, warm spots on floors, unexplained water-bill jumps, or stains on drywall are worth a look. The inspection is free either way."
   - q: "Do you work with my insurance?"
-    a: "Yes. We document the damage the way adjusters expect and work with your insurer through the claim. Sudden failures like a burst pipe or water heater are typically covered; slow leaks often aren't. We'll tell you honestly which one you're looking at."
+    a: "Yes. We document the damage the way adjusters expect and work with your insurer through the claim. Sudden failures like a burst pipe or water heater are typically covered, but slow leaks often aren't. We'll tell you straight which one you've got."
 ---
 
 ## Family homes from the '70s to the '90s

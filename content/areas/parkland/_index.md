@@ -28,15 +28,15 @@ neighborhoods: ["Heron Bay","Parkland Isles","Pine Tree Estates","Parkland Golf 
 zips: "33067, 33073, 33076"
 faqs:
   - q: "How fast can you get to my home in Parkland?"
-    a: "We're based in Boca Raton and Parkland is right over the county line, so it's a short run for us. We answer 24/7 and aim to be on-site the same day, often within a couple of hours. With water and mold, how fast it gets contained decides how much of the house you lose, so we don't sit on emergency calls."
+    a: "We're based in Boca Raton and Parkland is right over the county line, so it's a short run for us. We answer 24/7 and aim to be on-site the same day, often within a couple of hours. The faster water or mold gets contained, the less of the house you lose, so we don't sit on emergency calls."
   - q: "There's a water stain on my ceiling under the AC. How bad is it?"
-    a: "Usually bigger than it looks. A stain under an attic air handler almost always means the condensate line has been leaking slowly for a while, and the back side of that drywall has been wet the whole time in a warm attic. By the time it reaches the paint there's normally growth on the concealed side and often on the framing above it. It's worth opening up and looking before anyone patches it."
+    a: "Usually bigger than it looks. A stain under an attic air handler almost always means the condensate line has been leaking slowly for a while, and the back side of that drywall has been wet the whole time in a warm attic. By the time it shows through the paint, there's normally growth on the hidden side and often on the framing above it. It's worth opening it up to look before anyone patches it."
   - q: "Do you have to cut into my ceiling to find out?"
-    a: "We start with a moisture meter, not a saw. If the readings say the wet area runs past what's visible, we make small exploratory cuts to see the concealed side before committing to anything larger. Those cuts are deliberate and minimal. The alternative is guessing, and guessing is how a ceiling gets closed up over active mold."
+    a: "We start with a moisture meter before anyone picks up a saw. If the readings show the wet area runs past what's visible, we make small exploratory cuts to see the hidden side before committing to anything larger. We keep those cuts small. Without them we'd be guessing, and that's how a ceiling gets closed up over active mold."
   - q: "How much does mold remediation cost in Parkland?"
-    a: "Most jobs land in the low thousands, depending on how much area is affected and how far the moisture spread above the ceiling or behind the walls. A small contained spot might be a few hundred dollars; a larger multi-room job runs higher. You get an honest, upfront estimate after a free inspection, and we only recommend what's actually needed."
+    a: "Most jobs land in the low thousands, depending on how much area is affected and how far the moisture spread above the ceiling or behind the walls. A small contained spot might be a few hundred dollars, and a larger multi-room job runs higher. You'll get an honest, upfront estimate after a free inspection, and we only recommend the work you need."
   - q: "Will my insurance cover an AC drain line leak?"
-    a: "It depends on how it happened. Sudden, accidental damage is typically covered; a line that's been weeping for months often falls under maintenance and gets denied. We photograph and document everything the way adjusters expect and we'll tell you straight which side yours looks like before you file."
+    a: "It depends on how it happened. Sudden, accidental damage is typically covered, but a line that's been weeping for months often falls under maintenance and gets denied. We photograph and document everything the way adjusters expect, and we'll tell you straight which side yours looks like before you file."
 ---
 
 ## Big two-story houses

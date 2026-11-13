@@ -28,13 +28,13 @@ neighborhoods: ["Century Village","The Cove","Deer Creek","Crystal Lake","The be
 zips: "33441, 33442"
 faqs:
   - q: "How fast can you get to Deerfield Beach?"
-    a: "Deerfield borders Boca, so it's often our fastest response area in Broward. We answer 24/7 and aim to be on-site the same day, frequently within the hour for active water emergencies."
+    a: "Deerfield borders Boca, so it's often our fastest response area in Broward. We answer 24/7 and aim to be on-site the same day, and for active water emergencies we're often there within the hour."
   - q: "Do you work in Century Village?"
-    a: "Yes. Stacked '70s-era condos with shared risers are exactly the kind of building we handle all the time. We follow association rules for access and containment, work with your property manager if you're away, and document everything both insurers and the association will ask for."
+    a: "Yes. Stacked '70s-era condos with shared risers are the kind of building we work in all the time. We follow association rules for access and containment, work with your property manager if you're away, and document everything both insurers and the association will ask for."
   - q: "How much does mold remediation cost in Deerfield Beach?"
-    a: "Most jobs land in the low thousands, depending on the affected area and how far moisture traveled. Small contained spots cost a few hundred dollars; bigger multi-room jobs run higher. Free inspection first, honest number before any work."
+    a: "Most jobs land in the low thousands, depending on the affected area and how far moisture traveled. Small contained spots cost a few hundred dollars. Bigger multi-room jobs run higher. Free inspection first, then an honest number before any work."
   - q: "A leak ran while I was up north all summer. What now?"
-    a: "Don't start ripping things out. Call us. We'll inspect, measure how far the moisture and mold actually spread, contain it properly, and give you a straight answer on what needs to come out versus what can be dried and saved. We can coordinate with a property manager or neighbor if you're not back yet."
+    a: "Hold off on ripping things out and call us. We'll inspect, measure how far the moisture and mold spread, contain it properly, and tell you straight what needs to come out and what can be dried and saved. If you're not back yet, we can coordinate with a property manager or neighbor."
 ---
 
 ## Century Village is its own kind of job

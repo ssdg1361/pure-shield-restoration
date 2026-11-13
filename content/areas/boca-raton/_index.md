@@ -32,15 +32,15 @@ review:
   loc: "Boca Raton"
 faqs:
   - q: "How fast can you get to my home in Boca Raton?"
-    a: "Boca is our home base, so it's where we're fastest. We answer 24/7 and aim to be on-site the same day, often within a couple of hours for active water. With water and mold, the faster it's contained the less it spreads, so we don't sit on emergency calls."
+    a: "Boca is our home base, so it's where we're fastest. We answer 24/7 and aim to be on-site the same day, often within a couple of hours for active water. The sooner water or mold gets contained, the less it spreads, so we don't sit on emergency calls."
   - q: "I have a leak from the condo above me. What do I do?"
-    a: "Shut off the water to your unit if there's any chance the source is yours, and let the neighbor above and your association know. Take photos before anything gets moved. Then call us. We contain the damage, dry it properly, and document everything the association and both insurers will want to see."
+    a: "Shut off the water to your unit if there's any chance the source is yours, and let the neighbor above and your association know. Take photos before anything gets moved, then give us a call. We'll contain the damage, dry it out properly and document everything the association and both insurers will want to see."
   - q: "How much does mold remediation cost in Boca Raton?"
-    a: "Most jobs land in the low thousands, but it depends on how much area is affected and how far the moisture spread behind walls and floors. A small, contained spot might be a few hundred dollars, while a larger multi-room job with rebuild work runs higher. You get an honest estimate after a free inspection, and we only recommend what's actually needed."
+    a: "Most jobs land in the low thousands, but it depends on how much area is affected and how far the moisture spread behind walls and floors. A small, contained spot might be a few hundred dollars, while a larger multi-room job with rebuild work runs higher. You'll get an honest estimate after a free inspection, and we only recommend the work you need."
   - q: "Do you work inside gated communities and condo buildings?"
-    a: "All the time. We coordinate gate access and work hours with the HOA or property manager, follow the building's rules for containment and equipment, and keep the work out of shared hallways and common areas."
+    a: "All the time. We set up gate access and work hours with the HOA or property manager, follow the building's rules for containment and equipment, and keep our work out of shared hallways and common areas."
   - q: "Do you work with my insurance?"
-    a: "Yes. We photograph and document the damage the way adjusters expect and work directly with your insurer through the claim. Whether mold is covered usually comes down to the cause: sudden, accidental damage like a burst pipe is typically covered, while gradual leaks often aren't, and we'll tell you straight which side yours falls on."
+    a: "Yes. We photograph and document the damage the way adjusters expect and work directly with your insurer through the claim. Whether mold is covered usually comes down to the cause. Sudden, accidental damage like a burst pipe is typically covered and gradual leaks often aren't, and we'll tell you straight which side yours falls on."
 ---
 
 ## Boca is home base

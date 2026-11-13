@@ -28,15 +28,15 @@ neighborhoods: ["Wynmoor Village","The Township","Regency Lakes","Centura Parc",
 zips: "33063, 33066, 33073, 33097"
 faqs:
   - q: "How fast can you get to my home in Coconut Creek?"
-    a: "We're based in Boca Raton, so Coconut Creek is a short run for us. We answer 24/7 and aim to be on-site the same day, often within a couple of hours. With water and mold the faster it's contained the less it spreads, so we don't sit on emergency calls."
+    a: "We're based in Boca Raton, so Coconut Creek is a short run for us. We answer 24/7 and aim to be on-site the same day, often within a couple of hours. The sooner water or mold gets contained, the less it spreads, so we don't sit on emergency calls."
   - q: "I'm in a 55+ condo community. Do you deal with the association?"
-    a: "Regularly. In the condo villages around here the damage inside your unit is usually your claim, the source may be someone else's, and the association may be involved for common elements. We document everything with photos and moisture readings so you're covered however the responsibility shakes out, and we keep the work clean and contained so nothing tracks into shared walkways."
+    a: "Regularly. In the condo villages around here, the damage inside your unit is usually your claim, the source may be someone else's, and the association may get involved for common elements. We document everything with photos and moisture readings so you're covered however the responsibility shakes out. We also keep the work clean and contained so nothing gets tracked into shared walkways."
   - q: "The mold is only along the bottom of my wall. Is that bad?"
-    a: "It usually means more than it looks like. A band of growth low on the wall points to water moving along the slab and wicking up from below, not a leak from above, and the source is often in a different room entirely. What's visible is normally the smallest part of it. That's worth an inspection before anyone paints over it."
+    a: "It usually means more than it looks like. A band of growth low on the wall points to water moving along the slab and wicking up from below rather than a leak from above, and the source is often in a different room. What you can see is normally the smallest part of it, so get it inspected before anyone paints over it."
   - q: "How much does mold remediation cost in Coconut Creek?"
-    a: "Most jobs land in the low thousands, depending on how much area is affected and how far the moisture spread behind walls and floors. A small contained spot might be a few hundred dollars; a larger multi-room job runs higher. You get an honest, upfront estimate after a free inspection, and we only recommend what's actually needed."
+    a: "Most jobs land in the low thousands, depending on how much area is affected and how far the moisture spread behind walls and floors. A small contained spot might be a few hundred dollars, and a larger multi-room job runs higher. You'll get an honest, upfront estimate after a free inspection, and we only recommend the work you need."
   - q: "Do you work with my insurance?"
-    a: "Yes. We photograph and document the damage the way adjusters expect and work with your insurer through the claim. Sudden, accidental damage like a burst supply line is typically covered; gradual leaks often aren't, and we'll tell you straight which side yours falls on."
+    a: "Yes. We photograph and document the damage the way adjusters expect and work with your insurer through the claim. Sudden, accidental damage like a burst supply line is typically covered and gradual leaks often aren't. We'll tell you straight which side yours falls on."
 ---
 
 ## Condo villages on slab

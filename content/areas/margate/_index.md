@@ -28,15 +28,15 @@ neighborhoods: ["Oriole Gardens","Paradise Gardens","Palm Lakes","Holiday Spring
 zips: "33063, 33093"
 faqs:
   - q: "How fast can you get to my home in Margate?"
-    a: "We're based in west Boca Raton, so Margate is a straight run down 441 for us. We answer 24/7 and aim to be on-site the same day, often within a couple of hours for active water. With water and mold, the faster it's contained the less it spreads."
+    a: "We're based in west Boca Raton, so Margate is a straight run down 441 for us. We answer 24/7 and aim to be on-site the same day, often within a couple of hours for active water. The sooner water or mold gets contained, the less it spreads."
   - q: "The leak came from the condo above mine. Whose problem is it?"
-    a: "Common one in Margate's condo communities. Practically, the damage in your unit is your claim, the source is theirs, and the association may be involved for common elements. We document everything with photos and moisture readings the way adjusters expect, so you're covered no matter how the responsibility shakes out."
+    a: "We get this a lot in Margate's condo communities. In practice, the damage in your unit is your claim, the source is theirs, and the association may be involved for common elements. We document everything with photos and moisture readings the way adjusters expect, so you're covered however the responsibility shakes out."
   - q: "My house still has the original pipes. Should I be worried?"
-    a: "Not panicked, but aware. Cast iron drain lines and galvanized supply lines from the '60s and '70s are near the end of their life, and they usually fail slowly and out of sight. If you notice a warm spot on the floor, swelling baseboards, a musty closet or a water bill that jumped, that's worth a free inspection before it becomes a mold job."
+    a: "No need to panic, but keep an eye on it. Cast iron drain lines and galvanized supply lines from the '60s and '70s are near the end of their life, and they usually fail slowly and out of sight. If you notice a warm spot on the floor, swelling baseboards, a musty closet or a water bill that jumped, get a free inspection before it turns into a mold job."
   - q: "How much does mold remediation cost in Margate?"
-    a: "Most jobs land in the low thousands, depending on how much area is affected and how far moisture spread behind walls and floors. A small contained spot might be a few hundred dollars. A larger multi-room job runs higher. You get an honest, upfront estimate after a free inspection, and we only recommend what's actually needed."
+    a: "Most jobs land in the low thousands, depending on how much area is affected and how far moisture spread behind walls and floors. A small contained spot might be a few hundred dollars. A larger multi-room job runs higher. You'll get an honest, upfront estimate after a free inspection, and we only recommend the work you need."
   - q: "Do you work with my insurance?"
-    a: "Yes. We photograph and document the damage the way adjusters expect and work with your insurer through the claim. Sudden, accidental damage like a burst pipe is typically covered. Gradual leaks often aren't, and we'll tell you straight which side yours falls on."
+    a: "Yes. We photograph and document the damage the way adjusters expect and work with your insurer through the claim. Sudden, accidental damage like a burst pipe is typically covered, but gradual leaks often aren't. We'll tell you straight which side yours falls on."
 ---
 
 ## Margate was built in one push

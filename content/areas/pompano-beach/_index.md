@@ -30,11 +30,11 @@ faqs:
   - q: "How fast can you get to Pompano Beach?"
     a: "Fast. Pompano is one of our closest Broward service areas from Boca. We answer 24/7 and aim to be on-site the same day, often within a couple of hours for active water emergencies."
   - q: "The unit above mine is leaking into my condo. Who pays for what?"
-    a: "Generally, your policy covers your unit's damage and theirs covers theirs, but condo association rules and the cause of the leak complicate it. We contain and dry your unit first, then document everything the way your insurer, their insurer, and the association will want to see. We handle these buildings constantly."
+    a: "Generally, your policy covers your unit's damage and theirs covers theirs, but association rules and the cause of the leak can complicate it. We contain and dry your unit first, then document everything the way your insurer, their insurer and the association will want to see. We're in these buildings all the time."
   - q: "How much does water damage restoration cost in Pompano Beach?"
-    a: "Small, caught-early jobs can be a few hundred dollars; typical jobs land in the low thousands; large multi-room losses with rebuild run higher. If it's a covered claim, insurance usually pays most of it. Either way you get an honest number after a free inspection, before any work starts."
+    a: "Small jobs caught early can be a few hundred dollars, most jobs land in the low thousands, and large multi-room losses with rebuild run higher. If it's a covered claim, insurance usually pays most of it. Either way, you'll get an honest number after a free inspection, before any work starts."
   - q: "Do you work with condo associations and property managers?"
-    a: "Yes. We coordinate access, follow building rules for containment and equipment, and provide the documentation associations require. If you're a manager with a unit owner emergency, call us directly and we'll take it from there."
+    a: "Yes. We set up access, follow building rules for containment and equipment, and give associations the documentation they require. If you're a manager dealing with a unit owner's emergency, call us directly and we'll take it from there."
 ---
 
 ## The beach towers and their aging plumbing

@@ -28,13 +28,13 @@ neighborhoods: ["Leisureville","Hunters Run","Aberdeen","The Valencias","Renaiss
 zips: "33426, 33435, 33436, 33437, 33472, 33473"
 faqs:
   - q: "How fast can you get to my home in Boynton Beach?"
-    a: "We're based in Boca Raton, so Boynton is a short run up I-95 for us. We answer 24/7 and aim to be on-site the same day, often within a couple of hours. With water and mold, the faster it's contained, the less it spreads."
+    a: "We're based in Boca Raton, so Boynton is a short run up I-95 for us. We answer 24/7 and aim to be on-site the same day, often within a couple of hours. The sooner water or mold gets contained, the less it spreads."
   - q: "My community is mostly seasonal residents. Can you handle a problem while I'm away?"
-    a: "Yes, and it's one of the most common calls we get from Boynton communities like Aberdeen and the Valencias. We can coordinate access with your property manager or a neighbor, document everything with photos as we go, and walk you through what we found and what we did by phone before any work beyond the emergency stabilization."
+    a: "Yes. It's one of the most common calls we get from Boynton communities like Aberdeen and the Valencias. We can set up access with your property manager or a neighbor and take photos of everything as we go. Before any work past stabilizing the emergency, we'll call and walk you through what we found and what we did."
   - q: "How much does mold remediation cost in Boynton Beach?"
-    a: "Most jobs land in the low thousands, depending on how much area is affected and how far moisture spread behind walls and floors. A small contained spot might be a few hundred dollars; a larger multi-room job runs higher. You get an honest, upfront estimate after a free inspection, and we only recommend what's actually needed."
+    a: "Most jobs land in the low thousands, depending on how much area is affected and how far moisture spread behind walls and floors. A small contained spot might be a few hundred dollars, and a larger multi-room job runs higher. You'll get an honest, upfront estimate after a free inspection, and we only recommend the work you need."
   - q: "Do you work with my insurance?"
-    a: "Yes. We photograph and document the damage the way adjusters expect and work with your insurer through the claim. Sudden, accidental damage like a burst pipe is typically covered; gradual leaks often aren't. We'll tell you straight which side yours falls on."
+    a: "Yes. We photograph and document the damage the way adjusters expect and work with your insurer through the claim. Sudden, accidental damage like a burst pipe is typically covered, but gradual leaks often aren't. We'll tell you straight which side yours falls on."
 ---
 
 ## Older Boynton and West Boynton

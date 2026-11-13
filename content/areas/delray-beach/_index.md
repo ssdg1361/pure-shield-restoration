@@ -28,13 +28,13 @@ neighborhoods: ["Kings Point","High Point","Villages of Oriole","Rainberry Bay",
 zips: "33444, 33445, 33446, 33483, 33484"
 faqs:
   - q: "How fast can you get to my home in Delray Beach?"
-    a: "Delray borders our Boca Raton home base, so we're usually there fast. We answer 24/7 and aim to be on-site the same day, often within a couple of hours. With water and mold, the faster it's contained, the less it spreads."
+    a: "Delray borders our Boca Raton home base, so we're usually there fast. We answer 24/7 and aim to be on-site the same day, often within a couple of hours. The sooner water or mold gets contained, the less it spreads."
   - q: "The leak came from the unit above mine. How does that work?"
-    a: "We handle this constantly in Delray's 55+ communities. Our featured Delray job was exactly this: a failed disposal and sink line upstairs that damaged the kitchen below. The damage in your unit is your claim, the source is theirs, and we document everything with photos and moisture readings so both insurers and the association get what they need."
+    a: "We see this all the time in Delray's 55+ communities. Our featured Delray job was one of them, where a failed disposal and sink line upstairs damaged the kitchen below. The damage in your unit is your claim and the source is theirs. We document everything with photos and moisture readings so both insurers and the association get what they need."
   - q: "Can you handle a problem while I'm up north for the summer?"
-    a: "Yes. We can coordinate access with your property manager, a neighbor, or the association, document everything with photos as we go, and walk you through what we found by phone before any work beyond emergency stabilization."
+    a: "Yes. We can set up access with your property manager, a neighbor or the association and photograph everything as we go. Before any work past emergency stabilization, we'll call and walk you through what we found."
   - q: "Do you work with my insurance?"
-    a: "Yes. We photograph and document the damage the way adjusters expect and work with your insurer through the claim. Sudden, accidental damage like a burst pipe is typically covered; gradual leaks often aren't. We'll tell you straight which side yours falls on."
+    a: "Yes. We photograph and document the damage the way adjusters expect and work with your insurer through the claim. Sudden, accidental damage like a burst pipe is typically covered, but gradual leaks often aren't. We'll tell you straight which side yours falls on."
 ---
 
 ## Delray splits at I-95

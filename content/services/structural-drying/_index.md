@@ -4,12 +4,12 @@ board: true   # tile layout (layouts/partials/board/term-service.html)
 short: "structural drying"
 seotitle: "Structural Drying in Boca Raton, FL | Verified Dry, Not Guessed Dry | Pure Shield"
 description: "Water inside your walls or floors? Owner-operated structural drying in Boca Raton and across Palm Beach and Broward. Dehumidifiers, air movers and daily meter readings until it reads dry. Free inspection, (954) 778-0925."
-lead: "Getting the water out is half the job. Structural drying is the other half: drying what's inside your walls and floors to verified-dry readings, so mold never gets its 24-hour head start."
+lead: "Getting the water out is half the job. The other half is structural drying, where we dry what's inside your walls and floors to verified-dry readings so mold doesn't get its 24-hour head start."
 heroimg: "/images/structural-drying-hero.jpg"
 signs:
   - title: "After any water event"
     icon: "storm"
-    text: "Burst pipe, appliance failure, roof leak, or extraction that's already done. If materials got wet, they need real drying, not just airflow."
+    text: "If materials got wet from a burst pipe, an appliance failure, or a roof leak, they need real drying, even if extraction is already done. Airflow alone won't get there."
   - title: "Damp or musty smell that lingers"
     icon: "smell"
     text: "If a room still smells damp days after a leak was 'handled,' moisture is still trapped in the drywall, framing, or flooring."
@@ -24,14 +24,14 @@ signs:
     text: "Surfaces dry fast in AC, but the inside of the wall doesn't. Fifteen minutes with a moisture meter settles it, and our inspection is free."
   - title: "Before you rebuild"
     icon: "home"
-    text: "Closing up walls or laying new floors over damp structure locks the moisture in. Verify dry first, then rebuild once."
+    text: "If you close up walls or lay new floors over a damp structure, you lock the moisture in. Verify it's dry first so you only rebuild once."
 process:
   - title: "Moisture-map everything"
-    text: "Meters and thermal imaging show exactly how far water traveled, into walls, under floors and behind cabinets, so nothing wet gets missed."
+    text: "We use meters and thermal imaging to see exactly how far the water traveled, into walls, under floors and behind cabinets, so we don't miss anything wet."
     img: "/images/parkland-ceiling-mold-1.jpg"
     alt: "Moisture meter reading a damp bathroom ceiling beside a recessed light in a Parkland home"
   - title: "Set the drying plan"
-    text: "Commercial dehumidifiers and air movers, placed for the specific materials and layout. Not a fan pointed at a wall."
+    text: "We place commercial dehumidifiers and air movers to suit the specific materials and layout of the space."
     img: "/images/coral-springs-drying-1.jpg"
     alt: "Containment and drying equipment set up in an open-plan Coral Springs home"
   - title: "Controlled openings only when needed"
@@ -39,11 +39,11 @@ process:
     img: "/images/margate-mold-water-hero.jpg"
     alt: "Wall opened below a window showing water-stained framing in a Margate home"
   - title: "Daily readings"
-    text: "We check moisture levels every day and reposition equipment as materials dry. The readings decide, not the calendar."
+    text: "We check moisture levels every day and reposition equipment as materials dry. The readings tell us when it's done."
     img: "/images/boca-condo-mold-7.jpg"
     alt: "Pure Shield technician using a moisture meter to find hidden moisture in Boca Raton"
   - title: "Verified dry, documented"
-    text: "The job ends when meters hit dry-standard targets. You get the documentation, because insurers and future buyers respect readings, not promises."
+    text: "We finish when the meters hit dry-standard targets, and you get the documentation. Insurers and future buyers want to see readings."
     img: "/images/moisture-meter-verified-dry.jpg"
     alt: "Moisture meter held against a wall to take a reading during a water damage inspection"
   - title: "Fix the source"
@@ -63,4 +63,4 @@ faqs:
     a: "As part of a water damage claim it's usually folded into the overall job. Standalone, most residential drying runs from several hundred to a few thousand dollars depending on how many rooms and how much equipment it takes. Free inspection first, honest number before we start."
 ---
 
-Structural drying is where water damage either ends or turns into a mold problem. Mold can take hold within 24 to 48 hours of water intrusion, which is why we treat drying as its own discipline, with [emergency water extraction](/services/emergency-water-extraction/) getting the standing water out first, and [mold remediation](/services/mold-remediation/) standing by if moisture sat too long before we got the call. If you're anywhere in Palm Beach or Broward and something got wet, the inspection is free and the moisture meter doesn't lie.
+Drying is the stage where water damage either gets finished or turns into a mold problem. Mold can take hold within 24 to 48 hours of water intrusion, so we treat drying as its own job. We get the standing water out first with [emergency water extraction](/services/emergency-water-extraction/), and [mold remediation](/services/mold-remediation/) is ready if moisture sat too long before we got the call. If you're anywhere in Palm Beach or Broward and something got wet, the inspection is free and the moisture meter will tell you where you stand.

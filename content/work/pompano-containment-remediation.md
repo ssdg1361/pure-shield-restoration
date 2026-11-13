@@ -12,12 +12,12 @@ photos:
   - { src: "/images/pompano-containment-3.jpg", alt: "Zip-wall containment sealing off the work area in a Pompano Beach home" }
   - { src: "/images/pompano-containment-4.jpg", alt: "Plastic sheeting isolating the remediation area in a Pompano Beach home" }
 ---
-This **Pompano Beach** home was immaculate, which is exactly why the job was as much about protection as remediation. Mold in one area of the house needed to come out without a single spore, speck of dust, or scuff reaching the rest of it.
+This **Pompano Beach** home was immaculate, so protecting it mattered as much as the remediation. The mold in one area had to come out without a single spore, speck of dust, or scuff reaching the rest of the house.
 
 ## How we handled it
-We built sealed zip-wall containment around the work area, taped filtered panels into the barriers, and ran HEPA air scrubbers under negative pressure the entire time, so air moved into the containment, never out of it. Floors and walkways got full protection along every path our crew traveled. Inside the containment we removed the affected materials and treated the space; outside it, the home stayed spotless.
+We built sealed zip-wall containment around the work area, taped filtered panels into the barriers, and ran HEPA air scrubbers under negative pressure the entire time, so air flowed into the containment and never out of it. We fully protected the floors and walkways along every path our crew used. Inside the containment we removed the affected materials and treated the space, and outside it the home stayed spotless.
 
 ## The result
-The mold gone, the air verified clean, and a home handed back looking like we were never there: kitchen, floors, and all.
+The mold was gone, the air was verified clean, and we handed the home back looking like we'd never been there, kitchen and floors included.
 
-Want mold handled without your home becoming a construction site? [See how our mold remediation works](/services/mold-remediation/), or call (954) 778-0925 for a free inspection.
+Want mold handled without turning your home into a construction site? [See how our mold remediation works](/services/mold-remediation/), or call (954) 778-0925 for a free inspection.

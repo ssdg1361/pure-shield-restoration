@@ -1,4 +1,4 @@
 ---
 title: "Our Work"
 ---
-Real mold and water damage jobs across Palm Beach and Broward. Here's a look at recent projects: what happened, what we did, and how we left it.
+These are real mold and water damage jobs we've done across Palm Beach and Broward. Each one covers what happened, what we did, and how we left it.

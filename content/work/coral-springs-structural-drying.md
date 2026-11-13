@@ -12,12 +12,12 @@ photos:
   - { src: "/images/coral-springs-drying-3.jpg", alt: "Kitchen island wrapped in protective plastic during water damage work in Coral Springs" }
   - { src: "/images/coral-springs-drying-4.jpg", alt: "Pure Shield technician in protective gear inspecting the attic of a Coral Springs home" }
 ---
-A newer build doesn't make a home waterproof. Water got into this open-plan **Coral Springs** home and spread the way it always does across big connected spaces: along the tile, into the base of the walls, with nothing to stop it.
+This **Coral Springs** home is a newer open-plan build, and when water got in, it spread the way it does in big connected spaces, along the tile and into the base of the walls with nothing to stop it.
 
 ## How we handled it
-We sealed the affected wall sections behind containment, wrapped the kitchen island and finishes in protective plastic, and set up commercial drying equipment with lay-flat ducting to push dry air exactly where the moisture was, not just blow air around the room. Then we did the part you can't see from the living room: suited up and got into the attic to check the framing and ductwork above, because water you missed is a mold job six weeks later.
+We sealed the affected wall sections behind containment, wrapped the kitchen island and finishes in protective plastic, and set up commercial drying equipment with lay-flat ducting to push dry air right where the moisture was. Then we suited up and went into the attic to check the framing and ductwork above, since any water we missed up there would turn into a mold job six weeks later.
 
 ## The result
-Moisture readings tracked to verified-dry across floors, walls, and attic, and the finishes that make the house worth protecting still perfect.
+We tracked the moisture readings to verified-dry across the floors, walls, and attic, and the finishes that make the house worth protecting were still in perfect shape.
 
 Water where it shouldn't be in your Coral Springs home? [Water damage restoration](/services/water-damage-restoration/) · [structural drying](/services/structural-drying/), or call (954) 778-0925 for a free inspection.

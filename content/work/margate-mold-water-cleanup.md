@@ -12,10 +12,10 @@ photos:
   - { src: "/images/margate-mold-water-3.jpg", alt: "Checking moisture levels with a meter during a Margate water damage job" }
   - { src: "/images/margate-mold-water-4.jpg", alt: "Removing water and mold damaged materials in a Margate home" }
 ---
-A slowly leaking exterior hose bib (spigot) had been letting water seep into an interior room near the front of this **Margate** home. The intrusion went unnoticed long enough to cause both water damage and mold growth.
+A slow leak at an exterior hose bib (spigot) had been letting water seep into an interior room near the front of this **Margate** home. Nobody noticed it until it had caused both water damage and mold growth.
 
 ## How we handled it
-We removed the water-damaged flooring and affected materials, used moisture meters to map how far the water had actually traveled, and dried the space out. With the leaking spigot identified as the real source, the repair could target the actual problem instead of just the symptoms.
+We removed the water-damaged flooring and affected materials, used moisture meters to map how far the water had traveled, and dried the space out. Once we'd identified the leaking spigot as the source, the repair could go straight to the cause instead of the symptoms.
 
 ## The result
 The room was cleaned up, dried to verified-dry, and cleared, and the homeowner knew exactly where the water had been coming from.

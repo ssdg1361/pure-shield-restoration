@@ -18,17 +18,17 @@ photos:
   - { src: "/images/boca-condo-mold-9.jpg", alt: "Antimicrobial products used during mold remediation in a Boca Raton condo" }
   - { src: "/images/boca-condo-mold-10.jpg", alt: "Mold damage at a doorway in a Boca Raton condo before removal" }
 ---
-Mold doesn't always announce itself. In this **Boca Raton condo**, a hot-water leak from the unit above had been quietly soaking the shared wall, and by the time dark staining showed up on the drywall, mold had already taken hold behind it.
+In this **Boca Raton condo**, a hot-water leak from the unit above had been soaking the shared wall without anyone noticing. By the time dark staining showed up on the drywall, mold had already taken hold behind it.
 
 ## What we found
-When we opened up the wall, the growth was worse than it looked from the room. Water from the upstairs leak had wicked down through the drywall and into the baseboards, feeding heavy **black mold** across the wall, around the bathroom vanity, and over near the laundry area. We used moisture meters to trace exactly how far the moisture had traveled, so nothing got missed behind the finishes.
+When we opened up the wall, the growth was worse than it looked from the room. Water from the upstairs leak had wicked down through the drywall and into the baseboards, feeding heavy **black mold** across the wall, around the bathroom vanity, and over near the laundry area. We used moisture meters to trace exactly how far the moisture had traveled so we didn't miss anything behind the finishes.
 
 ## How we remediated it
-Mold spreads the moment you disturb it, so the first move was **full containment**, sealing off the affected rooms and running **HEPA air scrubbers** to pull spores out of the air and keep them from drifting into the rest of the condo. From there we removed the drywall and materials the mold had rooted into (porous materials can't simply be wiped clean once mold is established), HEPA-vacuumed and treated the surfaces that stayed, and applied antimicrobial throughout.
+Disturbing mold spreads it, so we started with **full containment**. We sealed off the affected rooms and ran **HEPA air scrubbers** to pull spores out of the air and keep them from drifting into the rest of the condo. Then we removed the drywall and materials the mold had rooted into (you can't wipe porous materials clean once mold is established), HEPA-vacuumed and treated the surfaces that stayed, and applied antimicrobial throughout.
 
-Because this was a condo, we kept the work clean and contained out of respect for the neighbors and the building. Nothing tracked into shared hallways, no spores pushed into adjacent units.
+Since it was a condo, we kept the work clean and contained for the neighbors and the building. We didn't track anything into the shared hallways or push spores into the units next door.
 
 ## The result
-Once the moisture source was addressed and the affected materials were out, we dried the space to verified-dry and cleared it. The mold was gone, the air was clean, and the homeowner could stop worrying about what was growing behind the wall.
+Once the moisture source was addressed and the affected materials were out, we dried the space to verified-dry and cleared it. The mold was gone, the air was clean, and the homeowner didn't have to wonder what was growing behind the wall anymore.
 
-Mold in a Boca Raton condo spreads fast in our humidity, and what you can see is usually the smallest part of the problem. If you've noticed staining, a musty smell, or had a leak from a neighboring unit, [see how our mold remediation works](/services/mold-remediation/) or call (954) 778-0925 for a free inspection.
+Mold spreads fast in a Boca Raton condo with our humidity, and the growth you can see is usually the smallest part of the problem. If you've noticed staining, a musty smell, or had a leak from a neighboring unit, [see how our mold remediation works](/services/mold-remediation/) or call (954) 778-0925 for a free inspection.

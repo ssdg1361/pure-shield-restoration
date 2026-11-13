@@ -6,7 +6,7 @@ short: "insurance claims"
 boardimg: "/images/boca-condo-mold-7.jpg"   # heroimg is a diagram; it crops badly in the tall hero tile
 seotitle: "Water Damage & Mold Insurance Claims in Florida | Pure Shield Restoration"
 description: "What Florida homeowners insurance usually covers for water damage and mold, what it doesn't, and the documentation your adjuster will ask for. Free inspection. Call (954) 778-0925."
-lead: "Most water damage jobs we do become an insurance claim. Here's what's typically covered, what usually isn't, and what we document on every job so your claim is decided on evidence instead of memory."
+lead: "Most of our water damage jobs turn into insurance claims. Below is what's typically covered, what usually isn't, and what we document on every job so your adjuster has evidence to go on instead of memory."
 heroimg: "/images/flood-vs-water-damage-coverage.jpg"
 relatedservices: ["Water Damage Restoration"]
 relatedheading: "What a documented job looks like"
@@ -17,34 +17,34 @@ signs:
     text: "Sudden, accidental discharge, like a burst supply line, a failed water heater, or a washing machine hose, is the classic covered cause under most Florida policies."
   - title: "Water came from the unit above"
     icon: "condo"
-    text: "Two policies and often an association are involved. Whose carrier pays depends on the cause and the governing documents, which is exactly why the documentation matters."
+    text: "You've got two policies and often an association involved. Whose carrier pays depends on the cause and the governing documents, so you need the cause documented."
   - title: "An adjuster is coming out"
     icon: "search"
-    text: "What's already been dried, torn out or thrown away can't be inspected. Photographs and moisture logs taken before the work are what stand in for it."
+    text: "An adjuster can't inspect what's already been dried, torn out or thrown away. Photographs and moisture logs taken before the work stand in for it."
   - title: "Your claim was denied or underpaid"
     icon: "alert"
     text: "Denials often turn on cause and timeline. A written scope with dated moisture readings gives you something concrete to go back with."
   - title: "It's been leaking a while"
     icon: "humidity"
-    text: "Long-term seepage is usually excluded as a maintenance issue. It's still worth an honest look. Sometimes the cause is more sudden than it appears."
+    text: "Long-term seepage is usually excluded as a maintenance issue. We'll still take an honest look, because sometimes the cause is more sudden than it appears."
   - title: "The storm did it"
     icon: "storm"
-    text: "Wind-driven rain, storm surge and groundwater flooding are treated very differently. Which one you had decides which policy applies."
+    text: "Policies treat wind-driven rain, storm surge and groundwater flooding very differently, and the one you had decides which policy applies."
 process:
   - title: "Document before we touch anything"
-    text: "Photographs of the loss as found, moisture readings across affected and unaffected areas, and a note on the apparent cause and how far water traveled."
+    text: "We photograph the loss as we found it, take moisture readings across affected and unaffected areas, and note the apparent cause and how far the water traveled."
     img: "/images/boca-condo-mold-1.jpg"
     alt: "Black mold growth on a condo wall in Boca Raton, Florida"
   - title: "Mitigate immediately"
-    text: "Every policy obliges you to prevent further damage. Extracting and drying promptly protects the claim as well as the house."
+    text: "Every policy requires you to prevent further damage. Getting the water out and drying fast protects the claim and the house."
     img: "/images/coral-springs-drying-1.jpg"
     alt: "Containment and drying equipment set up in an open-plan Coral Springs home"
   - title: "Log the drying daily"
-    text: "Daily moisture readings on each affected material until the structure is verified dry. That log is the record that the work was necessary and complete."
+    text: "We take moisture readings on each affected material every day until the structure is verified dry. That log shows the work was necessary and complete."
     img: "/images/margate-mold-water-3.jpg"
     alt: "Checking moisture levels with a meter during a Margate water damage job"
   - title: "Write a scope your adjuster can read"
-    text: "A line-item scope of what was removed, dried and treated, in the format carriers expect, with the photographs attached."
+    text: "You get a line-item scope of what we removed, dried and treated, in the format carriers expect, with the photographs attached."
     img: "/images/parkland-ceiling-mold-1.jpg"
     alt: "Moisture meter reading a damp bathroom ceiling beside a recessed light in a Parkland home"
   - title: "Talk to the adjuster directly"
@@ -72,56 +72,56 @@ faqs:
     a: "It can, and in the current Florida market it sometimes affects renewal as well as price. That's a real consideration on a small loss where the repair cost isn't far above your deductible. We'll give you an honest estimate before any work starts so you can make that call with a real number in front of you rather than a guess."
 ---
 
-## The claim is decided on what you can show, not what you remember
+## Your claim comes down to what you can show
 
-By the time an adjuster looks at a water loss, the water is gone. The drywall is out, or it's been dried, or it's been painted. The thing they are being asked to evaluate no longer exists in the state it was in.
+By the time an adjuster looks at a water loss, the water is gone. The drywall is out, or it's been dried, or it's been painted. The adjuster ends up evaluating damage that no longer looks the way it did.
 
-That's why documentation is not paperwork. It's the evidence. Photographs of the loss as found, moisture readings that show how far the water actually traveled, and a dated drying log are what stand in for the damage itself once the damage has been dealt with.
+That makes documentation your evidence. Once the damage has been dealt with, photographs of the loss as found, moisture readings that show how far the water traveled, and a dated drying log stand in for it.
 
-It also cuts the other way. Good documentation protects you from being paid for less than the loss, and it keeps an honest contractor from being accused of doing more work than the job needed.
+Good documentation protects both sides. It keeps you from being paid for less than the loss, and it keeps an honest contractor from being accused of doing more work than the job needed.
 
 ## Covered, usually not covered, and never covered
 
-Three rough categories, and the line between them is the cause.
+Most water losses fall into one of these, and the cause decides which.
 
-**Usually covered** is the sudden, accidental discharge of water inside the building. A supply line bursts. A water heater fails. A washing machine hose splits. A toilet supply or an ice maker line lets go. Something happened, it happened quickly, and it wasn't the result of neglect.
+**Usually covered** is the sudden, accidental discharge of water inside the building: a burst supply line, a failed water heater, a split washing machine hose, or a toilet supply or ice maker line that lets go. Something happened, it happened quickly, and it wasn't the result of neglect.
 
-**Usually not covered** is gradual damage. A fitting that has been weeping for a year. A shower pan that has been leaking into the subfloor since before you bought the house. The reasoning carriers apply is that you had the opportunity to notice and address it. This is where most disputes live, because "gradual" is a judgment call and the evidence for it is often ambiguous.
+**Usually not covered** is gradual damage, like a fitting that's been weeping for a year or a shower pan that's been leaking into the subfloor since before you bought the house. Carriers reason that you had the chance to notice and fix it. Most disputes happen here, because "gradual" is a judgment call and the evidence for it is often unclear.
 
-**Not covered under a homeowners policy at all** is flood: water that rises from outside and comes in at ground level. Storm surge, a canal over its banks, street flooding after a heavy rain. That requires separate flood coverage through the NFIP or a private carrier. Wind-driven rain that enters through a storm-created opening is a different animal and is often handled under the homeowners policy, which is why the distinction matters so much in South Florida. We wrote about that difference in more detail [here](/blog/flood-vs-water-damage-florida-insurance-cost/).
+**Not covered under a homeowners policy at all** is flood, meaning water that rises from outside and comes in at ground level, like storm surge, a canal over its banks, or street flooding after a heavy rain. You need separate flood coverage through the NFIP or a private carrier for that. Wind-driven rain that comes in through a storm-created opening is different and is often handled under the homeowners policy, so in South Florida the distinction makes a big difference. We wrote about that difference in more detail [here](/blog/flood-vs-water-damage-florida-insurance-cost/).
 
 ## Check your mold sublimit before you need it
 
-This is the single most common unpleasant surprise we see.
+This catches more homeowners off guard than anything else we see.
 
-Many Florida homeowners policies cover mold remediation arising from a covered water loss, but cap it. That means a specific dollar limit for mold, separate from and much lower than your dwelling coverage. The cap applies no matter what the remediation actually costs.
+Many Florida homeowners policies cover mold remediation from a covered water loss but cap it at a specific dollar limit for mold, separate from and much lower than your dwelling coverage. The cap applies no matter what the remediation costs.
 
-It's on your declarations page, usually under fungi, mold or microbial matter. It takes thirty seconds to find and it's worth knowing now rather than in the middle of a claim. Some carriers will sell you a higher limit for a modest increase in premium.
+You'll find it on your declarations page, usually under fungi, mold or microbial matter. It takes thirty seconds to look up, and you're better off knowing now than in the middle of a claim. Some carriers will sell you a higher limit for a modest increase in premium.
 
 ## Mitigate first, then file
 
-Nearly every property policy includes a duty to mitigate: an obligation to take reasonable steps to prevent the loss from getting worse after it happens.
+Nearly every property policy includes a duty to mitigate, which means an obligation to take reasonable steps to keep the loss from getting worse after it happens.
 
-In practice that means the clock on drying starts before the claim does. Mold growth on wet materials typically begins within 24 to 48 hours. If drywall stays saturated for four days waiting on an adjuster's schedule, the additional damage from those four days is damage you may end up arguing about.
+In practice, you need to start drying before the claim gets going. Mold growth on wet materials typically begins within 24 to 48 hours. If drywall stays saturated for four days while you wait on an adjuster's schedule, you may end up arguing about the extra damage from those four days.
 
-Stop the source. [Extract the standing water](/services/emergency-water-extraction/). Get air moving and the structure [drying](/services/structural-drying/). Photograph all of it as you go. Then report the claim. Doing it in that order protects both the house and the claim.
+Stop the source, [extract the standing water](/services/emergency-water-extraction/), and get air moving and the structure [drying](/services/structural-drying/). Photograph all of it as you go, then report the claim. Doing it in that order protects the house and the claim.
 
 ## What not to do before the adjuster comes
 
-**Don't throw anything away.** Damaged flooring, cabinetry, baseboard, personal property. If it has to come out, it comes out, but photograph it first and keep it somewhere accessible if you can.
+**Don't throw anything away.** That goes for damaged flooring, cabinetry, baseboard and personal property. If something has to come out, photograph it first and try to keep it somewhere you can get to.
 
-**Don't have it repaired before it's inspected.** A repaired ceiling is an uninspectable ceiling.
+**Don't have it repaired before it's inspected.** An adjuster can't inspect a ceiling that's already been fixed.
 
-**Don't say the leak has been there a while** unless you know that. People say it reflexively, out of a sense that they should have caught it sooner. It's a statement about cause, and cause is what coverage turns on. Describe what you observed and when you observed it.
+**Don't say the leak has been there a while** unless you know that. A lot of homeowners say it out of habit because they feel they should have caught it sooner. That's a statement about cause, and coverage turns on cause. Describe what you saw and when you saw it.
 
-**Don't dry it and say nothing.** Mitigation work performed without documentation is very hard to get reimbursed for.
+**Don't dry it and say nothing.** It's very hard to get reimbursed for mitigation work nobody documented.
 
 ## What we do and what we don't
 
-We're a restoration contractor, licensed for mold remediation in Florida under MRSR5407 and IICRC certified. On a claim, our part is the technical part: document the loss properly, do the [mitigation and remediation](/services/water-damage-restoration/) work, produce a scope and a drying log that a carrier can act on, and explain the building science to your adjuster so you aren't in the middle relaying it.
+We're a restoration contractor, licensed for mold remediation in Florida under MRSR5407 and IICRC certified. On a claim, we handle the technical side. We document the loss, do the [mitigation and remediation](/services/water-damage-restoration/) work, write a scope and a drying log a carrier can act on, and explain the building science to your adjuster so you aren't stuck in the middle relaying it.
 
-What we are not is a public adjuster or an attorney. We don't interpret your policy, we don't decide your claim, and we don't negotiate it on your behalf. If a claim is denied or underpaid and you want it challenged formally, a licensed Florida public adjuster or an attorney is the right call, and we'll hand over every photograph, reading and scope document we have.
+We aren't public adjusters or attorneys. We don't interpret your policy, decide your claim, or negotiate it on your behalf. If your claim is denied or underpaid and you want to challenge it formally, call a licensed Florida public adjuster or an attorney, and we'll hand over every photograph, reading and scope document we have.
 
 We also won't tell you to file. On a small loss, the repair may not be far enough above your deductible to be worth a claim in this market. You'll have an honest number from a free inspection before anything starts, and the decision stays yours.
 
-Call (954) 778-0925. We answer 24/7, and for an active water emergency the right time to call is now, not after the adjuster gets back to you.
+Call (954) 778-0925. We answer 24/7, and if water is coming in right now, call now. Don't wait for the adjuster to get back to you.

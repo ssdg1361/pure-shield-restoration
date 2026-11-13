@@ -12,12 +12,12 @@ photos:
   - { src: "/images/boca-home-mold-3.jpg", alt: "Hidden mold revealed behind drywall in a Boca Raton home" }
   - { src: "/images/boca-home-mold-4.jpg", alt: "Mold-damaged material removed from a Boca Raton home" }
 ---
-This **Boca Raton** homeowner had mold growing from **two separate moisture sources** that had both gone unnoticed: a small puncture in the refrigerator water line and an additional leak behind the dishwasher. Each had been quietly feeding moisture into the surrounding walls, so the mold was hidden inside the affected areas well before anyone spotted it.
+This **Boca Raton** homeowner had mold growing from **two separate moisture sources** that both went unnoticed: a small puncture in the refrigerator water line and another leak behind the dishwasher. Both had been feeding moisture into the walls around them, and mold was growing inside those areas well before anyone spotted it.
 
 ## How we handled it
-We used **thermal imaging and moisture meters** to trace the full reach of the moisture behind the cabinetry and drywall, then contained the area and removed the materials the mold had rooted into. Finding both sources is what mattered here. Fixing one leak and missing the other would have let the mold come right back.
+We used **thermal imaging and moisture meters** to trace the full reach of the moisture behind the cabinetry and drywall, then contained the area and removed the materials the mold had rooted into. Finding both sources was the key on this job. If we'd fixed one leak and missed the other, the mold would have come right back.
 
 ## The result
-Both moisture sources identified, the affected materials removed, and the home restored and verified dry.
+We found both moisture sources, removed the affected materials, and restored the home to verified dry.
 
 Worried about hidden mold in your Boca Raton home? [See how our mold remediation works](/services/mold-remediation/), or call (954) 778-0925 for a free inspection.

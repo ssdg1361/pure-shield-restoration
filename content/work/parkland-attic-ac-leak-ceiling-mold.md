@@ -18,38 +18,36 @@ photos:
   - { src: "/images/parkland-ceiling-mold-9.jpg", alt: "Cleaned wood framing and open ceiling cavity after HEPA cleaning and treatment" }
   - { src: "/images/parkland-ceiling-mold-10.jpg", alt: "Temporary protective covering taped over the open ceiling until repairs could be completed" }
 ---
-This one started as **a small wet area on the ceiling**. That is all anyone could see. The source was an **AC condensate drain line in the attic**, and it had been letting go slowly rather than all at once.
+This one started as **a small wet area on the ceiling**, and that's all anyone could see. The source was an **AC condensate drain line in the attic** that had been letting go slowly instead of all at once.
 
-That distinction is the whole story here.
+Condensate lines don't burst. They clog, or a fitting weeps, and the water leaves the pan a little at a time. The ceiling doesn't come down and no water runs down a wall, so a homeowner has no reason to pick up the phone that afternoon. The water lands on the back of the ceiling and sits there, in an attic that stays warm and humid year-round. By the time it shows up as a stain on the finished side, it's been feeding growth on the hidden side for a while.
 
-A condensate line does not burst. It clogs, or a fitting weeps, and the water leaves the pan a little at a time. There is no ceiling collapse, no water running down a wall, nothing that makes a homeowner pick up the phone that afternoon. The water just lands on the back of the ceiling and sits there, in an attic that stays warm and humid year-round. By the time it shows up as a stain on the finished side, it has been feeding growth on the concealed side for a while.
-
-So the wet spot was not the damage. It was the part of the damage that had finally reached the paint.
+The wet spot was only the part of the damage that had finally reached the paint.
 
 ## What we found
 
-We started with a **moisture meter**, not a saw. The readings did not stop where the discoloration did, which told us the affected area ran past what was visible.
+We started with a **moisture meter** before any cutting. The readings kept going past the edge of the discoloration, so we knew the affected area ran past what we could see.
 
-From there we made **exploratory ceiling cuts**: small, deliberate openings to look at the concealed side before committing to anything larger. This is the step that gets skipped most often, and skipping it is how a ceiling gets patched over active growth.
+Next we made **exploratory ceiling cuts**, small openings to look at the hidden side before committing to anything larger. This step gets skipped more than any other, and skipping it is how a ceiling ends up patched over active growth.
 
-What we found once the ceiling was open was worse than the room suggested. There was **microbial growth on the back side of the ceiling material**, across an area much larger than the stain, and it had carried up into the **exposed wood framing** above. The insulation in the cavity was wet and contaminated. None of that was visible from the room, and none of it would have been found by painting over the spot.
+Once the ceiling was open, it was worse than the room let on. There was **microbial growth on the back side of the ceiling material** across an area much larger than the stain, and it had carried up into the **exposed wood framing** above. The insulation in the cavity was wet and contaminated. You couldn't see any of that from the room, and painting over the spot would have hidden all of it.
 
 ## How we remediated it
 
-**The affected ceiling material came out.** Drywall is porous, so once mold has rooted into it there is no cleaning it. It gets removed and disposed of. We cut back to sound material rather than to the edge of the staining, because those are two different lines and only one of them matters.
+**We removed the affected ceiling material.** Drywall is porous, so once mold has rooted into it you can't clean it. It has to be removed and disposed of. We cut back to sound material, which ran past the edge of the staining.
 
-Once the framing was exposed, we **HEPA vacuumed** it and then **mechanically sanded and abraded the wood** to take the surface contamination off. Wood is not porous the way drywall is, so structural framing can usually be saved. It just has to actually be cleaned, not sprayed and called done.
+With the framing exposed, we **HEPA vacuumed** it and then **mechanically sanded and abraded the wood** to take the surface contamination off. Wood isn't porous the way drywall is, so structural framing can usually be saved, as long as it gets cleaned properly instead of sprayed and called done.
 
-Then the whole work area and the open cavity were **HEPA cleaned**, treated with an **antimicrobial solution**, and allowed to dry. Once the wood was dry, we **encapsulated and sealed the remediated framing**.
+Then we **HEPA cleaned** the whole work area and the open cavity, treated it with an **antimicrobial solution**, and let it dry. Once the wood was dry, we **encapsulated and sealed the remediated framing**.
 
-The last step was practical. The ceiling was open and the repairs were not going to happen that same day, so we installed a **temporary protective covering** over the opening (poly sheeting taped off at the edges) to keep the attic out of the room and the room out of the attic until the rebuild.
+The ceiling repairs weren't going to happen that same day, so we installed a **temporary protective covering** over the opening (poly sheeting taped off at the edges) to keep the attic out of the room and the room out of the attic until the rebuild.
 
 ## Why this keeps happening in Parkland
 
-Most of Parkland is two-story single-family homes, and in a two-story Florida house the **air handler usually lives in the attic**. That puts a pan full of condensate directly above finished ceilings, running nearly every day of the year. When the drain line clogs, and they do clog with algae and dust, the first thing under it is drywall.
+Most of Parkland is two-story single-family homes, and in a two-story Florida house the **air handler usually lives in the attic**. That puts a pan full of condensate right above finished ceilings, running nearly every day of the year. Drain lines clog with algae and dust, and when one does, the first thing under it is drywall.
 
-The homes here make it easy to miss, too. A lot of Parkland went up during the build-out of the late 1990s and 2000s, in [Heron Bay](/areas/parkland/), Parkland Isles and the communities that followed. Those houses are big, and the ceiling that starts getting wet is often over a guest bath or a spare room that nobody walks through daily. The stain has weeks to spread before anyone notices it.
+It's easy to miss in these homes, too. A lot of Parkland went up during the build-out of the late 1990s and 2000s, in [Heron Bay](/areas/parkland/), Parkland Isles and the communities that followed. Those houses are big, and the ceiling that starts getting wet is often over a guest bath or a spare room nobody walks through every day, so the stain has weeks to spread before anyone notices it.
 
-If you have a stain on a ceiling under an attic air handler, treat it as bigger than it looks. What is on the other side of that drywall is almost always the larger half of the problem.
+If you have a stain on a ceiling under an attic air handler, assume it's bigger than it looks. The other side of that drywall is almost always where most of the problem is.
 
 [See how our mold remediation works](/services/mold-remediation/), or call (954) 778-0925 for a free inspection.

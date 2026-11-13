@@ -5,7 +5,7 @@ h1: "Flood & water damage restoration"
 short: "water damage"
 seotitle: "Flood & Water Damage Restoration in Boca Raton, FL | Pure Shield"
 description: "24/7 flood and water damage restoration in Boca Raton, Palm Beach and Broward. Fast extraction, structural drying, insurance documentation. (954) 778-0925."
-lead: "Owner-operated flood and water damage restoration across Boca Raton and South Florida. Storm flooding or a burst pipe, we extract, dry, and document it for your insurance, with the owners on every job."
+lead: "Owner-operated flood and water damage restoration across Boca Raton and South Florida. Whether it's storm flooding or a burst pipe, we extract, dry, and document it for your insurance, and the owners are on every job."
 heroimg: "/images/delray-water-1.jpg"
 signs:
   - title: "Standing water or flooding"
@@ -32,15 +32,15 @@ process:
     img: "/images/deerfield-kitchen-mold-2.jpg"
     alt: "Extraction during kitchen demo on protected flooring in a Deerfield Beach home"
   - title: "Moisture-map the damage"
-    text: "Meters and thermal imaging show how far the water traveled behind walls and under floors."
+    text: "We use meters and thermal imaging to see how far the water traveled behind walls and under floors."
     img: "/images/margate-mold-water-3.jpg"
     alt: "Checking moisture levels with a meter during a Margate water damage job"
   - title: "Structural drying"
-    text: "Commercial air movers and LGR dehumidifiers dry the structure, with the readings monitored daily."
+    text: "We dry the structure with commercial air movers and LGR dehumidifiers and check the readings daily."
     img: "/images/flood-drying-air-movers-hero.jpg"
     alt: "Commercial air movers and lay-flat ducting drying a large room after a water loss in South Florida"
   - title: "Remove what's unsalvageable"
-    text: "Materials too far gone come out; everything else is dried and saved wherever possible."
+    text: "We take out materials that are too far gone, then dry and save everything else we can."
     img: "/images/flood-water-damaged-drywall-removal.jpg"
     alt: "Removing water-damaged drywall, showing the wet and mold-stained back face that was hidden from view"
   - title: "Treat to prevent mold"
@@ -48,7 +48,7 @@ process:
     img: "/images/pompano-containment-1.jpg"
     alt: "HEPA air scrubber running on protected flooring during mold remediation in a Pompano Beach home"
   - title: "Verify dry & document"
-    text: "Dried to verified-dry, with thorough documentation for your insurance claim."
+    text: "We dry to verified-dry readings and document all of it for your insurance claim."
     img: "/images/moisture-meter-verified-dry.jpg"
     alt: "Moisture meter held against a wall to take a reading during a water damage inspection"
 faqs:
@@ -70,10 +70,10 @@ faqs:
 
 ## Flood water is handled differently than a burst pipe
 
-**Water that comes in from outside is treated as contaminated, no matter how clear it looks.** The industry standard sorts water into three categories, and storm surge, wind-driven rain, and rising ground water all land in Category 3, because they pick up whatever is in the street and the soil on the way in.
+**We treat water that comes in from outside as contaminated, no matter how clear it looks.** The industry standard sorts water into three categories. Storm surge, wind-driven rain, and rising ground water all land in Category 3 because they pick up whatever's in the street and the soil on the way in.
 
-That changes the job. Carpet, pad, insulation, and drywall below the water line come out rather than getting dried, because you cannot reliably disinfect the inside of them. The work area gets contained so nothing travels into the rest of the house. Surfaces that stay get cleaned and treated before anything is closed back up. And the structure is dried to verified readings, not to how it feels.
+That changes the job. Carpet, pad, insulation, and drywall below the water line come out instead of getting dried, because there's no reliable way to disinfect the inside of them. We contain the work area so nothing travels into the rest of the house, and we clean and treat the surfaces that stay before anything gets closed back up. Then we dry the structure to verified readings, whether or not it already feels dry.
 
-A clean water loss from a supply line is a different job with a different price, and we will tell you which one you have at the inspection rather than after the invoice.
+A clean water loss from a supply line is a different job with a different price, and we'll tell you which one you have at the inspection, before you ever see an invoice.
 
-**Worth knowing before you call your insurer:** standard homeowners policies in Florida generally cover sudden internal water but exclude flood, which is the water that rises from outside. That is a separate policy. We wrote a plain explanation of [the difference between flood damage and water damage, and who pays for each](/blog/flood-vs-water-damage-florida-insurance-cost/), including what it actually costs and what to have ready on the first call to your adjuster.
+**Before you call your insurer:** standard homeowners policies in Florida generally cover sudden water from inside the house but exclude flood, meaning water that rises from outside. Flood needs a separate policy. We wrote a plain explanation of [the difference between flood damage and water damage, and who pays for each](/blog/flood-vs-water-damage-florida-insurance-cost/), including what it costs and what to have ready on the first call to your adjuster.

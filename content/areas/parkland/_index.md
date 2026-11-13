@@ -38,3 +38,57 @@ faqs:
   - q: "Will my insurance cover an AC drain line leak?"
     a: "It depends on how it happened. Sudden, accidental damage is typically covered; a line that's been weeping for months often falls under maintenance and gets denied. We photograph and document everything the way adjusters expect and we'll tell you straight which side yours looks like before you file."
 ---
+
+## Big two-story houses
+
+Most of Parkland is two-story single-family homes, and most of those went up between the mid-1990s and the 2000s, in Heron Bay, Parkland Isles and the communities that followed. Those houses are now twenty to thirty years old, and many still run their original water heaters, supply lines and AC equipment.
+
+Big houses hide leaks well. The ceiling that starts getting wet is often over a guest bath or a spare room nobody walks through every day.
+
+Parkland is right over the county line from our Boca base, so it's a short run for us. When you call, one of the two owners picks up, and the same two people who look at the job do the work.
+
+## The attic air handler
+
+In nearly every two-story house here, the air handler sits in the attic. That puts a pan of condensate right over your finished ceilings, running almost every day of the year.
+
+When the drain line clogs with algae and dust, the pan overflows onto the back of the drywall. It doesn't burst or pour. It drips a little at a time into a warm, humid attic, and by the time a stain shows on your side of the ceiling, the back side has usually been growing mold for a while.
+
+We opened a ceiling like that in a Parkland home. The stain was small. Behind it, the mold covered an area much larger than the stain and had spread up into the wood framing, and the insulation was wet. [Here's how that job went](/work/parkland-attic-ac-leak-ceiling-mold/).
+
+If you see a stain under your air handler, treat it as bigger than it looks. Look at that ceiling once a month, and ask your AC tech to clear the drain line at every service.
+
+## Second-floor leaks travel down
+
+These houses have three, four or five bathrooms and long runs of supply line upstairs. A slow leak on the second floor soaks the ceiling below and shows up in a room nobody would connect to it.
+
+We start with a moisture meter, not a saw. If the readings run past what you can see, we make small exploratory cuts to look at the hidden side before we commit to anything bigger. That way you don't lose more ceiling than the job needs, and nobody closes up a ceiling over active mold.
+
+## Tile roofs over hot attics
+
+Barrel and flat tile roofs move water sideways under the tile before it finds a way in. Whatever gets past the underlayment runs along the roof deck and drops somewhere else, so the stain on your ceiling is rarely under the spot that failed. Finding the real entry point takes meters and a look in the attic.
+
+## Pine Tree Estates and the older homes
+
+Pine Tree Estates, Parkland's original acre-lot neighborhood, goes back to the 1970s. The custom homes there have additions built on over the years, older plumbing and older roofs over a lot of square footage. That adds up to more places for water to get in without anyone noticing.
+
+## Wetlands next door
+
+Parkland runs right up against the Everglades on its western edge, and the city was planned to keep that green. All that water nearby keeps humidity high year round. A small wet spot that might dry out somewhere else turns into a mold job here.
+
+## Storms and outside water
+
+Storms push water in around windows, doors and roof edges, flood zone or not. If there's standing water, the first step is [emergency water extraction](/services/emergency-water-extraction/), then [structural drying](/services/structural-drying/) until the meters say dry. [Flood vs. water damage](/blog/flood-vs-water-damage-florida-insurance-cost/) explains how outside water changes the job and the insurance.
+
+## Testing is a separate call
+
+Florida doesn't let the same company test for mold and remove it on the same job. We're licensed remediators, so when testing makes sense, an independent assessor does it, and we'll tell you when it's worth paying for. [Mold inspection vs. mold remediation](/blog/mold-inspection-vs-mold-remediation-florida/) covers who to call first.
+
+## What it costs in Parkland
+
+Small jobs caught early run a few hundred dollars. Most land in the low thousands, and bigger multi-room jobs run higher. A sudden failure is typically covered by insurance, while a drain line that's been weeping for months often gets treated as maintenance and denied. Our [insurance claims page](/services/insurance-claims/) covers the difference.
+
+We don't quote off a photo. You get a number after a free inspection, before any work starts. If it's a surface spot you can wipe down yourself, we'll tell you that instead of selling you a job.
+
+The same two owners cover [Coral Springs](/areas/coral-springs/) to the south and [Boca Raton](/areas/boca-raton/) to the east. [See how our mold remediation works](/services/mold-remediation/).
+
+We're licensed for mold remediation in Florida under MRSR5407, IICRC certified, and we answer 24/7 at (954) 778-0925.

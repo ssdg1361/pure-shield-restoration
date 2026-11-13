@@ -3,7 +3,7 @@ title: "Boca Raton"
 board: true   # 2026-11 pilot: tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold & Water Damage Restoration in Boca Raton, FL | Pure Shield"
 description: "Owner-operated mold remediation and water damage restoration based in Boca Raton. 24/7 response, condo and HOA experience, insurance welcome. Call (954) 778-0925."
-lead: "Owner-operated mold and water damage restoration in Boca Raton, 24/7. Boca is home base, so you get Ryan and Jon on the job, not a call center."
+lead: "Owner-operated mold and water damage restoration in Boca Raton, 24/7. Boca is home base, so Ryan and Jon pick up the phone and do the work themselves."
 heroimg: "/images/boca-home-mold-1.jpg"
 causes:
   - title: "AC condensate lines"
@@ -23,7 +23,7 @@ causes:
     text: "Tropical systems push water in around windows, sliders and doors, flood zone or not. Canal and Intracoastal homes take it hardest."
   - title: "Seasonal homes"
     icon: "home"
-    text: "Homes in the gated communities sit closed up for months while owners are up north. A small leak or a high AC setting becomes a mold job before anyone is back."
+    text: "Homes in the gated communities sit closed up for months while owners are up north. A small leak or an AC set too high can turn into a mold job before anyone is back."
 neighborhoods: ["Old Floresta","Boca Villas","Downtown & Mizner Park","Royal Palm Place","The Intracoastal & A1A","Boca West","Boca Falls","Mission Bay","Boca Pointe","Boca Del Mar","Boca Lago"]
 zips: "33428, 33431, 33432, 33433, 33434, 33486, 33487, 33496, 33498"
 review:
@@ -47,33 +47,33 @@ faqs:
 
 We're based in Boca Raton, so this is where we're fastest. When you call, one of the two owners picks up, and the two people who look at the job are the same two people who do the work.
 
-That matters more in Boca than it sounds. A lot of jobs here involve a condo board, a property manager, an insurance adjuster or an owner who is out of state. One point of contact who was actually in the room keeps all of that simpler.
+In Boca that helps. A lot of jobs here involve a condo board, a property manager, an insurance adjuster or an owner who's out of state, and it's simpler for all of them to deal with one person who saw the damage firsthand.
 
 ## East Boca and west Boca are different jobs
 
-Boca splits roughly at I-95, and the water problems follow the way each side was built.
+Boca splits roughly at I-95, and the water problems on each side come from how that side was built.
 
 East of I-95 is the older stock. Old Floresta goes back to the 1920s, and many homes in Boca Villas and around downtown still run original supply lines and drains. Downtown, around Mizner Park and Royal Palm Place, and out along the Intracoastal and A1A, a lot of people live in condos that share walls, ceilings and plumbing with their neighbors.
 
-West of I-95, much of Boca is single-family homes in gated communities like Boca West, Boca Falls, Mission Bay and Boca Pointe. The houses are bigger and many of them sit empty for part of the year. The failures there tend to come from the AC, and they tend to run longer before anyone notices.
+West of I-95, much of Boca is single-family homes in gated communities like Boca West, Boca Falls, Mission Bay and Boca Pointe. The houses are bigger and many of them sit empty for part of the year. Leaks there usually come from the AC, and they often run longer before anyone notices.
 
 ## The AC closet and the attic air handler
 
 Year-round cooling means the condensate line runs almost every day. When it clogs with algae and dust, the pan overflows. If the air handler sits in a closet, the water goes into the closet wall and the floor. If it sits in the attic, the water lands on the back of a finished ceiling.
 
-Neither one looks like much at first. A ceiling stain the size of a plate, or a soft spot at the bottom of the closet wall. By then the water has usually been dripping for weeks.
+Neither one looks like much at first, maybe a ceiling stain the size of a plate or a soft spot at the bottom of the closet wall. By the time you see it, the water has usually been dripping for weeks.
 
-We opened a ceiling like that in nearby Parkland and found mold across the back of the drywall, well past the stain, and up into the wood framing. [Here's how that job went](/work/parkland-attic-ac-leak-ceiling-mold/).
+We opened a ceiling like that in nearby Parkland and found mold across the back of the drywall, well past the stain, and up into the wood framing. [Read how that job went](/work/parkland-attic-ac-leak-ceiling-mold/).
 
-Two cheap checks help a lot. Look at the ceiling or wall under your air handler once a month. And ask your AC tech to clear the drain line at every service.
+To catch it early, look at the ceiling or wall under your air handler once a month, and ask your AC tech to clear the drain line at every service.
 
 ## Kitchens: find every source
 
-Kitchen leaks rarely come from one place. The sink supply lines, the dishwasher connection and the ice-maker line behind the refrigerator all sit behind cabinets where nobody looks.
+Kitchen leaks rarely come from one place. The sink supply lines, the dishwasher connection and the ice-maker line behind the refrigerator all sit behind cabinets, out of sight.
 
 In one Boca home we found **two separate leaks** feeding the same area: a small puncture in the refrigerator water line and a second leak behind the dishwasher. Fixing one and missing the other would have brought the mold right back. [How we found both](/work/boca-home-hidden-mold/).
 
-We trace moisture with **thermal imaging** and **moisture meters** before anything gets opened. That way we cut where the water actually went, not just where the stain is.
+We trace moisture with **thermal imaging** and **moisture meters** before anything gets opened. That way we cut where the water went instead of guessing from the stain.
 
 ## Condos: when the water comes from upstairs
 
@@ -85,7 +85,7 @@ If it's happening to you right now:
 
 - Shut off the water to your unit if the source could be yours, and tell the neighbor above and the association.
 - Take photos before anything gets moved or cleaned up.
-- Don't wait for someone to decide who pays. The drywall has a much shorter clock than the insurance conversation.
+- Don't wait for someone to decide who pays. Get the water dealt with now and sort out the insurance after.
 
 Generally your policy covers your unit and your neighbor's covers theirs, but the association's documents and the cause of the leak can change that. Our [insurance claims page](/services/insurance-claims/) walks through what's usually covered and what usually isn't.
 
@@ -95,7 +95,7 @@ Rainy season and tropical systems push water in around windows, sliders and door
 
 Rain that blows in around a window is usually cleaner water, and if it's dried quickly most materials can be saved. Water that comes in from outside at ground level is a different job. Flood water can carry sewage, bacteria and chemicals, and anything porous it soaked usually has to come out. [Flood vs. water damage](/blog/flood-vs-water-damage-florida-insurance-cost/) explains how that changes the work and the insurance.
 
-If there's standing water, the first step is getting it out and getting air moving. That's [emergency water extraction](/services/emergency-water-extraction/), followed by [structural drying](/services/structural-drying/) until the meter says dry, not until it feels dry.
+If there's standing water, the first step is getting it out and getting air moving. That's [emergency water extraction](/services/emergency-water-extraction/), followed by [structural drying](/services/structural-drying/), which keeps going until the moisture meter reads dry, even after the surface feels dry.
 
 ## Homes that sit empty part of the year
 
@@ -107,7 +107,7 @@ If you manage homes for owners who live up north, call us directly. We'll coordi
 
 ## Testing is a separate call
 
-Florida law doesn't let the same company both assess and remediate the same job. We're licensed remediators, so when testing makes sense, an independent assessor does it, and we'll tell you honestly when it's worth paying for. [Mold inspection vs. mold remediation](/blog/mold-inspection-vs-mold-remediation-florida/) covers who to call first.
+Florida law doesn't let the same company both assess and remediate the same job. We're licensed remediators, so when testing makes sense, an independent assessor does it, and we'll tell you straight when it's worth paying for. [Mold inspection vs. mold remediation](/blog/mold-inspection-vs-mold-remediation-florida/) covers who to call first.
 
 ## What it costs in Boca
 

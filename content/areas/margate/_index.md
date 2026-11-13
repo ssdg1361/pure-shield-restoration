@@ -3,7 +3,7 @@ title: "Margate"
 board: true   # tile layout (layouts/partials/board/term-area.html)
 seotitle: "Mold Remediation & Water Damage Restoration in Margate, FL | Pure Shield"
 description: "Licensed, owner-operated mold remediation and water damage restoration in Margate. Same-day response, free inspection, honest estimates, insurance welcome. Call (954) 778-0925."
-lead: "Owner-operated mold and water damage restoration in Margate, 24/7. A short drive down 441 from our Boca Raton base, so you get Ryan and Jon on the job, not a call center."
+lead: "Owner-operated mold and water damage restoration in Margate, 24/7. A short drive down 441 from our Boca Raton base, so Ryan and Jon pick up the phone and do the work themselves."
 heroimg: "/images/margate-mold-water-hero.jpg"
 causes:
   - title: "Original plumbing from the '60s and '70s"
@@ -14,13 +14,13 @@ causes:
     text: "Oriole Gardens, Paradise Gardens and the other condo communities get the classic upstairs leak. A supply line or water heater above ends up in your ceiling, and two insurers plus the association all want documentation."
   - title: "AC condensate"
     icon: "ac"
-    text: "Units run nearly year-round here. A clogged condensate line quietly soaks the closet wall or the garage drywall behind the air handler for weeks before anyone notices."
+    text: "Units run nearly year-round here. A clogged condensate line can soak the closet wall or the garage drywall behind the air handler for weeks before anyone notices."
   - title: "Water heaters in garages and closets"
     icon: "home"
-    text: "A lot of Margate homes keep the water heater in an interior closet or the garage. When a 15-year-old tank lets go, the water finds carpet and drywall fast."
+    text: "A lot of Margate homes keep the water heater in an interior closet or the garage. When a 15-year-old tank lets go, the water gets into carpet and drywall fast."
   - title: "Lakes, canals and humidity"
     icon: "humidity"
-    text: "Margate is laced with lakes and canals. Year-round moisture keeps mold growing in bathrooms, closets and any room where the air doesn't move."
+    text: "Margate has lakes and canals all over town. Year-round moisture keeps mold growing in bathrooms, closets and any room where the air doesn't move."
   - title: "Summer storms and older roofs"
     icon: "storm"
     text: "Tropical systems push water in around older windows, sliders and the low-slope roofs common here, flood zone or not."
@@ -41,9 +41,9 @@ faqs:
 
 ## Margate was built in one push
 
-Margate was laid out in the late 1950s and most of it went up through the '60s and '70s. That gives the city a particular kind of housing: single-story concrete block ranch homes on quiet streets, many of them with low-slope roofs, and a ring of condo and villa communities built for retirees, like Oriole Gardens, Paradise Gardens, Palm Lakes and Holiday Springs.
+Margate was laid out in the late 1950s and most of it went up through the '60s and '70s. So most of the housing falls into two groups: single-story concrete block ranch homes on quiet streets, many of them with low-slope roofs, and a ring of condo and villa communities built for retirees, like Oriole Gardens, Paradise Gardens, Palm Lakes and Holiday Springs.
 
-Houses that age have plumbing that age. Most of the water and mold problems we see in Margate come from that, and from the way the city sits on lakes and canals that keep the air damp year-round.
+A lot of those houses still have plumbing as old as they are. Add the lakes and canals that keep the air damp year-round, and you have the source of most of the water and mold problems we see in Margate.
 
 We're based in west Boca, right off 441, so Margate is a straight shot for us. When you call, one of the two owners picks up, and the two people who look at the job are the same two people who do the work.
 
@@ -51,15 +51,15 @@ We're based in west Boca, right off 441, so Margate is a straight shot for us. W
 
 Many Margate homes still run the drain and supply lines they were built with. Cast iron drain lines from that era corrode from the inside out. Galvanized supply lines rust shut and pinhole. Either one can leak for months under a slab or inside a wall without a drop ever showing on the floor.
 
-The signs are usually indirect. A floor that's warm in one spot. Baseboards that swell or pull away from the wall. A musty smell in a closet that never goes away no matter how much you clean. A water bill that went up with no explanation.
+The signs are usually indirect: a floor that's warm in one spot, baseboards that swell or pull away from the wall, a musty closet smell that won't go away no matter how much you clean, or a water bill that went up with no explanation.
 
-In a condo in neighboring Coconut Creek, a failed supply line had been seeping along the slab long enough to feed mold through the bottom of the walls before anyone saw a stain. [Here's how we traced it](/work/coconut-creek-condo-mold/).
+In a condo in neighboring Coconut Creek, a failed supply line had been seeping along the slab long enough to feed mold through the bottom of the walls before anyone saw a stain. [Read how we traced it](/work/coconut-creek-condo-mold/).
 
-We map moisture with **thermal imaging** and **moisture meters** before anything is opened. That way we cut where the water actually went, not just where the stain is, and you don't end up with more drywall out than the job needs.
+We map moisture with **thermal imaging** and **moisture meters** before anything is opened. That way we cut where the water went instead of guessing from the stain, and you don't end up with more drywall out than the job needs.
 
 ## A slow leak at the front of the house
 
-Not every Margate leak starts inside. On one job here, an exterior hose bib had been seeping into the wall behind it for long enough to ruin the flooring in the room on the other side and start mold. Nobody looks at a spigot. [Here's that job](/work/margate-mold-water-cleanup/).
+Some Margate leaks start outside. On one job here, an exterior hose bib had been seeping into the wall behind it long enough to ruin the flooring in the room on the other side and start mold. Most people never think to check a spigot. [See that job](/work/margate-mold-water-cleanup/).
 
 The same thing happens with sprinkler heads aimed at the house, a hose left dripping against the block, and planters built up against an exterior wall. If a room at the front or side of your house smells musty and you can't find a reason inside, look outside.
 
@@ -71,11 +71,11 @@ If it's happening right now:
 
 - Shut off the water to your unit if there's any chance the source is yours, and tell the neighbor above and the association.
 - Take photos before anything gets moved or cleaned up.
-- Don't wait for someone to decide who pays. Wet drywall has a much shorter clock than the insurance conversation.
+- Don't wait for someone to decide who pays. Get the water dealt with now and sort out the insurance after.
 
 Generally your policy covers your unit and your neighbor's covers theirs, but the association's documents and the cause of the leak can change that. Our [insurance claims page](/services/insurance-claims/) walks through what's usually covered and what usually isn't.
 
-A lot of these units sit closed up for the summer while the owner is up north. A small leak or an AC set too high becomes a mold job with nobody there to smell it. If you're heading back soon, we put together a [room-by-room checklist for opening up a home that sat closed](/blog/snowbird-return-home-checklist-florida/). If you manage units for owners who are away, call us directly and we'll coordinate access with you.
+A lot of these units sit closed up for the summer while the owner is up north. A small leak or an AC set too high can turn into a mold job with nobody there to smell it. If you're heading back soon, we put together a [room-by-room checklist for opening up a home that sat closed](/blog/snowbird-return-home-checklist-florida/). If you manage units for owners who are away, call us directly and we'll coordinate access with you.
 
 ## AC closets and garage water heaters
 
@@ -83,7 +83,7 @@ Margate's ranch homes usually keep the air handler in a hallway closet or the ga
 
 The water heater is often right next to it. A tank that's 12 to 15 years old can let go all at once, and in a closet that means carpet, baseboards and drywall in whatever room is on the other side.
 
-Two cheap checks help a lot. Look at the floor and wall under your air handler once a month. And ask your AC tech to clear the drain line at every service. If the air handler is in an attic instead, the water lands on the back of a finished ceiling. [Here's what that looked like in nearby Parkland](/work/parkland-attic-ac-leak-ceiling-mold/).
+To catch it early, look at the floor and wall under your air handler once a month, and ask your AC tech to clear the drain line at every service. If the air handler is in an attic instead, the water lands on the back of a finished ceiling. [This job in nearby Parkland](/work/parkland-attic-ac-leak-ceiling-mold/) shows what that looks like.
 
 ## Rain, roofs and the canals
 
@@ -91,13 +91,13 @@ The low-slope roofs on Margate's older homes have usually been re-roofed more th
 
 Rain that blows in around a window is usually clean water, and if it's dried quickly most materials can be saved. Water that comes in from outside at ground level is a different job. Flood water can carry sewage, bacteria and chemicals, and anything porous it soaked usually has to come out. [Flood vs. water damage](/blog/flood-vs-water-damage-florida-insurance-cost/) explains how that changes the work and the insurance.
 
-If there's standing water, the first step is getting it out and getting air moving. That's [emergency water extraction](/services/emergency-water-extraction/), followed by [structural drying](/services/structural-drying/) until the meter says dry, not until it feels dry.
+If there's standing water, the first step is getting it out and getting air moving. That's [emergency water extraction](/services/emergency-water-extraction/), followed by [structural drying](/services/structural-drying/), which keeps going until the moisture meter reads dry, even after the surface feels dry.
 
 Even without a leak, Margate's lakes and canals keep humidity high. A closed-up back bedroom or a closet against an exterior wall can grow mold on its own over a summer. Keep the air moving and the AC running, even in rooms nobody uses.
 
 ## Testing is a separate call
 
-Florida law doesn't let the same company both assess and remediate the same job. We're licensed remediators, so when testing makes sense, an independent assessor does it, and we'll tell you honestly when it's worth paying for. [Mold inspection vs. mold remediation](/blog/mold-inspection-vs-mold-remediation-florida/) covers who to call first.
+Florida law doesn't let the same company both assess and remediate the same job. We're licensed remediators, so when testing makes sense, an independent assessor does it, and we'll tell you straight when it's worth paying for. [Mold inspection vs. mold remediation](/blog/mold-inspection-vs-mold-remediation-florida/) covers who to call first.
 
 ## What it costs in Margate
 

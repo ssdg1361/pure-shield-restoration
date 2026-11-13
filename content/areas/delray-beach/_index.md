@@ -8,7 +8,7 @@ heroimg: "/images/hero-6.jpg"
 causes:
   - title: "Upstairs leaks in the 55+ communities"
     icon: "condo"
-    text: "Kings Point, High Point, and the Villages of Oriole run on stacked units. When a supply line, disposal, or water heater fails upstairs, the kitchen or ceiling below takes the hit. We've restored exactly that here."
+    text: "Kings Point, High Point, and the Villages of Oriole run on stacked units. When a supply line, disposal, or water heater fails upstairs, the kitchen or ceiling below takes the hit. We've done that exact job here."
   - title: "Seasonal residents"
     icon: "home"
     text: "A big share of Delray lives here half the year. A small leak in a closed-up unit has all summer to become a mold problem before anyone's back to smell it."
@@ -39,11 +39,11 @@ faqs:
 
 ## Delray splits at I-95
 
-Delray Beach is really two places, and the water problems follow the way each side was built.
+Delray Beach is two different towns on either side of the highway, and each side's water problems come from how it was built.
 
-East of I-95 is the older Delray. Downtown along Atlantic Avenue, Lake Ida, the streets between Federal Highway and the beach, and the canal homes in Tropic Isle. A lot of these houses and small duplexes date to the '50s and '60s, and plenty still run their original plumbing.
+East of I-95 is the older Delray: downtown along Atlantic Avenue, Lake Ida, the streets between Federal Highway and the beach, and the canal homes in Tropic Isle. A lot of these houses and small duplexes date to the '50s and '60s, and plenty still run their original plumbing.
 
-West of I-95 is mostly the big 55+ communities, like Kings Point, High Point and the Villages of Oriole, plus gated neighborhoods like Rainberry Bay and Del Aire. Stacked units, shared walls, and a lot of owners who are only here part of the year.
+West of I-95 is mostly the big 55+ communities, like Kings Point, High Point and the Villages of Oriole, plus gated neighborhoods like Rainberry Bay and Del Aire. That means stacked units, shared walls and a lot of owners who are only here part of the year.
 
 We're based in Boca, right next door, so Delray is a short run for us. When you call, one of the two owners picks up, and the two people who look at the job are the same two people who do the work.
 
@@ -51,19 +51,19 @@ We're based in Boca, right next door, so Delray is a short run for us. When you 
 
 In Kings Point, High Point and the Villages of Oriole, the leak that ruins your kitchen often isn't yours. A supply line, a disposal or a water heater in the unit above lets go, and the water follows the wall down into your space.
 
-That's exactly what happened on one of our Delray jobs. A failed garbage disposal and sink line upstairs soaked the kitchen below: cabinets, countertops, the backsplash and the wood floor. We dried it with commercial dehumidifiers, took out what couldn't be saved, and worked the insurance claim the whole way. [Here's how that job went](/work/delray-condo-water-damage/).
+That's what happened on one of our Delray jobs. A failed garbage disposal and sink line upstairs soaked the kitchen below: cabinets, countertops, the backsplash and the wood floor. We dried it with commercial dehumidifiers, took out what couldn't be saved, and worked the insurance claim the whole way. [Read how that job went](/work/delray-condo-water-damage/).
 
 If it's happening to you right now:
 
 - Shut off the water to your unit if there's any chance the source is yours, and tell the neighbor above and the association.
 - Take photos before anything gets moved or cleaned up.
-- Don't wait for someone to decide who pays. Wet drywall has a much shorter clock than the insurance conversation.
+- Don't wait for someone to decide who pays. Get the water dealt with now and sort out the insurance after.
 
 Generally your policy covers your unit and your neighbor's covers theirs, but the association's documents and the cause of the leak can change that. Our [insurance claims page](/services/insurance-claims/) walks through what's usually covered and what usually isn't.
 
 ## Closed up for the summer
 
-A big share of Delray leaves in April and comes back in November. A unit that sits shut for six months with the AC set high, or turned off, is the easiest place in Florida to grow mold. A small drip under a sink has all summer to work, and nobody is there to smell it.
+A big share of Delray leaves in April and comes back in November. A unit that sits shut for six months with the AC set high, or turned off, is about the easiest place in Florida for mold to grow. A small drip under a sink can run all summer with nobody there to smell it.
 
 If you're coming back to a place that sat closed, walk it before you unpack. Open the closets, look under the sinks and around the water heater, and check the ceiling under the AC. We put together a [room-by-room checklist for opening up a home that sat closed](/blog/snowbird-return-home-checklist-florida/).
 
@@ -73,17 +73,17 @@ If you're still up north and something's wrong, call us. We can work with your p
 
 Pipes from the '50s and '60s don't usually fail all at once. Cast iron drains corrode from the inside, and old galvanized supply lines rust and pinhole. Either one can leak inside a wall or under the slab for months before anything shows on the floor.
 
-The signs are usually small. A musty closet that never stops smelling musty. Baseboards that swell or pull away from the wall. A soft spot in the floor, or a water bill that went up for no reason.
+The signs are usually small: a closet that always smells musty, baseboards that swell or pull away from the wall, a soft spot in the floor, or a water bill that went up for no reason.
 
-We find the water with **thermal imaging** and **moisture meters** before anything gets opened. That way we cut where the water actually went, not just where the stain is, and you don't lose more drywall than the job needs.
+We find the water with **thermal imaging** and **moisture meters** before anything gets opened. That way we cut where the water went instead of guessing from the stain, and you don't lose more drywall than the job needs.
 
 ## AC closets and attic air handlers
 
 The AC runs almost every day of the year here, so the condensate line does too. When it clogs with algae and dust, the pan overflows. In a condo the air handler is usually in a closet, so the water goes into the closet wall and the floor. In a two-story house it's often in the attic, and the water lands on the back of a finished ceiling.
 
-Neither one looks like much at first. A stain the size of a plate, or a soft spot at the bottom of the closet wall. By then it's usually been dripping for weeks. [Here's what that looked like in a Parkland attic](/work/parkland-attic-ac-leak-ceiling-mold/).
+Neither one looks like much at first, maybe a stain the size of a plate or a soft spot at the bottom of the closet wall. By the time you see it, it's usually been dripping for weeks. [This Parkland attic job](/work/parkland-attic-ac-leak-ceiling-mold/) shows what that looks like.
 
-Two cheap habits help a lot. Look at the wall or ceiling under your air handler once a month, and ask your AC tech to clear the drain line at every service.
+To catch it early, look at the wall or ceiling under your air handler once a month, and ask your AC tech to clear the drain line at every service.
 
 ## Storms and the Intracoastal
 
@@ -91,11 +91,11 @@ The waterfront homes in Tropic Isle and along the Intracoastal take the worst of
 
 Rain that blows in around a window is usually clean water, and if it gets dried fast, most of the materials can be saved. Water that comes in from outside at ground level is a different job, because flood water can carry sewage and chemicals. [Flood vs. water damage](/blog/flood-vs-water-damage-florida-insurance-cost/) explains how that changes the work and the insurance.
 
-If there's standing water, the first step is getting it out and getting air moving. That's [emergency water extraction](/services/emergency-water-extraction/), then [structural drying](/services/structural-drying/) until the meter says dry, not until it feels dry.
+If there's standing water, the first step is getting it out and getting air moving. That's [emergency water extraction](/services/emergency-water-extraction/), then [structural drying](/services/structural-drying/), which keeps going until the moisture meter reads dry, even after the surface feels dry.
 
 ## Testing is a separate call
 
-Florida doesn't let the same company both test for mold and remove it on the same job. We're licensed remediators, so when testing makes sense, an independent assessor does it, and we'll tell you honestly when it's worth paying for. [Mold inspection vs. mold remediation](/blog/mold-inspection-vs-mold-remediation-florida/) covers who to call first.
+Florida doesn't let the same company both test for mold and remove it on the same job. We're licensed remediators, so when testing makes sense, an independent assessor does it, and we'll tell you straight when it's worth paying for. [Mold inspection vs. mold remediation](/blog/mold-inspection-vs-mold-remediation-florida/) covers who to call first.
 
 ## What it costs in Delray
 

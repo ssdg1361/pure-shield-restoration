@@ -24,105 +24,103 @@ faqs:
     a: "Before you turn anything on or open any windows, stand in the entry with the door closed behind you and smell. A closed house holds its own air, and a musty odor is the cheapest and most reliable early signal you'll get. Once you've opened windows and run the AC you've diluted the one piece of evidence that was waiting for you."
 ---
 
-Most of the serious restoration work we do in [Deerfield Beach](/areas/deerfield-beach/) and [Pompano Beach](/areas/pompano-beach/) between October and January isn't caused by anything dramatic. It's a small failure that happened in June in a unit nobody opened until November.
+Most of the serious restoration work we do in [Deerfield Beach](/areas/deerfield-beach/) and [Pompano Beach](/areas/pompano-beach/) between October and January starts small. A part fails in June, in a unit nobody opens until November.
 
-A supply line under a bathroom sink that started to weep. A condensate line that clogged and backed the pan up. A toilet flapper that ran intermittently. In an occupied home, every one of those is a minor repair. In an empty one, it's five months of water going somewhere.
+A supply line under a bathroom sink starts to weep. A condensate line clogs and backs up the pan. A toilet flapper runs on and off. In a home with people in it, each of those is a minor repair. In an empty one, that's five months of water going somewhere.
 
-So the useful thing isn't a warning about leaks. It's a sequence: what to do before you leave, and what to look at when you come back, in the order that actually finds problems.
+Below is what to do before you leave, and what to check when you come back, in the order that finds problems fastest.
 
 ## Before you go north
 
-Six things, and the first one does most of the work.
+Closing the water main does most of the work. The rest of this list backs it up.
 
-**Close the main water supply.** A line that isn't pressurized cannot flood your home. This is the highest-value item on the list by a wide margin. If your building has fire sprinklers, that system runs on a separate line and must stay open. Only close the domestic supply.
+**Close the main water supply.** A line with no pressure in it can't flood your home. If your building has fire sprinklers, that system runs on a separate line and must stay open. Close only the domestic supply.
 
 **Put the water heater on vacation mode** if you've closed the main, or shut it off at the breaker. There's no reason to keep an empty tank hot for five months.
 
-**Leave the AC running.** Not off. Set it around 78 to 80 degrees, or use a humidistat or smart thermostat to hold relative humidity somewhere near 55 to 60 percent. This is the difference between coming back to a normal house and coming back to growth on the leather furniture.
+**Leave the AC running.** Set it around 78 to 80 degrees, or use a humidistat or smart thermostat to hold relative humidity near 55 to 60 percent. Shut the AC off in a closed-up Florida house and you can come back to mold on the leather furniture.
 
-**Change the AC filter and flush the condensate line** before you go. A line that's already partly restricted in May is a line that's fully clogged by July.
+**Change the AC filter and flush the condensate line** before you go. A line that's partly clogged in May can be fully clogged by July.
 
-**Open interior doors and closet doors.** Air that doesn't move is where mold starts. Closed guest rooms and closed closets on exterior walls are the two most common spots we find it.
+**Open interior doors and closet doors.** Mold likes still air. Closed guest rooms and closets on exterior walls are where we find it most.
 
-**Have someone look in.** Monthly is plenty. A neighbor, a property manager, a friend. They don't need to inspect anything. They just need to open the door and smell.
+**Have someone look in.** Once a month is plenty. A neighbor, a property manager or a friend can do it. They only need to open the door and smell.
 
 ## The first ten minutes back
 
-Do these in order. The order matters more than people expect.
+Go in this order.
 
 ### Smell before you do anything else
 
-Come in, shut the door behind you, and stand there for a minute before turning anything on and before opening a single window.
+Come in, shut the door behind you, and stand there for a minute. Don't turn anything on or open a single window yet.
 
-A closed house holds its own air, and that air is the best diagnostic you will get all day. A musty or earthy smell means moisture has been sitting somewhere. Once you've opened the sliders and run the AC, you've flushed the only free piece of evidence you had.
+A closed house holds its own air, and that air will tell you more than anything else you check today. A musty or earthy smell means moisture has been sitting somewhere. Once you open the sliders and run the AC, you've aired out your best clue.
 
-If it smells fine, that's genuinely good news, and you can move through the rest of this list at a relaxed pace.
+If it smells fine, that's good news, and you can take the rest of this list at an easy pace.
 
 ### Look up before you look down
 
-Walk every room and look at the ceilings, especially any ceiling underneath a bathroom, a kitchen or an air handler. In a condo, look at the ceilings below the unit above you.
+Walk every room and look at the ceilings, especially any ceiling under a bathroom, a kitchen or an air handler. In a condo, check the ceilings under the unit above you.
 
-You're looking for rings, brown or yellow staining, any area where the paint texture looks different, and any spot where the drywall tape seam has started to show.
+Look for rings, brown or yellow staining, patches where the paint texture looks different, and drywall tape seams that have started to show.
 
 ### Then the floors and the baseboards
 
-Get low. Look at the bottom inch of the baseboard around the perimeter of every room, and at the edges where flooring meets the wall.
+Get low. Look at the bottom inch of the baseboard around every room, and at the edges where the flooring meets the wall.
 
-Swollen baseboard, separation at the bottom, discolored or cupped flooring near a wall, or tile that sounds hollow when you tap it. All of those say water was on that floor at some point.
+Swollen baseboard, a gap opening at the bottom, discolored or cupped flooring near a wall, or tile that sounds hollow when you tap it all mean water sat on that floor at some point.
 
 ## What to open, one by one
 
 ### Under every sink
 
-Every cabinet, every bathroom, the kitchen, the laundry room. You're looking for staining on the cabinet floor, a swollen or separating toe kick, white mineral crust on a fitting, or any dampness at all on the supply lines and the P-trap.
+Check every cabinet: bathrooms, kitchen and laundry room. Look for staining on the cabinet floor, a swollen or separating toe kick, white mineral crust on a fitting, or any dampness on the supply lines and the P-trap.
 
-Run your hand along the back of the cabinet where you can't see. It's the spot that hides the most.
+Run your hand along the back of the cabinet where you can't see. That's where leaks hide.
 
 ### The water heater
 
-Look at the pan under it, the floor around it, and the wall behind it. A slow weep from a tank or a fitting leaves a mineral trail. Water heaters are one of the most common causes of a major loss in these buildings, and they usually give some warning before they let go.
+Look at the pan under it, the floor around it and the wall behind it. A slow weep from a tank or a fitting leaves a mineral trail. Water heaters cause a lot of the big losses in these buildings, and they usually give some warning before they let go.
 
 ### The air handler and the condensate line
 
-Check the drain pan for standing water and for rust staining that suggests it's overflowed before. Look at the ceiling or the wall directly below the unit. If the air handler is in an attic or a closet, this is the single most likely source of a problem you'll find.
+Check the drain pan for standing water, and for rust stains that suggest it has overflowed before. Look at the ceiling or wall right below the unit. If the air handler sits in an attic or a closet, it's the most likely place you'll find a problem.
 
 ### The washing machine
 
-Pull it out far enough to see the hoses and the wall behind it. Rubber hoses degrade, and five months of static pressure is a real test. If yours are rubber and more than a few years old, this is a good moment to replace them with braided stainless.
+Pull it out far enough to see the hoses and the wall behind it. Rubber hoses break down, and five months under constant pressure is hard on them. If yours are rubber and more than a few years old, replace them with braided stainless now.
 
 ### Toilets
 
-Look at the floor at the base of each one, and at the ceiling of the room below if there is one. Then flush each toilet and watch that it fully stops. A flapper that doesn't seat runs continuously, and a continuously running toilet has overflowed more than one unit while nobody was home.
+Look at the floor at the base of each one, and at the ceiling of the room below if there is one. Then flush each toilet and make sure it stops. A flapper that doesn't seat runs nonstop, and a toilet running nonstop has flooded more than one empty unit.
 
 ### Windows, sliders and doors
 
-Especially on the east side and anywhere facing the water. Storm season happened while you were gone. Look at the bottom corners of the frames, the tracks, and the drywall at the sides of the opening, where wind-driven rain shows up as staining low on the wall.
+Start with the east side and anything facing the water. Storm season came through while you were gone. Check the bottom corners of the frames, the tracks, and the drywall beside each opening, where wind-driven rain leaves stains low on the wall.
 
 ## If you find something
 
-Three things, in this order.
+Do these in this order.
 
-**Photograph it before you move anything.** Wide shot of the room, then close-ups. If a cabinet has to come open or a rug has to be pulled back, photograph it before and after. This is the evidence your claim will be decided on, and it stops existing the moment anything gets cleaned up.
+**Photograph it before you move anything.** Take a wide shot of the room, then close-ups. If a cabinet has to come open or a rug has to be pulled back, photograph it before and after. Your claim gets decided on these photos, and you can't take them again once things are cleaned up.
 
-**Don't start opening walls.** The instinct to see how bad it is behind the drywall is understandable and it's the wrong move. Cutting into material with active growth releases spores into the rest of the home, which turns a contained problem into a whole-unit problem. This is a real and common way a small job becomes an expensive one.
+**Don't start opening walls.** You'll want to see how bad it is behind the drywall. Hold off. Cutting into material with active growth sends spores through the rest of the home and turns a contained problem into a whole-unit problem. We see small jobs get expensive this way all the time.
 
-**Find out how far it actually went.** What's visible on the surface is almost never the extent of it. Moisture travels through framing, along the underside of flooring, and into the cavity behind a cabinet run. That's what a meter and a thermal camera are for, and it's what a free inspection tells you before anyone quotes a number.
+**Find out how far it went.** What you can see on the surface is usually a fraction of it. Moisture travels through framing, along the underside of flooring, and into the cavity behind a run of cabinets. A meter and a thermal camera find that, and a free inspection tells you before anyone quotes a number.
 
-Then, and only then, decide what to do. Sometimes the honest answer is that it's a surface issue on tile you can clean yourself, and we'd rather tell you that than sell you a containment.
+Then decide what to do. Sometimes it's a surface spot on tile you can clean yourself, and we'd rather tell you that than sell you a containment.
 
 ## A note on testing versus removal
 
-People often ask us to test first. Worth knowing how this works in Florida: mold **assessment**, meaning the sampling and the written protocol, is a separate license from mold **remediation**, and in most cases one company isn't permitted to do both on the same property. That separation is deliberate, and it exists so the company finding the mold isn't also the company selling you the removal.
+People often ask us to test first. In Florida, mold **assessment**, meaning the sampling and the written protocol, is a separate license from mold **remediation**, and in most cases one company can't do both on the same property. The state set it up that way on purpose, so the company finding the mold isn't also selling you the removal.
 
 We're remediators, licensed under MRSR5407. When a job needs independent testing or a clearance sample, we bring in a third-party assessor. The longer explanation, including how to verify any Florida license in about a minute, is [here](/blog/mold-inspection-vs-mold-remediation-florida/).
 
 ## If you're in a condo
 
-Two extra things.
+If the water looks like it came from above, tell the association in writing right away, and photograph the ceiling before anyone touches it. Two insurance policies are probably involved, and the association's documents will say something about which covers what.
 
-If the water appears to have come from above, notify the association in writing right away, and photograph the ceiling before anyone touches it. Two policies are likely involved and the association's documents will have something to say about which is which.
-
-And don't wait on the association to authorize drying. Who pays is one question, and whether the wet material dries before it grows mold is a different question with a much shorter clock. [Mitigate first, sort out the claim afterward](/services/insurance-claims/). Most policies actually oblige you to.
+Don't wait for the association to approve drying, either. Sorting out who pays can take weeks, and wet drywall can start growing mold in a day or two. [Mitigate first and sort out the claim afterward](/services/insurance-claims/). Most policies require you to.
 
 ---
 

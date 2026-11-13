@@ -24,96 +24,96 @@ faqs:
     a: "Florida's definitions of mold assessment and mold remediation both apply to mold growth greater than 10 square feet, which is roughly a three by three foot patch. Below that threshold the licensing requirements in the statute do not reach the work. That is a definitional line, not a safety guarantee. A small visible patch often means a much larger moisture problem behind the wall, and square footage on the surface is a poor measure of what is actually going on."
 ---
 
-You find a dark patch behind the bathroom vanity, or the whole hallway starts smelling like a wet basement, and the first search you do turns up companies offering mold testing, mold inspection, mold removal, and mold remediation as though those are four names for one thing. In Florida they are not.
+You find a dark patch behind the bathroom vanity, or the hallway starts to smell like a wet basement. You search, and you get companies offering mold testing, mold inspection, mold removal and mold remediation as if those were four names for one job. In Florida they're two separate jobs, with two separate licenses.
 
-## The short answer: mold inspection and mold remediation are two different licensed jobs
+## Mold inspection and mold remediation are two licensed jobs
 
-**Florida licenses mold inspection and mold remediation separately, and in most cases one company cannot legally do both on the same house.** A mold assessment is the diagnosis, performed by a licensed mold assessor holding an MRSA license number. Mold remediation is the cleanup, performed by a licensed mold remediator holding an MRSR number.
+Florida licenses mold inspection and mold remediation separately, and in most cases one company can't legally do both on the same house. A licensed mold assessor, with an MRSA license number, does the assessment, which is the diagnosis. A licensed mold remediator, with an MRSR number, does the cleanup.
 
 Under Florida Statute 468.8419, an assessor may not remediate a structure their company assessed in the previous 12 months, and a remediator may not assess a structure they remediated in that window.
 
-If you only have a small, obvious problem, you may need only a remediator. If the mold is spreading, the source is unclear, or an insurance claim is involved, start with an independent assessment. (Statute references verified as of August 2026.)
+For a small, obvious problem, you may only need a remediator. If the mold is spreading, you can't find the source, or an insurance claim is involved, start with an independent assessment. (Statute references verified as of August 2026.)
 
-## What a mold inspection actually is under Florida law
+## What a mold inspection means under Florida law
 
-**A mold assessment is a sampling and evaluation process that ends in a written finding, not a walk-through with a flashlight.** Florida defines mold assessment as physical sampling and detailed evaluation of data from a building history and inspection, used to form an initial hypothesis about the origin, identity, location, and extent of mold growth covering more than 10 square feet.
+Under Florida law, a mold assessment means sampling, evaluation and a written finding. A walk-through with a flashlight doesn't count. The statute defines it as physical sampling and detailed evaluation of data from a building history and inspection, used to form an initial hypothesis about the origin, identity, location and extent of mold growth covering more than 10 square feet.
 
-That definition does real work, and two parts of it matter to you:
+Three parts of that definition matter to you:
 
-- **Sampling is part of the definition.** A company that looks at a wall and tells you it is mold has not performed a mold assessment in the statutory sense. Air and surface samples sent to a lab are what produce a defensible finding.
-- **The 10 square foot line is a definitional threshold, not a safety rule.** Below roughly a three by three foot patch, the licensing provisions do not reach the work. That does not mean a smaller patch is harmless. Most of the jobs we walk into started as something small.
-- **The output is a document.** A real assessment gives you a written protocol describing what has to be removed, how the area has to be contained, and what clearance looks like. That document is what a remediator bids against and what an adjuster reads.
+- **Sampling is part of it.** A company that looks at a wall and tells you it's mold hasn't done a mold assessment under the statute. Air and surface samples sent to a lab produce a finding that holds up.
+- **The 10 square foot line is about licensing, and says nothing about safety.** Below roughly a three by three foot patch, the licensing rules don't reach the work. A smaller patch can still be trouble, and most of the jobs we walk into started small.
+- **You get a document.** A real assessment gives you a written protocol: what has to come out, how the area gets contained, and what clearance looks like. A remediator bids against that document, and your adjuster reads it.
 
 ![A thermal imaging camera screen held against a wall while tracing hidden moisture](/images/boca-home-mold-1.jpg)
-*A thermal camera finds temperature differences behind the surface. It is how a remediator narrows down where water went, and it is not the same thing as a licensed mold assessment with lab samples.*
+*A thermal camera shows temperature differences behind the surface, and we use it to track where water went. It doesn't replace a licensed mold assessment with lab samples.*
 
-## Why the same company usually cannot inspect and remediate the same job
+## Why one company usually can't inspect and remediate the same house
 
-**The 12 month rule exists to remove the incentive to find more mold than is really there.** A company that both diagnoses the problem and gets paid to fix it has an obvious conflict, and Florida wrote that conflict out of the statute. Section 468.8419 also closes the side doors around it:
+Florida's 12 month rule removes any incentive to find more mold than is there. A company that diagnoses the problem and then gets paid to fix it has an obvious conflict, and the state wrote that conflict out of the law. Section 468.8419 also blocks the ways around it:
 
-- **No cross referral payments, in either direction.** An assessor may not accept compensation, inducement, or reward from a remediator for sending business, and may not offer one to get business back.
-- **No contingent fee assessments.** An assessor may not take an engagement where the fee depends on what the assessment concludes.
-- **No inspecting property you have a stake in.** An assessor may not inspect for a fee any property in which the assessor or their company has a financial or transfer interest.
-- **The penalties escalate.** A first violation is a second degree misdemeanor, a second is a first degree misdemeanor, and a third or later violation is a third degree felony.
+- **No referral payments in either direction.** An assessor may not take compensation, inducement or reward from a remediator for sending work, and may not offer one to get work back.
+- **No fees tied to the result.** An assessor may not take a job where the fee depends on what the assessment finds.
+- **No inspecting property they have a stake in.** An assessor may not inspect for a fee any property where they or their company have a financial or transfer interest.
+- **Penalties climb with each offense.** A first violation is a second degree misdemeanor, a second is a first degree misdemeanor, and a third or later is a third degree felony.
 
-Here is the part most articles on this topic leave out, and you should know it because it changes how you read a company's answer. **There is a real exception.**
+The law has one exception, and it explains why some companies say they can do both.
 
-The 12 month restriction does not apply to a Division I certified contractor, which under Florida law means a general contractor, a building contractor, or a residential contractor. A firm holding one of those licenses can legally assess and remediate the same structure. Where that happens, the department may require the remediation contract to disclose your right to request competitive bids.
+The 12 month restriction doesn't apply to a Division I certified contractor, which under Florida law means a general, building or residential contractor. A firm holding one of those licenses can legally assess and remediate the same structure. When that happens, the state may require the remediation contract to tell you that you can ask for competing bids.
 
-So "can one company do both" has an honest answer of "usually no, sometimes yes." If a company tells you they handle testing and removal together, the useful question is not whether they are lying. It is which exemption they are operating under, and whether they will say so plainly.
+So can one company do both? Usually no, sometimes yes. If a company says it handles testing and removal together, ask which exemption it's using, and see whether you get a plain answer.
 
-Pure Shield is a licensed mold remediator, license number MRSR5407. We do not do our own clearance testing. When a job needs independent verification you get it from a third party with no stake in how big the job turns out to be.
+Pure Shield is a licensed mold remediator, license number MRSR5407. We don't do our own clearance testing. When a job needs independent verification, a third party with no stake in the size of the job handles it.
 
 ## How to check a Florida mold license before you hire anyone
 
-**Every mold license in Florida is public, free to look up, and takes about a minute to verify at myfloridalicense.com.** Search the company or the individual's name and read four things off the record:
+Every mold license in Florida is public, and you can look one up for free at myfloridalicense.com in about a minute. Search the company or the person's name and check four things on the record:
 
-- **The prefix tells you the license type.** MRSA is a mold assessor. MRSR is a mold remediator. If someone is proposing removal work on an MRSA license, or sampling and clearance on an MRSR, something is wrong.
-- **The status has to be active.** Licenses lapse. Florida requires 14 hours of continuing education every two years for renewal, and not everyone keeps up.
-- **The name on the license should match the name on your invoice.** Corporations cannot hold these licenses. An individual licensee stands behind the work, so find out who that person is.
-- **Ask about the insurance.** The statute sets minimums: $1 million in general liability plus errors and omissions for an assessor, and $1 million in general liability that specifically includes mold claims for a remediator. Plenty of general contractor policies exclude mold entirely.
+- **The prefix tells you the license type.** MRSA is a mold assessor. MRSR is a mold remediator. If someone wants to do removal on an MRSA license, or sampling and clearance on an MRSR, something's off.
+- **The status has to be active.** Licenses lapse. Florida requires 14 hours of continuing education every two years to renew, and some people let it slide.
+- **The name on the license should match the name on your invoice.** Corporations can't hold these licenses. A licensed individual stands behind the work, so find out who that is.
+- **Ask about insurance.** The statute sets minimums: $1 million in general liability plus errors and omissions for an assessor, and $1 million in general liability that specifically covers mold claims for a remediator. Plenty of general contractor policies exclude mold entirely.
 
-One more thing that is easy to overlook: Florida requires the contract for mold assessment or mold remediation to be a signed document or electronic record. A handshake and a number scrawled on the back of an estimate does not meet that bar.
+Florida also requires the contract for a mold assessment or remediation to be signed, on paper or electronically. A handshake and a number on the back of an estimate doesn't meet that bar.
 
-## What a mold remediation job involves after the inspection
+## What a mold remediation job involves
 
-**Remediation is containment, removal, treatment, and verified drying, in that order.** Once you have a protocol, or once a remediator has scoped an obvious and contained problem directly, the work looks like this:
+Remediation runs in four steps: containment, removal, treatment and verified drying. Once you have a protocol, or once a remediator has scoped an obvious, contained problem, the job goes like this:
 
 ![An air scrubber running inside a taped-off containment area on floor protection](/images/pompano-containment-1.jpg)
-*Containment first. Negative air and sealed work zones keep spores from riding airflow into the rest of the house.*
+*Containment goes up first. Negative air and sealed work zones keep spores from riding the airflow into the rest of the house.*
 
-- **Containment goes up before anything is disturbed.** Sealed work zones and negative air keep spores from riding airflow and foot traffic into the rest of the house. Demolition without containment turns one contaminated room into a contaminated home.
-- **Porous material comes out rather than getting cleaned.** Drywall, insulation, carpet pad, and similar materials cannot be reliably disinfected through their thickness.
-- **The moisture source gets fixed, or the mold comes back.** This is the step that separates a repair from a rerun. Mold is a symptom of water, and removing the growth without finding the leak buys you a few months.
-- **Drying is verified with meters.** A wall can feel dry and still hold enough moisture to restart the problem.
+- **Containment goes up before anyone touches the mold.** Sealed work zones and negative air keep spores from spreading through the house on airflow and foot traffic. Tear out moldy drywall without containment and one bad room can turn into a bad house.
+- **Porous material comes out.** Nobody can disinfect drywall, insulation or carpet pad all the way through.
+- **The water source gets fixed.** Mold grows where there's water. Remove the growth without fixing the leak and it's back in a few months.
+- **Meters confirm it's dry.** A wall can feel dry and still hold enough moisture to start the problem over.
 
 ![Removed baseboard trim laid on grass, showing heavy black mold on the hidden back face](/images/work-mold.jpg)
-*The back face of a baseboard that sat against the wall. This is why porous material comes out instead of getting wiped down.*
+*The back of a baseboard that sat against the wall. Wiping the front never reaches this, so porous trim like this comes out.*
 
-A note on wording, because it matters here. When we offer a free inspection, we mean we come look at the damage and scope the remediation work at no charge. That is not the same thing as a licensed mold assessment with lab sampling and a written protocol, which is a separate paid service performed by an MRSA licensee.
+About our own wording: when we offer a free inspection, we come look at the damage and scope the remediation at no charge. A licensed mold assessment, with lab samples and a written protocol, is a separate paid service from an MRSA licensee.
 
-Any company that blurs those two together is worth a second look.
+If a company blurs those two together, take a closer look at it.
 
-## Questions to ask a mold company before you sign anything
+## Questions to ask a mold company before you sign
 
-**The useful questions are the ones with a verifiable answer.** Four of them:
+Ask questions you can check. These four work:
 
-- **"What is your license number, and is it MRSA or MRSR?"** Then look it up while they are standing there. A licensed operator will not mind.
-- **"Are you doing the assessment, the remediation, or both, and if both, under what exemption?"** A straight answer here tells you a lot about everything else.
-- **"Does your general liability policy specifically cover mold claims?"** The statute requires it of remediators. Ask anyway.
-- **"What are you not going to do?"** A company that will not decline any part of a job is selling, not assessing.
+- **"What's your license number, and is it MRSA or MRSR?"** Look it up while they're standing there. A licensed company won't mind.
+- **"Are you doing the assessment, the remediation, or both? If both, under what exemption?"** A straight answer here tells you a lot.
+- **"Does your general liability policy specifically cover mold claims?"** The statute requires it for remediators. Ask anyway.
+- **"What are you not going to do?"** A company that won't turn down any part of a job is trying to sell you all of it.
 
-If water damage came before the mold, and it usually did, the moisture source is the actual problem and the mold is the receipt. Our [mold remediation](/services/mold-remediation/) page walks through how we scope and handle that work, and [water damage restoration](/services/water-damage-restoration/) covers the leak or intrusion behind it. Homeowners in [Boca Raton](/areas/boca-raton/) can see documented jobs with before and after photos.
+Mold usually follows water damage, so the leak is the problem to solve. Our [mold remediation](/services/mold-remediation/) page covers how we scope and handle the mold, and [water damage restoration](/services/water-damage-restoration/) covers the leak or intrusion behind it. Homeowners in [Boca Raton](/areas/boca-raton/) can see documented jobs with before and after photos.
 
 ## What to do first if you think you have mold
 
-Stop the water if you can find it and reach it safely, because everything else is downstream of that. Do not start cutting into walls to see how bad it is, since disturbing growth without containment spreads it. Photograph what you can see before anyone touches anything. Then decide which call you are making.
+Stop the water if you can find it and reach it safely. Don't start cutting into walls to see how bad it is, because opening up growth without containment spreads it. Photograph what you can see before anyone touches anything. Then pick your call:
 
 - **Obvious, contained, and you know the cause.** Call a licensed remediator and get it scoped.
-- **Spreading, hidden, or the cause is unclear.** Start with an independent licensed assessor and get a written protocol.
-- **Insurance claim, landlord, seller, or condo association involved.** Start with the assessor, without exception. You want a document from someone with no financial interest in the size of the job.
+- **Spreading, hidden, or you can't tell where it's coming from.** Start with an independent licensed assessor and get a written protocol.
+- **An insurance claim, landlord, seller or condo association is involved.** Start with the assessor every time. You want a document from someone with no money riding on the size of the job.
 
-**Pure Shield Restoration is owner-operated and answers 24/7. Call (954) 778-0925 for a free inspection.** We serve Boca Raton and across Palm Beach and Broward, the owners are on the job, and we will tell you straight what needs doing and what does not.
+**Pure Shield Restoration is owner-operated and answers 24/7. Call (954) 778-0925 for a free inspection.** We serve Boca Raton and the rest of Palm Beach and Broward, the owners are on every job, and we'll tell you straight what needs doing and what doesn't.
 
 ---
 

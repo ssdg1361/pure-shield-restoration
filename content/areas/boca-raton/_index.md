@@ -63,7 +63,7 @@ Year-round cooling means the condensate line runs almost every day. When it clog
 
 Neither one looks like much at first, maybe a ceiling stain the size of a plate or a soft spot at the bottom of the closet wall. By the time you see it, the water has usually been dripping for weeks.
 
-We opened a ceiling like that in nearby Parkland and found mold across the back of the drywall, well past the stain, and up into the wood framing. [Read how that job went](/work/parkland-attic-ac-leak-ceiling-mold/).
+In a west Boca home, an overflowing AC closet put water under the hardwood and mold behind the baseboards before anyone saw a thing. [See what we found in that closet](/work/boca-ac-closet-leak-hardwood-mold/). We opened the attic version in nearby Parkland and found mold across the back of the ceiling drywall, well past the stain. [Read how that job went](/work/parkland-attic-ac-leak-ceiling-mold/).
 
 To catch it early, look at the ceiling or wall under your air handler once a month, and ask your AC tech to clear the drain line at every service.
 

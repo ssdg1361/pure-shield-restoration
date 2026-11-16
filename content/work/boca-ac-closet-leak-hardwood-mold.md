@@ -45,6 +45,6 @@ Before the equipment came out, the **drain line got cleared**, so the same water
 
 A lot of Boca homes, especially single-story houses west of I-95, keep the air handler in a hall closet. The AC runs almost every day of the year, so the drain line does too, and it clogs with algae and dust. When it does, the water goes into the closet wall and the floor, and in a house with hardwood it can sit under the boards for weeks.
 
-If you have a stain or a soft spot at the bottom of your AC closet wall, assume it goes further than it looks. Look at the wall under your air handler once a month, and ask your AC tech to clear the drain line at every service. [Read more about AC leaks in Boca](/areas/boca-raton/), or see the [attic version of this leak we opened in Parkland](/work/parkland-attic-ac-leak-ceiling-mold/).
+If you have a stain or a soft spot at the bottom of your AC closet wall, assume it goes further than it looks. Look at the wall under your air handler once a month, and ask your AC tech to clear the drain line at every service. [Here's the full monthly check](/blog/ac-closet-leak-water-damage-florida/), or [read more about AC leaks in Boca](/areas/boca-raton/), or see the [attic version of this leak we opened in Parkland](/work/parkland-attic-ac-leak-ceiling-mold/).
 
 [Structural drying](/services/structural-drying/) · [mold remediation](/services/mold-remediation/), or call (954) 778-0925 for a free inspection.

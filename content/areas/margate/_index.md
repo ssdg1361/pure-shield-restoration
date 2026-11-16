@@ -83,7 +83,7 @@ Margate's ranch homes usually keep the air handler in a hallway closet or the ga
 
 The water heater is often right next to it. A tank that's 12 to 15 years old can let go all at once, and in a closet that means carpet, baseboards and drywall in whatever room is on the other side.
 
-To catch it early, look at the floor and wall under your air handler once a month, and ask your AC tech to clear the drain line at every service. If the air handler is in an attic instead, the water lands on the back of a finished ceiling. [This job in nearby Parkland](/work/parkland-attic-ac-leak-ceiling-mold/) shows what that looks like.
+To catch it early, look at the floor and wall under your air handler once a month, and ask your AC tech to clear the drain line at every service. [Here's what to check in your AC closet](/blog/ac-closet-leak-water-damage-florida/). If the air handler is in an attic instead, the water lands on the back of a finished ceiling. [This job in nearby Parkland](/work/parkland-attic-ac-leak-ceiling-mold/) shows what that looks like.
 
 ## Rain, roofs and the canals
 

@@ -55,7 +55,7 @@ When the drain line clogs with algae and dust, the pan overflows onto the back o
 
 We opened a ceiling like that in a Parkland home. The stain was small. Behind it, the mold covered an area much larger than the stain and had spread up into the wood framing, and the insulation was wet. [Here's how that job went](/work/parkland-attic-ac-leak-ceiling-mold/).
 
-If you see a stain under your air handler, treat it as bigger than it looks. Look at that ceiling once a month, and ask your AC tech to clear the drain line at every service.
+If you see a stain under your air handler, treat it as bigger than it looks. Look at that ceiling once a month, and ask your AC tech to clear the drain line at every service. [Here's what to check in your AC closet](/blog/ac-closet-leak-water-damage-florida/).
 
 ## Second-floor leaks travel down
 

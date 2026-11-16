@@ -77,7 +77,7 @@ Slow slab leaks, and irrigation lines running against the foundation, wick moist
 
 Big family homes run the AC hard all year. When the condensate line clogs, the pan overflows into ceilings and closets, and it can drip for weeks before anyone notices.
 
-Look at the wall or ceiling under your air handler once a month, and ask your AC tech to clear the drain line at every service.
+Look at the wall or ceiling under your air handler once a month, and ask your AC tech to clear the drain line at every service. [Here's what to check in your AC closet](/blog/ac-closet-leak-water-damage-florida/).
 
 ## Storms and humidity inland
 

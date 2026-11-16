@@ -73,7 +73,7 @@ Stained grout and caulk are usually a surface problem you can clean. The bigger 
 
 ### AC closets and air handlers
 
-A clogged condensate line on an AC that runs all year is the most common answer to "where is this water coming from" in Broward. The pan overflows, the water goes into the ceiling below or the closet wall behind, and it happens again every time the unit runs. We see this all the time in the stacked condos around Palm Aire and Cypress Bend.
+A clogged condensate line on an AC that runs all year is the most common answer to "where is this water coming from" in Broward. The pan overflows, the water goes into the ceiling below or the closet wall behind, and it happens again every time the unit runs. We see this all the time in the stacked condos around Palm Aire and Cypress Bend. [Here's what to check in your AC closet](/blog/ac-closet-leak-water-damage-florida/).
 
 ### Garages and closed-up rooms
 

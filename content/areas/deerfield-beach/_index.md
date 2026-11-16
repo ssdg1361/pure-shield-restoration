@@ -71,7 +71,7 @@ Dark grout and discolored caulk are usually surface problems. The bigger questio
 
 ### Attics and air handlers
 
-If the air handler is in the attic or a closet, keep an eye on the condensate line. A clogged line backs the pan up, and the water goes into the ceiling below. In South Florida, attic mold usually comes from the AC rather than the roof, so the fix covers the drain line as well as the drywall.
+If the air handler is in the attic or a closet, keep an eye on the condensate line. A clogged line backs the pan up, and the water goes into the ceiling below. In South Florida, attic mold usually comes from the AC rather than the roof, so the fix covers the drain line as well as the drywall. [Here's what to check in your AC closet](/blog/ac-closet-leak-water-damage-florida/).
 
 ### Garages
 

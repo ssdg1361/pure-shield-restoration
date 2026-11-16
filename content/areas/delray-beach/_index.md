@@ -83,7 +83,7 @@ The AC runs almost every day of the year here, so the condensate line does too. 
 
 Neither one looks like much at first, maybe a stain the size of a plate or a soft spot at the bottom of the closet wall. By the time you see it, it's usually been dripping for weeks. [This Parkland attic job](/work/parkland-attic-ac-leak-ceiling-mold/) shows what that looks like.
 
-To catch it early, look at the wall or ceiling under your air handler once a month, and ask your AC tech to clear the drain line at every service.
+To catch it early, look at the wall or ceiling under your air handler once a month, and ask your AC tech to clear the drain line at every service. [Here's what to check in your AC closet](/blog/ac-closet-leak-water-damage-florida/).
 
 ## Storms and the Intracoastal
 

@@ -75,7 +75,7 @@ We photograph and meter everything the way adjusters expect, so you're covered h
 
 Units run nearly year round here. When the condensate line clogs, the pan overflows into the ceiling, the closet or the wall behind the air handler, and it can go on for weeks before anyone notices the smell.
 
-Look at the wall or ceiling under your air handler once a month, and ask your AC tech to clear the drain line at every service.
+Look at the wall or ceiling under your air handler once a month, and ask your AC tech to clear the drain line at every service. [Here's what to check in your AC closet](/blog/ac-closet-leak-water-damage-florida/).
 
 ## Humidity and closed rooms
 

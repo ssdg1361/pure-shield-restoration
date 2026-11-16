@@ -81,7 +81,7 @@ Both insurers will want documentation, and we photograph and meter the damage th
 
 The AC runs nearly year round here, so the condensate line does too. When it clogs with algae and dust, the pan overflows into the closet wall, the floor or the ceiling below. It starts as a stain or a soft spot, and by the time you see it, it's usually been dripping for weeks.
 
-Look at the wall or ceiling under your air handler once a month, and ask your AC tech to clear the drain line at every service.
+Look at the wall or ceiling under your air handler once a month, and ask your AC tech to clear the drain line at every service. [Here's what to check in your AC closet](/blog/ac-closet-leak-water-damage-florida/).
 
 ## Storms and wind-driven rain
 
